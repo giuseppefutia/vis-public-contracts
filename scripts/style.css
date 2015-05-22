@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    padding-top:35px;
+    position: relative;
+}
+
+#footer {
+    padding-top:50px;
+    padding-bottom:100px;
+}
+
+#center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#topNav {
+    z-index:-1;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:10000;
+    height:54px;
+    background-color:#f8f8f8;
+}
+ 
+.navbar-nav {
+    margin: 1px 1px; 
+}  
+
+.navbar-toggle {
+    outline:0;
+}
