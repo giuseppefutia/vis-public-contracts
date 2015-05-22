@@ -39,3 +39,12 @@ var closeAlert = function (c) {
         });
     }, 1000);
 };
+
+/* autocomplete search */
+$('#query').typeahead({        
+     prefetch: '../data/autocomplete.json',
+     limit: 10
+}); 
+
+$('.tt-query').css('background-color','#fff');
+
