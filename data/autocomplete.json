@@ -1,1 +1,18 @@
-["Prova","Example","Try"]
+[
+    {
+        "name": "ISTITUTO COMPRENSIVO",
+        "vatId": "82004030258"
+    },
+    {
+        "name": "FINANZIARIA REGIONALE VALLE DAOSTA   SOCIETA PER AZIONI SIGLABILE FINAOSTA SPA",
+        "vatId": "00415280072"
+    },
+    {
+        "name": "ISTITUTO COMPRENSIVO G GALILEI SCORZE",
+        "vatId": "90108060279"
+    },
+    {
+        "name": "LICEO SCIENTIFICO STATALE TALETE",
+        "vatId": "97021010588"
+    }
+]
