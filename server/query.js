@@ -1,4 +1,5 @@
 var http = require('http');
+var fs = require('fs');
 
 var host = "public-contracts.nexacenter.org";
 
@@ -21,7 +22,7 @@ exports.test = function() {
 
 exports.allBusinessEntities = function () {
     return encodeURIComponent(prefixes +
-        "SELECT ?subject ?vatID ?label " +
+        "SELECT distinct ?subject ?vatID ?label " +
         "WHERE { " +
             "?subject rdf:type <http://purl.org/goodrelations/v1#BusinessEntity> . " +
             "?subject <http://purl.org/goodrelations/v1#vatID> ?vatID . " +
@@ -90,8 +91,36 @@ createAllBusinessEntitiesFile = function () {
         });
 
         res.on('end', function() {
-            //response.send(result);
             var businessEntities = JSON.parse(result)["results"];
+            var businessEntitiesData = new Array();
+            var controller = new Array();
+            
+            for (var be in businessEntities) {
+                for (var i = 0 ; i < businessEntities[be].length; i++) {
+                    var vatID = businessEntities[be][i]["vatID"]["value"];
+                    var label = businessEntities[be][i]["label"]["value"];
+                    var json = {
+                        "vatId": "",
+                        "name": ""
+                    };
+                    json["vatId"] = vatID;
+                    json["name"] = label;
+                  
+                    if(indexOf.call(controller, vatID) === -1) {
+                        businessEntitiesData.push(json);
+                        controller.push(vatID);
+                    }
+                }
+            }
+            var outputFilename = '../data/autocomplete.json';
+
+            fs.writeFile(outputFilename, JSON.stringify(businessEntitiesData, null, 4), function (err) {
+                if(err) {
+                    console.log(err);
+                } else {
+                    console.log("JSON saved to " + outputFilename);
+                }
+            }); 
         });
     });
 
@@ -101,5 +130,26 @@ createAllBusinessEntitiesFile = function () {
 
     req.end(); 
 }
+
+var indexOf = function (needle) {
+    if(typeof Array.prototype.indexOf === 'function') {
+        indexOf = Array.prototype.indexOf;
+    } else {
+        indexOf = function(needle) {
+            var i = -1, index = -1;
+
+            for(i = 0; i < this.length; i++) {
+                if(this[i] === needle) {
+                    index = i;
+                    break;
+                }
+            }
+
+            return index;
+        };
+    }
+
+    return indexOf.call(this, needle);
+};
 
 createAllBusinessEntitiesFile();

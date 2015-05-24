@@ -1,18 +1,8190 @@
 [
     {
-        "name": "ISTITUTO COMPRENSIVO",
-        "vatId": "82004030258"
+        "vatId": "00024950156",
+        "name": "I.S.O.V. SRL"
     },
     {
-        "name": "FINANZIARIA REGIONALE VALLE DAOSTA   SOCIETA PER AZIONI SIGLABILE FINAOSTA SPA",
-        "vatId": "00415280072"
+        "vatId": "00040270282",
+        "name": "AUTOSERVIZI PAVAN DI PAVAN CLAUDIO & C. S.AS."
     },
     {
-        "name": "ISTITUTO COMPRENSIVO G GALILEI SCORZE",
-        "vatId": "90108060279"
+        "vatId": "00041400425",
+        "name": "IRNO RUMORI & FIGLIO SRL"
     },
     {
-        "name": "LICEO SCIENTIFICO STATALE TALETE",
-        "vatId": "97021010588"
+        "vatId": "00041510298",
+        "name": "GIRARDELLO SPA"
+    },
+    {
+        "vatId": "00041520776",
+        "name": "AUTOLINEE DE ANGELIS"
+    },
+    {
+        "vatId": "00047510326",
+        "name": "EUROSPITAL"
+    },
+    {
+        "vatId": "00048720957",
+        "name": "C. MASIA SNC"
+    },
+    {
+        "vatId": "00053280863",
+        "name": "E.D.S. (Editrice Didattica Siciliana)  s.r.l."
+    },
+    {
+        "vatId": "00057340119",
+        "name": "CASSA DI RISPARMIO DELLA SPEZIA"
+    },
+    {
+        "vatId": "00060650454",
+        "name": "GROS F4 SNC"
+    },
+    {
+        "vatId": "00064520919",
+        "name": "MARRONCOLOR SRL"
+    },
+    {
+        "vatId": "00066420241",
+        "name": "FIABA SNC"
+    },
+    {
+        "vatId": "00066590076",
+        "name": "LAGOVAL S.N.C. DI CARLOTTO & C."
+    },
+    {
+        "vatId": "00068640390",
+        "name": "S.O.R.A. SOCIETA' OFFICINA RETTIFICHE E AFFINI S.P.A."
+    },
+    {
+        "vatId": "00070270533",
+        "name": "IMPRESA PERNA ELIO 6 C S.R.L."
+    },
+    {
+        "vatId": "00070280391",
+        "name": "ACMAR Coop. Muratori e Affini RA"
+    },
+    {
+        "vatId": "00075340281",
+        "name": "BERIA ADRIANO & C."
+    },
+    {
+        "vatId": "00080420425",
+        "name": "CONSORZIO AGRARIO PROVINCIALE DI ANCONA"
+    },
+    {
+        "vatId": "00081270258",
+        "name": "PANFILO CASTALDI SAS DI ZANETTI & C."
+    },
+    {
+        "vatId": "00084360767",
+        "name": "S.L.A.  S.R.L."
+    },
+    {
+        "vatId": "00085050391",
+        "name": "\"CEIR SOCIETA' CONSORTILE COOPERATIVA\" IN SIGLA \"CEIR SOC. CONS. COOP.\""
+    },
+    {
+        "vatId": "00086090669",
+        "name": "TORLONE MARIO"
+    },
+    {
+        "vatId": "00086960515",
+        "name": "CASICCI & ANGORI S.R.L."
+    },
+    {
+        "vatId": "00087170692",
+        "name": "LIBRERIA DE LUCA S.N.C."
+    },
+    {
+        "vatId": "00090760083",
+        "name": "STRAFFORELLO & LAURIA"
+    },
+    {
+        "vatId": "00099870214",
+        "name": ""
+    },
+    {
+        "vatId": "00101540078",
+        "name": "GASTALDI DIEGO CENTRO ASSISTENZA"
+    },
+    {
+        "vatId": "00104400056",
+        "name": "FRA PRODUCTION S.P.A."
+    },
+    {
+        "vatId": "00106110471",
+        "name": "COPIT SPA"
+    },
+    {
+        "vatId": "00106290190",
+        "name": "LA MECCANOGRAFICA"
+    },
+    {
+        "vatId": "00110750221",
+        "name": "ITAS ASSICURAZIONI"
+    },
+    {
+        "vatId": "00114290075",
+        "name": "L'ARCA S.R.L."
+    },
+    {
+        "vatId": "00114601006",
+        "name": "POSTE ITALIANE SPA"
+    },
+    {
+        "vatId": "00120310602",
+        "name": "CARTOLIBRERIA MATTIUCCI MARIA ANNA - SORA"
+    },
+    {
+        "vatId": "00120980503",
+        "name": "FERRAMENTA TERRENI S.A.S. DI ANGIOLO TERRENI & C."
+    },
+    {
+        "vatId": "00121600514",
+        "name": "A.L.A. BUS SRL"
+    },
+    {
+        "vatId": "00122020142",
+        "name": "STPS"
+    },
+    {
+        "vatId": "00122240211",
+        "name": ""
+    },
+    {
+        "vatId": "00122950421",
+        "name": "CONEROBUS S.P.A."
+    },
+    {
+        "vatId": "00123310070",
+        "name": "VERDI ALPI SRL"
+    },
+    {
+        "vatId": "00123570400",
+        "name": "ROMAGNOLA STRADE SPA"
+    },
+    {
+        "vatId": "00125480038",
+        "name": "AUTOSERVIZI COMAZZI SRL"
+    },
+    {
+        "vatId": "00125560730",
+        "name": "STAMPA SUD"
+    },
+    {
+        "vatId": "00134820083",
+        "name": "Officina meccanica A. FERRARI"
+    },
+    {
+        "vatId": "00135720316",
+        "name": "Poligrafiche San Marco sas"
+    },
+    {
+        "vatId": "00138750518",
+        "name": "Milani Alfredo"
+    },
+    {
+        "vatId": "00139480982",
+        "name": "CAVALLI PIETRO STRUMENTI MUSICALI"
+    },
+    {
+        "vatId": "00142420876",
+        "name": "DITTA CARCASSI ARTURO ANTONIO"
+    },
+    {
+        "vatId": "00143550085",
+        "name": "TIPOGRAFIA LA COMMERCIALE DI DAL CASTELLO CRISTINA E TACCHI GIORGIO & C. S.N.C."
+    },
+    {
+        "vatId": "00145180923",
+        "name": "VITROCISET SPA"
+    },
+    {
+        "vatId": "00146180245",
+        "name": ""
+    },
+    {
+        "vatId": "00146380902",
+        "name": "Nuova Prima"
+    },
+    {
+        "vatId": "00146990924",
+        "name": "DI.VEN.GAS s.r.l."
+    },
+    {
+        "vatId": "00149420242",
+        "name": "MAGAZZINI CARTA RUMOR ARCI"
+    },
+    {
+        "vatId": "00152680203",
+        "name": "A. DE MORI"
+    },
+    {
+        "vatId": "00152860888",
+        "name": "AUTOTRASPORTI TUMINO MARIA ROSA & C.  s.a.s."
+    },
+    {
+        "vatId": "00153140066",
+        "name": "PICCININI & SALA S.R.L. DI PICCININI CARLO & SALA ANTONIO"
+    },
+    {
+        "vatId": "00153890033",
+        "name": "CERRIANA S.P.A."
+    },
+    {
+        "vatId": "00161520226",
+        "name": "OFFICINA MECCANICA MAZZOLA DI MAZZOLA G. E G."
+    },
+    {
+        "vatId": "00162020549",
+        "name": "S.I.S. SRL"
+    },
+    {
+        "vatId": "00166360545",
+        "name": "GOSTI S.R.L."
+    },
+    {
+        "vatId": "00166600270",
+        "name": "CLEA S.C."
+    },
+    {
+        "vatId": "00167200245",
+        "name": "FORINT  SPA"
+    },
+    {
+        "vatId": "00170010615",
+        "name": "SACCONE S.P.A."
+    },
+    {
+        "vatId": "00170580062",
+        "name": "EURONICS DIMO S.P.A."
+    },
+    {
+        "vatId": "00171160245",
+        "name": "COLLI VICENTINI S.C.A."
+    },
+    {
+        "vatId": "00173630427",
+        "name": "NUOVA TECNICA DI CARNEVALI E C. S.A.S."
+    },
+    {
+        "vatId": "00174500181",
+        "name": "STAV SPA"
+    },
+    {
+        "vatId": "00175670058",
+        "name": "F.LLI SCARAMPI DI ENRICO & RENZO S.N.C. - CANELLI"
+    },
+    {
+        "vatId": "00179240023",
+        "name": "CARTOLIBRERIA COPPO SAS"
+    },
+    {
+        "vatId": "00180320129",
+        "name": "Icea"
+    },
+    {
+        "vatId": "00181840224",
+        "name": "Chicchetti Luigi Srl"
+    },
+    {
+        "vatId": "00182620120",
+        "name": "ALFREDO GRASSI S.P.A."
+    },
+    {
+        "vatId": "00183090877",
+        "name": "BRUNO SPA"
+    },
+    {
+        "vatId": "00184820280",
+        "name": "ELETTROVENETA"
+    },
+    {
+        "vatId": "00185120045",
+        "name": "PREVE COSTRUZIONI SPA"
+    },
+    {
+        "vatId": "00185340247",
+        "name": "PERSIANE STEFANI SNC"
+    },
+    {
+        "vatId": "00187130216",
+        "name": "FRIGOTHERM FERRARI SRL"
+    },
+    {
+        "vatId": "00187700125",
+        "name": "LAZZATI INDUSTRIA GRAFICA"
+    },
+    {
+        "vatId": "00188120349",
+        "name": "BERTAZZONI S.R.L."
+    },
+    {
+        "vatId": "00189620099",
+        "name": "ICOSE S.p.A."
+    },
+    {
+        "vatId": "00190520072",
+        "name": "VILLENEUVE PETROLI S.R.L. "
+    },
+    {
+        "vatId": "00191100072",
+        "name": "S.A.V.D.A. S.p.A."
+    },
+    {
+        "vatId": "00192480457",
+        "name": "C.O.A.F."
+    },
+    {
+        "vatId": "00198750218",
+        "name": "Moser & CO. GmbH"
+    },
+    {
+        "vatId": "00199030750",
+        "name": "CAMER PETROLEUM EUROPA S.R.L."
+    },
+    {
+        "vatId": "00205540131",
+        "name": "F.lli Meroni snc"
+    },
+    {
+        "vatId": "00205740426",
+        "name": "EDITRICE S.I.F.I.C. S.R.L."
+    },
+    {
+        "vatId": "00206090706",
+        "name": "F.LLI PAOLUCCI SNC"
+    },
+    {
+        "vatId": "00209460211",
+        "name": "Rubner Türen AG"
+    },
+    {
+        "vatId": "00209610161",
+        "name": "L. UBIALI SNC"
+    },
+    {
+        "vatId": "00210530283",
+        "name": "CIT S.R.L."
+    },
+    {
+        "vatId": "00214430126",
+        "name": "REGGIANI SPA"
+    },
+    {
+        "vatId": "00215860289",
+        "name": "ISSITALIA A. BARBATO S.R.L."
+    },
+    {
+        "vatId": "00218850840",
+        "name": "INDUSTRIA GRAFICA T. SARCUTO S.R.L."
+    },
+    {
+        "vatId": "00221450307",
+        "name": "SEGNALETICA BUIESE DI TONIUTTI ADRIANO & C. SAS"
+    },
+    {
+        "vatId": "00222790768",
+        "name": "RUSSO GIUSEPPE"
+    },
+    {
+        "vatId": "00225430164",
+        "name": "ALER"
+    },
+    {
+        "vatId": "00226800167",
+        "name": "FLUORTEN SRL"
+    },
+    {
+        "vatId": "00227660362",
+        "name": "SARBA"
+    },
+    {
+        "vatId": "00230600280",
+        "name": "SERENISSIMA S.R.L."
+    },
+    {
+        "vatId": "00232430223",
+        "name": "ESPERIA"
+    },
+    {
+        "vatId": "00233090976",
+        "name": "CAP"
+    },
+    {
+        "vatId": "00233750231",
+        "name": "ENTE AUTONOMO FIERE DI VERONA"
+    },
+    {
+        "vatId": "00240890939",
+        "name": "MARCUZZI TARCISIO SRL"
+    },
+    {
+        "vatId": "00241140565",
+        "name": "GALADINI & C. SRL"
+    },
+    {
+        "vatId": "00244600649",
+        "name": "POLIGRAFICA RUGGIERO"
+    },
+    {
+        "vatId": "00245230107",
+        "name": "O.R.A.M.A."
+    },
+    {
+        "vatId": "00248430464",
+        "name": "Officina Mecc. Lucchesi & C. S.n.c."
+    },
+    {
+        "vatId": "00249060559",
+        "name": "ELETTROMODERNA di Perni Carlo"
+    },
+    {
+        "vatId": "00252160296",
+        "name": "RE.T.I.C.E."
+    },
+    {
+        "vatId": "00252370721",
+        "name": "LA LUCENTE S.P.A."
+    },
+    {
+        "vatId": "00252430301",
+        "name": "EDIL-LEMA S.N.C.\t"
+    },
+    {
+        "vatId": "00253580724",
+        "name": "A.MORFINI & FIGLI SRL"
+    },
+    {
+        "vatId": "00258970334",
+        "name": "GIORDANINO SPA"
+    },
+    {
+        "vatId": "00261560106",
+        "name": "TIRRENIA"
+    },
+    {
+        "vatId": "00267500825",
+        "name": "PRIULLA SRL"
+    },
+    {
+        "vatId": "00272980103",
+        "name": "UGO TESI"
+    },
+    {
+        "vatId": "00273690818",
+        "name": "GIANNITRAPANI SRL"
+    },
+    {
+        "vatId": "00276530490",
+        "name": "FONDAZIONE CASA CARDINALE MAFFI"
+    },
+    {
+        "vatId": "00277730594",
+        "name": "I.GE.CO. IMPRESA GENERALI COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "00278230263",
+        "name": "COOP. S. GOTTARDO SCARL"
+    },
+    {
+        "vatId": "00279120679",
+        "name": "ABRUZZI SONDA DEL GEOM.DI FRANCO LORENZO E C. SAS"
+    },
+    {
+        "vatId": "00281620377",
+        "name": "CONSORZIO COOPERATIVE COSTRUZIONI CCC SOCIETA' COOPERATIVA"
+    },
+    {
+        "vatId": "00284160371",
+        "name": "UNIPOL ASSICURAZIONI"
+    },
+    {
+        "vatId": "00288230048",
+        "name": "DARDANELLI RICCARDO-CEVA"
+    },
+    {
+        "vatId": "00289571218",
+        "name": "ELTEL"
+    },
+    {
+        "vatId": "00290820497",
+        "name": "C.M.C. Orienti di Valeriani Anna  C."
+    },
+    {
+        "vatId": "00292050879",
+        "name": "SCA.CE.BIT - S.R.L."
+    },
+    {
+        "vatId": "00293600938",
+        "name": "VI.S.A. SISTEMI"
+    },
+    {
+        "vatId": "00295640734",
+        "name": "CO.SER.PUL SOC. COOP. a R.L."
+    },
+    {
+        "vatId": "00295900260",
+        "name": "FORNITECNICA"
+    },
+    {
+        "vatId": "00296600729",
+        "name": "SCOPPIO AUTOLINEE SRL"
+    },
+    {
+        "vatId": "00296820608",
+        "name": "ROMANA CHIMICI SPA"
+    },
+    {
+        "vatId": "00297630170",
+        "name": "F.I.M.E.T. S.P.A."
+    },
+    {
+        "vatId": "00298880766",
+        "name": "LUCANIA SPURGO"
+    },
+    {
+        "vatId": "00299290569",
+        "name": "ETRURIA LIBRI"
+    },
+    {
+        "vatId": "00303620314",
+        "name": "MINERVA S.C.P.A."
+    },
+    {
+        "vatId": "00305880379",
+        "name": "Consorzio Agrario dell'Emilia Soc. Coop Via Centese, 5/3 40016 San Giorgio in Piano (BO)"
+    },
+    {
+        "vatId": "00306070905",
+        "name": "PUTZU APPALTI COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "00307880435",
+        "name": "CONTRAM S.P.A."
+    },
+    {
+        "vatId": "00308410240",
+        "name": "P.F.R. SRL"
+    },
+    {
+        "vatId": "00308730373",
+        "name": "CEISA SPA"
+    },
+    {
+        "vatId": "00309790376",
+        "name": "C.A.F.A.R. CONSORZIO AUTOTRASPORTATORI FACCHINI ALTO RENO"
+    },
+    {
+        "vatId": "00312970114",
+        "name": "SAT SRL"
+    },
+    {
+        "vatId": "00318330289",
+        "name": "Chinello Edilizia"
+    },
+    {
+        "vatId": "00321030942",
+        "name": "SIAC S.R.L."
+    },
+    {
+        "vatId": "00321300378",
+        "name": "CULLIGAN ITALIANA SPA"
+    },
+    {
+        "vatId": "00325210128",
+        "name": "PLASTIGOMMA DI PINCIROLI E GALLAZZI SNC"
+    },
+    {
+        "vatId": "00325350429",
+        "name": "SIEM SRL"
+    },
+    {
+        "vatId": "00326740222",
+        "name": "GRAFICA 5 DI FRUNER ROBERTO &amp; C. S.N.C."
+    },
+    {
+        "vatId": "00327260949",
+        "name": "GRAFICA ISERNINA"
+    },
+    {
+        "vatId": "00330790247",
+        "name": "ZETA FARMACEUTICI S.P.A."
+    },
+    {
+        "vatId": "00333090223",
+        "name": "ORSINGHER S.R.L."
+    },
+    {
+        "vatId": "00347720781",
+        "name": "COMUNE DI COSENZA"
+    },
+    {
+        "vatId": "00348170101",
+        "name": "UNICREDIT"
+    },
+    {
+        "vatId": "00350370276",
+        "name": "CON.TRA.ME. CONSORZIO TRASPORTI MESTRE"
+    },
+    {
+        "vatId": "00351400395",
+        "name": "COOPERATIVA MONTANA VALLE DEL SENIO"
+    },
+    {
+        "vatId": "00359770351",
+        "name": "ISI PLAST SPA"
+    },
+    {
+        "vatId": "00362380511",
+        "name": "ELEAR"
+    },
+    {
+        "vatId": "00367240173",
+        "name": "DEFARMA"
+    },
+    {
+        "vatId": "00368280020",
+        "name": "ALESSIO SPA"
+    },
+    {
+        "vatId": "00369560164",
+        "name": "HALLEY INFORMATICA SRL"
+    },
+    {
+        "vatId": "00374220069",
+        "name": "ZUCCHETTO S.r.l."
+    },
+    {
+        "vatId": "00378490023",
+        "name": "EDP 91 S.N.C."
+    },
+    {
+        "vatId": "00379670946",
+        "name": "COGECAR ITALIA SRL"
+    },
+    {
+        "vatId": "00381550078",
+        "name": "EDIL.CO.BE.MA Srl"
+    },
+    {
+        "vatId": "00381730274",
+        "name": "ERMENEGILDO ROSA SALVA SRL"
+    },
+    {
+        "vatId": "00384630489",
+        "name": "SIENI TECNOLOGIE E SERVIZI"
+    },
+    {
+        "vatId": "00388270860",
+        "name": "Geom. Marino Francesco Paolo"
+    },
+    {
+        "vatId": "00389770488",
+        "name": "C.I.T.T.I. DI MAURIZIO E MARCO BERTI & C."
+    },
+    {
+        "vatId": "00390170777",
+        "name": "MODULEX S.R.L."
+    },
+    {
+        "vatId": "00393290481",
+        "name": "BASPI BUS SRL"
+    },
+    {
+        "vatId": "00393610480",
+        "name": "UNIGUM"
+    },
+    {
+        "vatId": "00397880022",
+        "name": "TRIVERIO RICCARDO"
+    },
+    {
+        "vatId": "00399270750",
+        "name": "LA SALENTO COPIATORI"
+    },
+    {
+        "vatId": "00401460266",
+        "name": "COLFERT SPA"
+    },
+    {
+        "vatId": "00402140586",
+        "name": "CORRIDI SRL"
+    },
+    {
+        "vatId": "00403790686",
+        "name": "DIAGRAMMA DI GIAMPIERO ROMANO "
+    },
+    {
+        "vatId": "00404810301",
+        "name": "CORNO S.R.L."
+    },
+    {
+        "vatId": "00405460585",
+        "name": "TROTTA BUS SERVICE S.P.A."
+    },
+    {
+        "vatId": "00409720489",
+        "name": "COOPERATIVA AUTOTRASPORTI PRATESE SOCIETA COOPERATIVA"
+    },
+    {
+        "vatId": "00410640239",
+        "name": "DERTA SPA"
+    },
+    {
+        "vatId": "00410650584",
+        "name": "SIGMA TAU INDUSTRIE FARMACEUTICHE RIUNITE SPA"
+    },
+    {
+        "vatId": "00411070287",
+        "name": "F.LLI CAPPAROTTO SNC"
+    },
+    {
+        "vatId": "00411600794",
+        "name": "GRAFICA REVENTINO"
+    },
+    {
+        "vatId": "00417330347",
+        "name": "DEL FIUME SPA"
+    },
+    {
+        "vatId": "00420820383",
+        "name": "TASSINARI BILANCE"
+    },
+    {
+        "vatId": "00421210485",
+        "name": "BOEHRINGER INGELHEIM IT. SPA"
+    },
+    {
+        "vatId": "00422760587",
+        "name": "MSD ITALIA S.R.L."
+    },
+    {
+        "vatId": "00432690469",
+        "name": "CITTA' FUTURA"
+    },
+    {
+        "vatId": "00434000584",
+        "name": "RECONTA ERNST & YOUNG"
+    },
+    {
+        "vatId": "00440330785",
+        "name": "Perrone Viaggi e Turismo"
+    },
+    {
+        "vatId": "00442911004",
+        "name": "MAMMOLITI PASQUALINA"
+    },
+    {
+        "vatId": "00449190503",
+        "name": "THYSSENKRUPP ENCASA S.R.L."
+    },
+    {
+        "vatId": "00452500234",
+        "name": "EDILROVER"
+    },
+    {
+        "vatId": "00453550733",
+        "name": "DE GIORGIO FERRAMENTA"
+    },
+    {
+        "vatId": "00461910457",
+        "name": "TIPOLITOGRAFIA  MORI"
+    },
+    {
+        "vatId": "00462450370",
+        "name": "PORRETTANA GOMME SPA"
+    },
+    {
+        "vatId": "00465610079",
+        "name": "Tipografia Marcoz S.n.c."
+    },
+    {
+        "vatId": "00466830544",
+        "name": "ACCADEMIA BRITANNICA UMBRA di BIGI MARIA ADELAIDE"
+    },
+    {
+        "vatId": "00466840048",
+        "name": "S.A.C S.R.L."
+    },
+    {
+        "vatId": "00469880108",
+        "name": "DELUCCHI COLORI"
+    },
+    {
+        "vatId": "00473910545",
+        "name": "RICCI S.N.C."
+    },
+    {
+        "vatId": "00475230017",
+        "name": "Viaggi Furno S.r.l."
+    },
+    {
+        "vatId": "00476510029",
+        "name": "Lesca Giovanni s.r.l. - Via Assab,n. 45 - Vercelli"
+    },
+    {
+        "vatId": "00477110019",
+        "name": "DUCATI ENERGIA  S.P.A."
+    },
+    {
+        "vatId": "00487540163",
+        "name": "SANGALLI SPA"
+    },
+    {
+        "vatId": "00491890786",
+        "name": "BIT S.R.L."
+    },
+    {
+        "vatId": "00498480011",
+        "name": "CONSORZIO AGRARIO PROVINCIALE"
+    },
+    {
+        "vatId": "00499080018",
+        "name": "C.I.E.T. SRL"
+    },
+    {
+        "vatId": "00499970929",
+        "name": "SO.GE.LA - CAGLIARI"
+    },
+    {
+        "vatId": "00503100091",
+        "name": "ERREVIAGGI  srl"
+    },
+    {
+        "vatId": "00508260973",
+        "name": ""
+    },
+    {
+        "vatId": "00508270147",
+        "name": "Edilstrade Valtellina Scc"
+    },
+    {
+        "vatId": "00508860871",
+        "name": "SCIONTI-noleggio Pullmans"
+    },
+    {
+        "vatId": "00512110149",
+        "name": "GROLLI COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "00518590773",
+        "name": "SASSI STRADE S.R.L."
+    },
+    {
+        "vatId": "00518960018",
+        "name": "DEFIR S.R.L."
+    },
+    {
+        "vatId": "00524890258",
+        "name": "SCP"
+    },
+    {
+        "vatId": "00526610019",
+        "name": "ELETTROGRUPPO ZEROUNO S.P.A."
+    },
+    {
+        "vatId": "00528060346",
+        "name": "COLORIFICIO FIDENTINO S.N.C."
+    },
+    {
+        "vatId": "00536070063",
+        "name": "CENTRO RICOLLAUDO BOMBOLE S.R.L."
+    },
+    {
+        "vatId": "00537660649",
+        "name": "CIDAP"
+    },
+    {
+        "vatId": "00543860134",
+        "name": "RAMPININI ERNESTO SRL"
+    },
+    {
+        "vatId": "00546010869",
+        "name": "CARUSO ESTINTORI S.N.C DI CATALANO BENEDETTO & INGRA' GIUSEPPE"
+    },
+    {
+        "vatId": "00547620401",
+        "name": "CENTRO DIDATTICO ROMAGNOLO"
+    },
+    {
+        "vatId": "00547800458",
+        "name": "FO.EL."
+    },
+    {
+        "vatId": "00548780725",
+        "name": "PISANI SNC"
+    },
+    {
+        "vatId": "00550400378",
+        "name": "TELEIMPIANTI S.P.A."
+    },
+    {
+        "vatId": "00553370073",
+        "name": "DORA PNEUMATICI SRL"
+    },
+    {
+        "vatId": "00557450939",
+        "name": "PETRUCCO   SRL"
+    },
+    {
+        "vatId": "00562420240",
+        "name": "DITTA TRIVELLATO"
+    },
+    {
+        "vatId": "00562490011",
+        "name": "VIGLIA"
+    },
+    {
+        "vatId": "00562600072",
+        "name": "ZUCCONI GIUSEPPE"
+    },
+    {
+        "vatId": "00564400372",
+        "name": "G.M.G. SNC DI FABBIETTI CHRISTIAN E C."
+    },
+    {
+        "vatId": "00570660043",
+        "name": "CAUDA STRADE SRL"
+    },
+    {
+        "vatId": "00581080678",
+        "name": "Avv.Pietro Referza"
+    },
+    {
+        "vatId": "00582970216",
+        "name": "HELL LANDMASCHINEN GMBH"
+    },
+    {
+        "vatId": "00585250772",
+        "name": "VISCEGLIA SNC"
+    },
+    {
+        "vatId": "00590090031",
+        "name": "TECNO PIEMONTE SPA"
+    },
+    {
+        "vatId": "00591400213",
+        "name": ""
+    },
+    {
+        "vatId": "00597900166",
+        "name": "LA TECNICA S.P.A."
+    },
+    {
+        "vatId": "00599320223",
+        "name": "ENGINSOFT SPA"
+    },
+    {
+        "vatId": "00604840777",
+        "name": "BANCA POPOLARE DI PUGLIA E BASILICATA"
+    },
+    {
+        "vatId": "00609280219",
+        "name": "Sedi System snc Via Leopardi 5 39012 Merano BZ"
+    },
+    {
+        "vatId": "00611970286",
+        "name": "STEFANELLI S.P.A."
+    },
+    {
+        "vatId": "00612120980",
+        "name": "SYSTEM 6"
+    },
+    {
+        "vatId": "00615960861",
+        "name": "CO.G.EDIS."
+    },
+    {
+        "vatId": "00616300216",
+        "name": "ELFER SAS DI PAOLAZZI E. & C."
+    },
+    {
+        "vatId": "00619850589",
+        "name": "CASA EDITRICE LOMBARDI s.r.l."
+    },
+    {
+        "vatId": "00621160951",
+        "name": "ICOT  TECH SPA"
+    },
+    {
+        "vatId": "00623290459",
+        "name": "ECOEDIL PROFESSIONAL"
+    },
+    {
+        "vatId": "00623610607",
+        "name": "GROSSIIMPIANTI S.r.l"
+    },
+    {
+        "vatId": "00630700052",
+        "name": "SOFT Sas DI DEMICHELIS ROBERTO & C."
+    },
+    {
+        "vatId": "00638670828",
+        "name": "Elettronica Aloisio srl"
+    },
+    {
+        "vatId": "00643090673",
+        "name": "STEEL INFORMATICA"
+    },
+    {
+        "vatId": "00646060954",
+        "name": "GIARA BUS DI OLLA SERGIO & C. SNC"
+    },
+    {
+        "vatId": "00646130096",
+        "name": "F.lli Bellè"
+    },
+    {
+        "vatId": "00646320523",
+        "name": "CE.DI.T. SRL"
+    },
+    {
+        "vatId": "00647400126",
+        "name": "AUTOSERVIZI BETTONI SRL"
+    },
+    {
+        "vatId": "00648040913",
+        "name": "C.E.O. Cooperativa Edile Ortuerese"
+    },
+    {
+        "vatId": "00653950220",
+        "name": "MUSEO DELLE SCIENZE"
+    },
+    {
+        "vatId": "00654080076",
+        "name": "Eurostreet"
+    },
+    {
+        "vatId": "00656370459",
+        "name": "TECHNOBAKERY SRL"
+    },
+    {
+        "vatId": "00663360071",
+        "name": "UNIPER S.R.L."
+    },
+    {
+        "vatId": "00664620325",
+        "name": "SANITARIA TRIESTINA"
+    },
+    {
+        "vatId": "00665310777",
+        "name": "MEDIT COSTRUZ. S.R.L."
+    },
+    {
+        "vatId": "00669460917",
+        "name": "TekService di Loi Mario"
+    },
+    {
+        "vatId": "00672150877",
+        "name": "STRANO"
+    },
+    {
+        "vatId": "00673881207",
+        "name": "MORTARA INSTRUMENT EUROPE S.R.L."
+    },
+    {
+        "vatId": "00676450141",
+        "name": "EDILMAINO ENTERPRISE SRL"
+    },
+    {
+        "vatId": "00680070455",
+        "name": "MERIDIAN S.n.c."
+    },
+    {
+        "vatId": "00680230257",
+        "name": "IDROS S.A.S. DI DE CASSAN SILVANO"
+    },
+    {
+        "vatId": "00681790671",
+        "name": "TECNODUE"
+    },
+    {
+        "vatId": "00683500086",
+        "name": "LAI.BRA snc"
+    },
+    {
+        "vatId": "00684280431",
+        "name": "ASSOCIAZIONE PIOMBINI-SENSINI ONLUS"
+    },
+    {
+        "vatId": "00685000424",
+        "name": "TRE GI DI PIERGIORGIO GRILLI E MICHELE DUBBINI"
+    },
+    {
+        "vatId": "00685140527",
+        "name": "FUSI FORNITURE UFFICIO DI FUSI PAOLO & C."
+    },
+    {
+        "vatId": "00688230432",
+        "name": "Orim spa"
+    },
+    {
+        "vatId": "00688620061",
+        "name": "FRATELLI FERRO SNC-NOVI LIGURE (AL)"
+    },
+    {
+        "vatId": "00690890231",
+        "name": "BIOSTIFE S.R.L."
+    },
+    {
+        "vatId": "00691120968",
+        "name": "Scam Viaggi srl"
+    },
+    {
+        "vatId": "00691650394",
+        "name": "S.A.T. SAS DI SCOZZOLI A. & MAGNANI M."
+    },
+    {
+        "vatId": "00691680227",
+        "name": "ALEMAX SRL"
+    },
+    {
+        "vatId": "00691781207",
+        "name": "COLOPLAST"
+    },
+    {
+        "vatId": "00692730211",
+        "name": "Billig SpA Poli-Regina"
+    },
+    {
+        "vatId": "00695940213",
+        "name": "SARSTEDT S.R.L."
+    },
+    {
+        "vatId": "00696360155",
+        "name": "TAKEDA ITALIA"
+    },
+    {
+        "vatId": "00696530989",
+        "name": "GAMBARA ASFALTI SPA"
+    },
+    {
+        "vatId": "00696690502",
+        "name": "PACINI EDITORE"
+    },
+    {
+        "vatId": "00701430217",
+        "name": ""
+    },
+    {
+        "vatId": "00701480584",
+        "name": "SERVIER ITALIA S.P.A."
+    },
+    {
+        "vatId": "00701840241",
+        "name": "ITALIANA WATER & POWER SRL"
+    },
+    {
+        "vatId": "00702800194",
+        "name": "AROLDI F.LLI DI AROLDI FRANCO E CESARE SNC"
+    },
+    {
+        "vatId": "00704290576",
+        "name": "SALARIA VIAGGI SRL"
+    },
+    {
+        "vatId": "00705200269",
+        "name": "SETTEN GENESIO S.P.A."
+    },
+    {
+        "vatId": "00707821203",
+        "name": "ESPANSIONE MARKETING S.P.A."
+    },
+    {
+        "vatId": "00717030159",
+        "name": "ABC Tools S.p.A."
+    },
+    {
+        "vatId": "00718330152",
+        "name": "METTLER TOLEDO S.P.A."
+    },
+    {
+        "vatId": "00720880210",
+        "name": "HOTEL TEXTIL SRL"
+    },
+    {
+        "vatId": "00721270155",
+        "name": "Caimi Elevatori"
+    },
+    {
+        "vatId": "00721440790",
+        "name": "FULGINITI VINCENZO"
+    },
+    {
+        "vatId": "00721920155",
+        "name": "CARL ZEISS"
+    },
+    {
+        "vatId": "00723460630",
+        "name": "POLIGRAFICA F.LLI ARIELLO"
+    },
+    {
+        "vatId": "00724260344",
+        "name": "EUROTEC DI SIDOLI & DALLAFIORA S.N."
+    },
+    {
+        "vatId": "00726170343",
+        "name": "THE OXFORD INSTITUTE- LANGUAGE STUDIES S.R.L."
+    },
+    {
+        "vatId": "00727610362",
+        "name": "OFFICINA FIANDRI SRL"
+    },
+    {
+        "vatId": "00730200144",
+        "name": "MIDA IMPIANTI SRL"
+    },
+    {
+        "vatId": "00734000151",
+        "name": "GILARDONI"
+    },
+    {
+        "vatId": "00738890219",
+        "name": "GROHE P. GMBH"
+    },
+    {
+        "vatId": "00740030325",
+        "name": "VERAMED MEDICALI DI SVERKO TATIANA & C. S.A.S."
+    },
+    {
+        "vatId": "00741510556",
+        "name": "ETI DI DOMIZIANI CLAUDIO"
+    },
+    {
+        "vatId": "00742030141",
+        "name": "ALBA coop. sociale"
+    },
+    {
+        "vatId": "00742200157",
+        "name": "Microelettronica Scientifica SpA"
+    },
+    {
+        "vatId": "00748240090",
+        "name": "C.P.S. SOC. COOP"
+    },
+    {
+        "vatId": "00750390635",
+        "name": "CO.M.I. COMPAGNIA MERIDIONALE IMPIANTI S.R.L."
+    },
+    {
+        "vatId": "00753550193",
+        "name": "CREMONA GIOCHI E ARREDI"
+    },
+    {
+        "vatId": "00755110269",
+        "name": "ISTITUTO TIPOGRAFICO PER I COMUNI"
+    },
+    {
+        "vatId": "00755180569",
+        "name": "BLERANA EDILE SPA"
+    },
+    {
+        "vatId": "00758880215",
+        "name": "TOP SCHRIFT - MEISTERSERVICE GMBH"
+    },
+    {
+        "vatId": "00760430355",
+        "name": "BAMS SRL"
+    },
+    {
+        "vatId": "00764110276",
+        "name": "ATVO SPA"
+    },
+    {
+        "vatId": "00764990370",
+        "name": "CIMS SCRL"
+    },
+    {
+        "vatId": "00785110347",
+        "name": "FORNITURE PER L'INDUSTRIA GELMINI S.R.L."
+    },
+    {
+        "vatId": "00788970739",
+        "name": "Serveco Srl"
+    },
+    {
+        "vatId": "00795470152",
+        "name": "ISTITUTO SACRA FAMIGLIA"
+    },
+    {
+        "vatId": "00799220157",
+        "name": "WALDNER S.R.L."
+    },
+    {
+        "vatId": "00799670708",
+        "name": "BASILE RENZO"
+    },
+    {
+        "vatId": "00799960158",
+        "name": "INTESA SAN PAOLO"
+    },
+    {
+        "vatId": "00800740433",
+        "name": "Coop Coaci srl"
+    },
+    {
+        "vatId": "00801880212",
+        "name": "J. Schmidhammer GmbH"
+    },
+    {
+        "vatId": "00807370309",
+        "name": "DIAL INFORMATICA"
+    },
+    {
+        "vatId": "00811510676",
+        "name": "F.M. ENGINEERING SRL"
+    },
+    {
+        "vatId": "00811560226",
+        "name": "MORELLI GIUSEPPE S.R.L."
+    },
+    {
+        "vatId": "00813330586",
+        "name": "F.E.R.T."
+    },
+    {
+        "vatId": "00814371209",
+        "name": "CIMS S.R.L."
+    },
+    {
+        "vatId": "00815520523",
+        "name": "BETTI SRL"
+    },
+    {
+        "vatId": "00816060768",
+        "name": "FIREFLY SNC DI NICOLA LAGUARDIA & FIGLI"
+    },
+    {
+        "vatId": "00825190705",
+        "name": "ELISEO ING. RENATO SRL"
+    },
+    {
+        "vatId": "00828630251",
+        "name": "C.M.I. DI MANFROI GIUSEPPE & C. S.N.C."
+    },
+    {
+        "vatId": "00829000256",
+        "name": "LA VIA SOCIETA' COOPERATIVA SOCIALE ONLUS"
+    },
+    {
+        "vatId": "00829140227",
+        "name": "MISCONEL S.R.L."
+    },
+    {
+        "vatId": "00834100331",
+        "name": "IK ITALIANA DI TASSI PIERLUIGI & C. SNC"
+    },
+    {
+        "vatId": "00834910416",
+        "name": "DELLA CHIARA DI DELLA CHIARA IGINO E PAOLO"
+    },
+    {
+        "vatId": "00835510561",
+        "name": "PRIMAPRINT SRL"
+    },
+    {
+        "vatId": "00836460899",
+        "name": "GRAFICA SATURNIA SOCIET COOPERATIVA"
+    },
+    {
+        "vatId": "00837100254",
+        "name": "ECOSTUDIO AMBIENTE SRL"
+    },
+    {
+        "vatId": "00838850527",
+        "name": "INTERARREDO SRL"
+    },
+    {
+        "vatId": "00839630969",
+        "name": "INCIFRA S.R.L."
+    },
+    {
+        "vatId": "00847390234",
+        "name": "LUNARDI TIZIANO SRL"
+    },
+    {
+        "vatId": "00850710377",
+        "name": "CONFEZIONI LELLA DI BERGAMINI MARINELLA VIA DELL'ARTIGIANO, 8/2 40016 BOLOGNA"
+    },
+    {
+        "vatId": "00851710210",
+        "name": ""
+    },
+    {
+        "vatId": "00851720219",
+        "name": "AEBI SCHMIDT ITALIA S.r.l."
+    },
+    {
+        "vatId": "00853870210",
+        "name": ""
+    },
+    {
+        "vatId": "00856750153",
+        "name": "PHILIPS"
+    },
+    {
+        "vatId": "00860200534",
+        "name": "BERTI GIUSEPPE S.R.L."
+    },
+    {
+        "vatId": "00860620244",
+        "name": "ASA S.R.L."
+    },
+    {
+        "vatId": "00863960704",
+        "name": "CENTRO GOMME S.R.L. - GOMMISTA - AUTOLAVAGGIO"
+    },
+    {
+        "vatId": "00865220156",
+        "name": "CANON ITALIA S.P.A."
+    },
+    {
+        "vatId": "00868700212",
+        "name": "MAIR JOSEF   CO. KG"
+    },
+    {
+        "vatId": "00871081204",
+        "name": "POSSENTI SAS DI G. POSSENTI E C."
+    },
+    {
+        "vatId": "00874120058",
+        "name": "TRANSFER DI TERRANOVA GEOM.MARIO"
+    },
+    {
+        "vatId": "00876320409",
+        "name": "MARCO POLO EXPERT"
+    },
+    {
+        "vatId": "00879951002",
+        "name": "PHARMAGIC SRL"
+    },
+    {
+        "vatId": "00880230768",
+        "name": "SITICON s.r.l. da POTENZA"
+    },
+    {
+        "vatId": "00880430962",
+        "name": "LF IMPIANTI SRL"
+    },
+    {
+        "vatId": "00880910161",
+        "name": "EL.VA.S.  - VIA DE O' - FRAZIONE DEZZO DI SCALVE - COLERE (BG)"
+    },
+    {
+        "vatId": "00881170153",
+        "name": "S.L.T."
+    },
+    {
+        "vatId": "00881270243",
+        "name": "ECORICERCHE S.R.L."
+    },
+    {
+        "vatId": "00884460676",
+        "name": "CONSORZIO INTERCOOP SOC COOP"
+    },
+    {
+        "vatId": "00885741009",
+        "name": "GROUPAMA ASSICURAZIONI"
+    },
+    {
+        "vatId": "00887630150",
+        "name": "CHARLES RIVER LABORATORIES ITALIA S.R.L."
+    },
+    {
+        "vatId": "00889410247",
+        "name": "TESSIL FORNITURE SRL"
+    },
+    {
+        "vatId": "00890881006",
+        "name": "ALLIANCE HEALTHCARE ITALIA DISTRIBUZIONE SPA"
+    },
+    {
+        "vatId": "00891950156",
+        "name": "MACCHINGRAF SPA"
+    },
+    {
+        "vatId": "00893140269",
+        "name": "BOTTER GIANFRANCO & FIGLI SNC"
+    },
+    {
+        "vatId": "00893390708",
+        "name": "M.B.C. SRL"
+    },
+    {
+        "vatId": "00894030246",
+        "name": "PETTINA' VIAGGI S.R.L."
+    },
+    {
+        "vatId": "00894630581",
+        "name": "GELBYSON SRL"
+    },
+    {
+        "vatId": "00895810968",
+        "name": "VISA FORNITURE"
+    },
+    {
+        "vatId": "00897701009",
+        "name": "PRINCIPIO BRAGUGLIA S.R.L."
+    },
+    {
+        "vatId": "00899951008",
+        "name": "EDINDUSTRIA SRL"
+    },
+    {
+        "vatId": "00901160333",
+        "name": "DI. DER. DI. di Castignoli Angelo & C. S.N.C."
+    },
+    {
+        "vatId": "00903470037",
+        "name": "MINESI DOTT.MARINO"
+    },
+    {
+        "vatId": "00903740058",
+        "name": "GAMBINO SNC"
+    },
+    {
+        "vatId": "00904010337",
+        "name": "CASOTTI ANTONIO SRL"
+    },
+    {
+        "vatId": "00907790737",
+        "name": "AGENZIA APPIA VIAGGI"
+    },
+    {
+        "vatId": "00922620497",
+        "name": "UNI.RA S.r.l. "
+    },
+    {
+        "vatId": "00924810724",
+        "name": "RAGUSA GRAFICA MODERNA S.R.L."
+    },
+    {
+        "vatId": "00927100941",
+        "name": "ELCOM SPA"
+    },
+    {
+        "vatId": "00931710248",
+        "name": "RIZZATO IMPIANTI S.R.L."
+    },
+    {
+        "vatId": "00934261009",
+        "name": "F.E.R.T."
+    },
+    {
+        "vatId": "00936870328",
+        "name": "LIS LABORATORIO IMMAGINARIO SCIENTIFICO SOC CO"
+    },
+    {
+        "vatId": "00937910404",
+        "name": "P.P.G. DI MENGOZZI MARZIO & C. S.N.C."
+    },
+    {
+        "vatId": "00938390168",
+        "name": "EDILCOMMERCIO S.R.L."
+    },
+    {
+        "vatId": "00947810594",
+        "name": "GRAFICART"
+    },
+    {
+        "vatId": "00950700757",
+        "name": "Adelfia Società Cooperativa Soc."
+    },
+    {
+        "vatId": "00952090090",
+        "name": "ARCO UFFICIO SNC"
+    },
+    {
+        "vatId": "00952670099",
+        "name": "SAVONA INFISSI DI FRANCHELLO LORENZO & C. S.A.S."
+    },
+    {
+        "vatId": "00954300232",
+        "name": "REVELLO SPA"
+    },
+    {
+        "vatId": "00955260385",
+        "name": "ROSIN ARREDAMENTI SRL"
+    },
+    {
+        "vatId": "00959460221",
+        "name": "SEVEN S.P.A."
+    },
+    {
+        "vatId": "00960880912",
+        "name": "Cooperativa Sociale Milleforme di Nuoro"
+    },
+    {
+        "vatId": "00965140767",
+        "name": "FOR HOSPITAL S.R.L."
+    },
+    {
+        "vatId": "00967150764",
+        "name": "ABC SPORT"
+    },
+    {
+        "vatId": "00969540095",
+        "name": "Agriforest snc di Righello Massimo & c. - Reg. Caragnetta n. 6/b  CALIZZANO"
+    },
+    {
+        "vatId": "00972130306",
+        "name": "DEL TORRE SRL"
+    },
+    {
+        "vatId": "00972790109",
+        "name": "MIKAI S.P.A."
+    },
+    {
+        "vatId": "00973170293",
+        "name": "CO.GE.AD. SRL"
+    },
+    {
+        "vatId": "00974670325",
+        "name": "Nuova Edilcolor Srl"
+    },
+    {
+        "vatId": "00976050427",
+        "name": "ASCAM S.R.L."
+    },
+    {
+        "vatId": "00977960327",
+        "name": "LOGIC S.R.L."
+    },
+    {
+        "vatId": "00980691000",
+        "name": "L'ERMA DI BRETSCHNEIDER"
+    },
+    {
+        "vatId": "00992051003",
+        "name": "ORESTINI S.R.L"
+    },
+    {
+        "vatId": "00997120092",
+        "name": "ASSOCIAZIONE CULTURALE CORELLI"
+    },
+    {
+        "vatId": "00997940291",
+        "name": "PRE.FER. S.R.L."
+    },
+    {
+        "vatId": "00998190169",
+        "name": "INTERFIMEC"
+    },
+    {
+        "vatId": "01001050622",
+        "name": "COMPUTER e ...DI G.SALIERNO"
+    },
+    {
+        "vatId": "01006960296",
+        "name": "DIMENSIONE UFFICIO SRL"
+    },
+    {
+        "vatId": "01017400514",
+        "name": "TEKNO COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01018550994",
+        "name": "CEMA SRL"
+    },
+    {
+        "vatId": "01020630529",
+        "name": "ASSO TRAVEL NET SRL"
+    },
+    {
+        "vatId": "01023930421",
+        "name": "NEWBEETLE THEMA VIAGGI S.R.L."
+    },
+    {
+        "vatId": "01030540684",
+        "name": "BAKER HUGHES SRL"
+    },
+    {
+        "vatId": "01034470508",
+        "name": "S.T.E.A. DI BECUZZI A. & BIONDI S. "
+    },
+    {
+        "vatId": "01034640100",
+        "name": "S.C.S. INTERNATIONAL SRL"
+    },
+    {
+        "vatId": "01034700912",
+        "name": "OMNIA INFORMATICA SAS DI MASCIA N & C"
+    },
+    {
+        "vatId": "01035041001",
+        "name": "COPAG S.P.A."
+    },
+    {
+        "vatId": "01035300100",
+        "name": "ITALSCIENTIFICA"
+    },
+    {
+        "vatId": "01042020675",
+        "name": "ETTORRE SPORT di ETTORRE GIUSEPPE"
+    },
+    {
+        "vatId": "01042330074",
+        "name": "ROY DI RUGGERO TIRCOLI"
+    },
+    {
+        "vatId": "01042410405",
+        "name": "CIVIS AUGUSTUS SRL"
+    },
+    {
+        "vatId": "01044410627",
+        "name": "MEDIA UFFICIO SNC DI IALEGGIO MARCO E C."
+    },
+    {
+        "vatId": "01044550117",
+        "name": "Du-al di A. Durno & M. Mazzini Snc"
+    },
+    {
+        "vatId": "01044790952",
+        "name": "DITTA PUTZOLU SALVATORE S.A.S. DEI F.LLI PUTZOLU"
+    },
+    {
+        "vatId": "01046430078",
+        "name": "T.I.L.E. SRL"
+    },
+    {
+        "vatId": "01052460225",
+        "name": "FERRUZZI SERVIZI"
+    },
+    {
+        "vatId": "01052730296",
+        "name": "HULKA S.R.L."
+    },
+    {
+        "vatId": "01053300958",
+        "name": "AUTORICAMBI THARROS S R L"
+    },
+    {
+        "vatId": "01053440044",
+        "name": "INFORMATICA SYSTEM"
+    },
+    {
+        "vatId": "01054690217",
+        "name": "WURTH PHOENIX SRL"
+    },
+    {
+        "vatId": "01055540452",
+        "name": "COMPUTERLAND SERVICE SNC"
+    },
+    {
+        "vatId": "01055750333",
+        "name": "I.C.E.P.I. SPA"
+    },
+    {
+        "vatId": "01057220053",
+        "name": "GIOLITO L.  SANDRI D. SNC"
+    },
+    {
+        "vatId": "01058110162",
+        "name": "GRENA S.R.L."
+    },
+    {
+        "vatId": "01059840288",
+        "name": "TIPOGRAFIA NUOVA JOLLY DI BASTIANELLO IVANO"
+    },
+    {
+        "vatId": "01060680491",
+        "name": "DONATI SRL"
+    },
+    {
+        "vatId": "01061290506",
+        "name": "SERENA SCAVI SRL"
+    },
+    {
+        "vatId": "01062450430",
+        "name": "LASER UFFICIO"
+    },
+    {
+        "vatId": "01063960072",
+        "name": "C.R. DI CAPPARRONE ROSSANO"
+    },
+    {
+        "vatId": "01065030098",
+        "name": "Formento Filippo Carlo srl"
+    },
+    {
+        "vatId": "01065950444",
+        "name": "FORLINI SNC"
+    },
+    {
+        "vatId": "01069270211",
+        "name": "INFORMATION CONSULTING SRL"
+    },
+    {
+        "vatId": "01069730198",
+        "name": "Gian Medical di Antonio Sambussetti"
+    },
+    {
+        "vatId": "01071070229",
+        "name": "SARTORI SERGIO S.N.C. DI SARTORI FERNANDO, CRISTIAN E MARCELLO"
+    },
+    {
+        "vatId": "01073610576",
+        "name": "CBF SERVIZI SRL"
+    },
+    {
+        "vatId": "01074560077",
+        "name": "IVIES SPA"
+    },
+    {
+        "vatId": "01074860287",
+        "name": "VEDOVATO SNC"
+    },
+    {
+        "vatId": "01075450443",
+        "name": "OPI SRL"
+    },
+    {
+        "vatId": "01077010955",
+        "name": "ELETTROMEKANO snc"
+    },
+    {
+        "vatId": "01077360426",
+        "name": "DELTA UFFICIO SRL"
+    },
+    {
+        "vatId": "01081430405",
+        "name": "TECNOTEL SRL"
+    },
+    {
+        "vatId": "01083140382",
+        "name": "SONGEO SRL"
+    },
+    {
+        "vatId": "01083810307",
+        "name": "ELETTRO CASA DI PELLIZZARI A. & C. S.N.C."
+    },
+    {
+        "vatId": "01086790258",
+        "name": "DE BONA PADOVA S.R.L"
+    },
+    {
+        "vatId": "01091470391",
+        "name": "ARIMAR SPA"
+    },
+    {
+        "vatId": "01091610434",
+        "name": "IL FARO SOCIETA' COOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "01094800891",
+        "name": "FA.RM. ITALY"
+    },
+    {
+        "vatId": "01095090229",
+        "name": ""
+    },
+    {
+        "vatId": "01097800625",
+        "name": " PEGASO SRL SERVIZI FIDUCIARI"
+    },
+    {
+        "vatId": "01100510625",
+        "name": "TETA GIOVANNI"
+    },
+    {
+        "vatId": "01101860177",
+        "name": "MAGONI EUGENIO COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01101950176",
+        "name": "C.M.M. F.LLI RIZZI SRL"
+    },
+    {
+        "vatId": "01102830765",
+        "name": "CARDIOGAMMA S.R.L."
+    },
+    {
+        "vatId": "01103180582",
+        "name": " COMBUSTIBILI NUOVA PRENESTINA SRL"
+    },
+    {
+        "vatId": "01103530075",
+        "name": "EDILMARMORE SRL"
+    },
+    {
+        "vatId": "01105330458",
+        "name": "DETERSIFICIO BERTOZZI DI BERTOZZI GIULIO S.A.S."
+    },
+    {
+        "vatId": "01106410044",
+        "name": "EDILCEBANA S.R.L."
+    },
+    {
+        "vatId": "01106990078",
+        "name": "Decori & Colori di Perri A."
+    },
+    {
+        "vatId": "01110420294",
+        "name": "F. & G. di Ghidoni Devis S.r.l"
+    },
+    {
+        "vatId": "01113730442",
+        "name": "CANALIBUS"
+    },
+    {
+        "vatId": "01116620293",
+        "name": "OFF.RIP.NE TRATTORI V.M. DI VETTORELLO G"
+    },
+    {
+        "vatId": "01117460590",
+        "name": "NASA"
+    },
+    {
+        "vatId": "01119090544",
+        "name": "ELETTROMECCANICA B.L"
+    },
+    {
+        "vatId": "01130830431",
+        "name": "Abacus Informatica srl "
+    },
+    {
+        "vatId": "01138650286",
+        "name": "Tecnoresine SRL"
+    },
+    {
+        "vatId": "01147370439",
+        "name": "CO.STRE.M.di Meschini Geom. Michele"
+    },
+    {
+        "vatId": "01148010091",
+        "name": "ANALYTICA SRL"
+    },
+    {
+        "vatId": "01148670688",
+        "name": "ATHENA DOCET SOC. COOP."
+    },
+    {
+        "vatId": "01149150862",
+        "name": "EDILSUD SERVIZI DI C&V S.R.L."
+    },
+    {
+        "vatId": "01149210294",
+        "name": "CLE ELETTROMEDICALI srl"
+    },
+    {
+        "vatId": "01149760900",
+        "name": "FERRAMENTA CARBONI S.R.L."
+    },
+    {
+        "vatId": "01150470175",
+        "name": "ME-GAS SRL (MANDATARIA) - Via Cerese, 151 - 25031 Caprioli (Bs) in RTI con Troletti Andrea Severo di Troletti Ezio &amp; C. sas (MANDANTE) - VIA NAZIONALE 38 - NIARDO (BS) - C.F. 02061220170 P.I. 00698740986"
+    },
+    {
+        "vatId": "01152330542",
+        "name": "ONORANZE DI MASSOLI F.E.F. SNC CITTA' PIEVE"
+    },
+    {
+        "vatId": "01153560808",
+        "name": "INTERDATA CENTER S.O.S."
+    },
+    {
+        "vatId": "01153820210",
+        "name": "ERDBAU GMBH"
+    },
+    {
+        "vatId": "01155360322",
+        "name": ""
+    },
+    {
+        "vatId": "01157460104",
+        "name": "ATTILIO TRUCCO S R L"
+    },
+    {
+        "vatId": "01161380082",
+        "name": "NUOVA DIFFEL SNC DI MATTEI R. E RAVELLI M. & C."
+    },
+    {
+        "vatId": "01162350290",
+        "name": "COMPERIO S.R.L."
+    },
+    {
+        "vatId": "01164740191",
+        "name": "ANGELO ROSSI ASCENSORI SRL"
+    },
+    {
+        "vatId": "01167860038",
+        "name": "ELETTRO IMPIANTI S.R.L."
+    },
+    {
+        "vatId": "01169250063",
+        "name": "EDILCERAMICA SRL"
+    },
+    {
+        "vatId": "01170160889",
+        "name": "GIANNONE COMPUTERS SAS"
+    },
+    {
+        "vatId": "01171880428",
+        "name": "STUDIO PACINOTTI S.R.L."
+    },
+    {
+        "vatId": "01175320918",
+        "name": "Deplanu servizi turistici SNC"
+    },
+    {
+        "vatId": "01176840443",
+        "name": "PEGAS SRL"
+    },
+    {
+        "vatId": "01177330766",
+        "name": "SOGES COMPUTER"
+    },
+    {
+        "vatId": "01178470439",
+        "name": "COLMA"
+    },
+    {
+        "vatId": "01179300171",
+        "name": "MARKAS SRL"
+    },
+    {
+        "vatId": "01179400260",
+        "name": "F.LLI STEFANATO s.n.c."
+    },
+    {
+        "vatId": "01183900867",
+        "name": "ZUCCALA' TRAVELBUS"
+    },
+    {
+        "vatId": "01186640395",
+        "name": "CHARTA S.r.l."
+    },
+    {
+        "vatId": "01187340409",
+        "name": "AUTOLINEE BOLDRINI DI BOLDRINI & RAFAGNI SNC"
+    },
+    {
+        "vatId": "01191030210",
+        "name": "TIPOLITOGRAFIA ALTO ADIGE SNC"
+    },
+    {
+        "vatId": "01192930111",
+        "name": "F.I.D. BINETTI S.R.L."
+    },
+    {
+        "vatId": "01194160139",
+        "name": "CRIPPA ALESSANDRO"
+    },
+    {
+        "vatId": "01194800882",
+        "name": ""
+    },
+    {
+        "vatId": "01196430407",
+        "name": "ARCADIA EMME VIAGGI SAS"
+    },
+    {
+        "vatId": "01199780329",
+        "name": "LA GOLIARDICA S.A.S. "
+    },
+    {
+        "vatId": "01200240222",
+        "name": "LA MIA CAMICIA S.A.S. DI CONFORTI ARMANDA &amp; C."
+    },
+    {
+        "vatId": "01201690888",
+        "name": "Sikuel"
+    },
+    {
+        "vatId": "01202040216",
+        "name": "WEGER A., Druckerei, Buchhandlung, Papierhandlung"
+    },
+    {
+        "vatId": "01202720122",
+        "name": "L'NACONDA CCOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "01203550353",
+        "name": "INTERSYSTEM"
+    },
+    {
+        "vatId": "01203750292",
+        "name": "ESOFORM S.R.L."
+    },
+    {
+        "vatId": "01204110215",
+        "name": ""
+    },
+    {
+        "vatId": "01205050063",
+        "name": "PUNTO COPIA DI MUTTI ROBERTO"
+    },
+    {
+        "vatId": "01205080136",
+        "name": "LARIO LIBRI SRL"
+    },
+    {
+        "vatId": "01207360189",
+        "name": "LARIOLI ADRIANO"
+    },
+    {
+        "vatId": "01208470151",
+        "name": "srl"
+    },
+    {
+        "vatId": "01212570517",
+        "name": "TECEM DATA SISTEMI s.a.s."
+    },
+    {
+        "vatId": "01212750762",
+        "name": "ITAL FOR S.R.L.."
+    },
+    {
+        "vatId": "01218200465",
+        "name": "FALUI EXPRESS s.a.s. di CIARDINI Rossella & C."
+    },
+    {
+        "vatId": "01218990263",
+        "name": "Ecomarca s.r.l."
+    },
+    {
+        "vatId": "01222880492",
+        "name": "MIXPRO SRL"
+    },
+    {
+        "vatId": "01222920215",
+        "name": "Winkler GmbH"
+    },
+    {
+        "vatId": "01224570505",
+        "name": "CIMA TELEMATICA SRL"
+    },
+    {
+        "vatId": "01226370219",
+        "name": "TT SOLUTION S.N.C."
+    },
+    {
+        "vatId": "01226490462",
+        "name": "MARTINELLI IMPIANTI SRL"
+    },
+    {
+        "vatId": "01226710331",
+        "name": "EMILIA INFORMATICA"
+    },
+    {
+        "vatId": "01228580153",
+        "name": "FRANCOPOST MACCHINE AFFRANCATRICI"
+    },
+    {
+        "vatId": "01229290554",
+        "name": "UMBRIA COMPUTERS DI CASELLI CLAUDIO"
+    },
+    {
+        "vatId": "01232670552",
+        "name": "WELCARE INDUSTRIES S.P.A."
+    },
+    {
+        "vatId": "01233570215",
+        "name": "NORDBAU PESKOLLER GMBH"
+    },
+    {
+        "vatId": "01233800489",
+        "name": "All'insegna del Giglio sas"
+    },
+    {
+        "vatId": "01233850427",
+        "name": "LINEA LEADER"
+    },
+    {
+        "vatId": "01234540373",
+        "name": "T.G.R. SRL"
+    },
+    {
+        "vatId": "01241770997",
+        "name": "QUI GROUP"
+    },
+    {
+        "vatId": "01251900559",
+        "name": "ALHAMBRA S.R.L."
+    },
+    {
+        "vatId": "01252590466",
+        "name": "BUTORI SERAFINO SRL"
+    },
+    {
+        "vatId": "01252890296",
+        "name": "ESSEMME MULTIMEDIA SAS"
+    },
+    {
+        "vatId": "01256450386",
+        "name": "LUPPI ANDREA"
+    },
+    {
+        "vatId": "01259040242",
+        "name": "CENTRO CLICHES SNC DI GOBBO G.e C."
+    },
+    {
+        "vatId": "01261250029",
+        "name": "Soc. Coop. 'Il Picchio' a R.L."
+    },
+    {
+        "vatId": "01261820839",
+        "name": "PAM UFFICIO"
+    },
+    {
+        "vatId": "01262470667",
+        "name": "ASSUT EUROPE SPA"
+    },
+    {
+        "vatId": "01262530114",
+        "name": "GD SRL"
+    },
+    {
+        "vatId": "01263940288",
+        "name": "BELLETTI SRL"
+    },
+    {
+        "vatId": "01272170919",
+        "name": "C.L.M. SRL"
+    },
+    {
+        "vatId": "01274040227",
+        "name": "VAGLIA COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01277870620",
+        "name": "CRISCI SRL"
+    },
+    {
+        "vatId": "01279740136",
+        "name": "GRASSI UFFICIO S.A.S."
+    },
+    {
+        "vatId": "01283500401",
+        "name": "LA CONTABILITA"
+    },
+    {
+        "vatId": "01287770232",
+        "name": "ZEVIANI GASTONE SRL"
+    },
+    {
+        "vatId": "01288840505",
+        "name": "BACCIARELLI DAMIANO & C."
+    },
+    {
+        "vatId": "01291360806",
+        "name": "COPY SYSTEM SERVICE"
+    },
+    {
+        "vatId": "01296760059",
+        "name": "Electric-Service di Danilo BOCCACCIO"
+    },
+    {
+        "vatId": "01296820523",
+        "name": "M.S.C. Di Mori Massimo & C. Snc"
+    },
+    {
+        "vatId": "01299260362",
+        "name": "MEDIFLY SRL"
+    },
+    {
+        "vatId": "01299270833",
+        "name": "Iniziativa Viaggi"
+    },
+    {
+        "vatId": "01304400177",
+        "name": "DETERCHIMICA SRL"
+    },
+    {
+        "vatId": "01306470186",
+        "name": "MILDAS S.R.L."
+    },
+    {
+        "vatId": "01306980408",
+        "name": "DENTAL TREY S.R.L."
+    },
+    {
+        "vatId": "01316780426",
+        "name": "RAYS"
+    },
+    {
+        "vatId": "01317450094",
+        "name": "STUDIO SIT E LOCATION SERVICES"
+    },
+    {
+        "vatId": "01320741216",
+        "name": "EDIL CAVA SANTA MARIA LA BRUNA S.r.l."
+    },
+    {
+        "vatId": "01321040667",
+        "name": "P&P Automazioni e Sicurezza dei F.lli Pesce Srl"
+    },
+    {
+        "vatId": "01321400192",
+        "name": "CONSORZIO.IT S.R.L."
+    },
+    {
+        "vatId": "01322830090",
+        "name": "BM SOLUZIONI UFFICIO s.r.l."
+    },
+    {
+        "vatId": "01328610686",
+        "name": "TOP 20 SRL"
+    },
+    {
+        "vatId": "01328681216",
+        "name": "ELETTROLUX DI CAPOZZOLI GAETANINO &C"
+    },
+    {
+        "vatId": "01329940892",
+        "name": "SANTA BARBARA SRL"
+    },
+    {
+        "vatId": "01331330058",
+        "name": "SPESSA CALCESTRUZZI"
+    },
+    {
+        "vatId": "01336110034",
+        "name": "UNIASS SNC"
+    },
+    {
+        "vatId": "01336290851",
+        "name": "SA.FRA. S.R.L."
+    },
+    {
+        "vatId": "01338860065",
+        "name": "SIRE INFORMATICA"
+    },
+    {
+        "vatId": "01344240765",
+        "name": "PISANI  S.R.L."
+    },
+    {
+        "vatId": "01346340837",
+        "name": "EDS INFRASTRUTTURE S.P.A."
+    },
+    {
+        "vatId": "01348880061",
+        "name": "SAS GROUP S.P.A. - NOVI LIGURE (AL)"
+    },
+    {
+        "vatId": "01351740624",
+        "name": "TIME OUT srl"
+    },
+    {
+        "vatId": "01355250364",
+        "name": "TANZI  snc Edizioni Didattiche"
+    },
+    {
+        "vatId": "01356530285",
+        "name": "WINTECH SPA"
+    },
+    {
+        "vatId": "01357880028",
+        "name": "BRUNO SISTEMI SRL"
+    },
+    {
+        "vatId": "01358390431",
+        "name": "EUROCERT SRL"
+    },
+    {
+        "vatId": "01358690202",
+        "name": "SYSTEMCOPY SAS"
+    },
+    {
+        "vatId": "01362670281",
+        "name": "SISTEMA UFFICIO DI BERTO AMBROGIO"
+    },
+    {
+        "vatId": "01363990662",
+        "name": "ARTEDOMUS DI BIANCHI ONORINA ANTONELLA"
+    },
+    {
+        "vatId": "01364630218",
+        "name": "Bauunternehmen Roland Gufler"
+    },
+    {
+        "vatId": "01368720080",
+        "name": "UNOGAS ENERGIA S.P.A."
+    },
+    {
+        "vatId": "01369290471",
+        "name": "COOPERATIVA SOCIALE LA SPIGA DI GRANO - PIEVE A NIEVOLE"
+    },
+    {
+        "vatId": "01369830615",
+        "name": "NAM  Sr.l."
+    },
+    {
+        "vatId": "01370010033",
+        "name": "DYNACREN LAB. FARM. SRL "
+    },
+    {
+        "vatId": "01373530912",
+        "name": "EDIZIONI SOLINAS DI LAURA GIOVANNA SOLINAS"
+    },
+    {
+        "vatId": "01374490215",
+        "name": ""
+    },
+    {
+        "vatId": "01376350193",
+        "name": "PASSERI GIUSEPPE"
+    },
+    {
+        "vatId": "01380280444",
+        "name": "AGOSTINI S.r.l."
+    },
+    {
+        "vatId": "01381380037",
+        "name": "CAST DI ARIENTA STEFANO"
+    },
+    {
+        "vatId": "01382170783",
+        "name": "CHIAPPETTA FRANCESCO & C. S.N.C. TIPOGRAFIA CS"
+    },
+    {
+        "vatId": "01383240783",
+        "name": "TIPOLITOGRAFIA di Reggio Roberto & C. s.a.s."
+    },
+    {
+        "vatId": "01383340385",
+        "name": "SECOM SRL"
+    },
+    {
+        "vatId": "01383850995",
+        "name": "ARROW DIAGNOSTICS S.R.L."
+    },
+    {
+        "vatId": "01383950225",
+        "name": "FORATO CANCELLERIA SRL"
+    },
+    {
+        "vatId": "01385690407",
+        "name": "CO.RE.CA snc"
+    },
+    {
+        "vatId": "01389180033",
+        "name": "ELETTRASTUDIO SRL"
+    },
+    {
+        "vatId": "01390890026",
+        "name": "TRABALDO GINO SRL"
+    },
+    {
+        "vatId": "01392380547",
+        "name": "CEB Impianti"
+    },
+    {
+        "vatId": "01392770465",
+        "name": "NOVARTIS VACCINES AND DIAGNOSTICS SRL"
+    },
+    {
+        "vatId": "01398160661",
+        "name": "ERGOTEC S.R.L."
+    },
+    {
+        "vatId": "01398540037",
+        "name": "MAGGIORE FILADELFIO"
+    },
+    {
+        "vatId": "01399280997",
+        "name": "P.A. ECOLOGIA S.R.L."
+    },
+    {
+        "vatId": "01400140909",
+        "name": "Simec di Pietro Canalicchio & C. S.n.c."
+    },
+    {
+        "vatId": "01400180210",
+        "name": "Metall Ritten GmbH"
+    },
+    {
+        "vatId": "01401400625",
+        "name": "DAMIANI LIBRI SAS"
+    },
+    {
+        "vatId": "01403100355",
+        "name": "Ccre Spa"
+    },
+    {
+        "vatId": "01404380998",
+        "name": "SWITCH 1988 S.R.L."
+    },
+    {
+        "vatId": "01405310051",
+        "name": "NEW TECH INFORMATICA"
+    },
+    {
+        "vatId": "01408040218",
+        "name": "EL-COM GMBH"
+    },
+    {
+        "vatId": "01410250490",
+        "name": "ABC ELETTROIMPIANTI S.N.C. DI FABIO PANTANO & C."
+    },
+    {
+        "vatId": "01411181009",
+        "name": "Soc. \"tre S\" r.l."
+    },
+    {
+        "vatId": "01413690668",
+        "name": "MELCHIORRE DI ANDREA MELCHIORRE & C. S.N.C."
+    },
+    {
+        "vatId": "01415390358",
+        "name": "NUOVA MACUT"
+    },
+    {
+        "vatId": "01415850666",
+        "name": "ECODEPURA SRL"
+    },
+    {
+        "vatId": "01417910039",
+        "name": "L'HOBBISTA"
+    },
+    {
+        "vatId": "01419010168",
+        "name": "PUNTO RISTORAZIONE S.R.L."
+    },
+    {
+        "vatId": "01422170439",
+        "name": "SISTEMA 3"
+    },
+    {
+        "vatId": "01426410880",
+        "name": "AZIENDA SANITARIA PROVINCIALE DI RAGUSA"
+    },
+    {
+        "vatId": "01426500193",
+        "name": "LINEA GESTIONI S.R.L."
+    },
+    {
+        "vatId": "01429910183",
+        "name": "ASM"
+    },
+    {
+        "vatId": "01431210424",
+        "name": "EMMECINQUE PREFABBRICATI SRL"
+    },
+    {
+        "vatId": "01433030705",
+        "name": "TONER ITALIA"
+    },
+    {
+        "vatId": "01434300214",
+        "name": "CHEF ITALIA GMBH"
+    },
+    {
+        "vatId": "01435080211",
+        "name": "WÖRNDLE INTERSERVICE S.R.L"
+    },
+    {
+        "vatId": "01436910671",
+        "name": "MAIL EXPRESS POSTE PRIVATE"
+    },
+    {
+        "vatId": "01438330084",
+        "name": "RAPELLINI SRL"
+    },
+    {
+        "vatId": "01438900092",
+        "name": "EDINET S.R.L."
+    },
+    {
+        "vatId": "01439300508",
+        "name": "FORMATICA SRL"
+    },
+    {
+        "vatId": "01439630060",
+        "name": "PACE S.P.A."
+    },
+    {
+        "vatId": "01439860303",
+        "name": "SUPERMERCATO DEL LIBRO"
+    },
+    {
+        "vatId": "01441050034",
+        "name": "EXE OFFICE S.A.S."
+    },
+    {
+        "vatId": "01442550883",
+        "name": "DITTA DIMO"
+    },
+    {
+        "vatId": "01446360933",
+        "name": "ASSOCIAZIONE CULTURALE GRADIBA"
+    },
+    {
+        "vatId": "01446960476",
+        "name": "CENTRO TOSCANA CERTIFICAZIONI"
+    },
+    {
+        "vatId": "01450220668",
+        "name": "LIMACO S.R.L."
+    },
+    {
+        "vatId": "01451480931",
+        "name": "ECOLOGY GROUP"
+    },
+    {
+        "vatId": "01451640211",
+        "name": "OPITEC"
+    },
+    {
+        "vatId": "01456280625",
+        "name": "A2S S.R.L."
+    },
+    {
+        "vatId": "01461070094",
+        "name": "ME-SYS SRL"
+    },
+    {
+        "vatId": "01461740928",
+        "name": "COOPERATIVA Archeotur"
+    },
+    {
+        "vatId": "01464840212",
+        "name": "ELMI GMBH"
+    },
+    {
+        "vatId": "01467050181",
+        "name": "LABORATORIO FARMACEUTICO SIT"
+    },
+    {
+        "vatId": "01469160129",
+        "name": "FREEMAN EDITRICE S.A.S. DI ROSSINI VIT L & C."
+    },
+    {
+        "vatId": "01470640382",
+        "name": "SECURITY FIRE"
+    },
+    {
+        "vatId": "01471280162",
+        "name": "MEDIBERG SRL"
+    },
+    {
+        "vatId": "01471810497",
+        "name": "A & D SRL"
+    },
+    {
+        "vatId": "01472400462",
+        "name": "TIPOGRAFIA FRANCESCONI SNC"
+    },
+    {
+        "vatId": "01472590858",
+        "name": "EREDI MAROTTA SALVATORE DI MAROTTA CALOGERO GIOSUE' & C. S.A.S."
+    },
+    {
+        "vatId": "01491500425",
+        "name": "CSG FACILITY SOCIETA' COOPERATIVA"
+    },
+    {
+        "vatId": "01492340896",
+        "name": "EMMETEC ITALIA S.R.L."
+    },
+    {
+        "vatId": "01495070623",
+        "name": "FINANZIARIA MOLISANNIO SOCIETA' COOPERATIVA SOCIALE ONLUS"
+    },
+    {
+        "vatId": "01496840487",
+        "name": "SISTEMI S.N.C."
+    },
+    {
+        "vatId": "01498080900",
+        "name": "F.lli Testone di G.G.S. & M. S.n.c."
+    },
+    {
+        "vatId": "01498810280",
+        "name": "GIVAS"
+    },
+    {
+        "vatId": "01500790215",
+        "name": "Die Neue Südtiroler Tageszeitung"
+    },
+    {
+        "vatId": "01500900269",
+        "name": "CHELAB SRL"
+    },
+    {
+        "vatId": "01500950488",
+        "name": "VARVARITO LAVORI SRL"
+    },
+    {
+        "vatId": "01501420853",
+        "name": "MACROPHARM SRL"
+    },
+    {
+        "vatId": "01506620283",
+        "name": "CHINCHIO INDUSTRIA GRAFICA SPA"
+    },
+    {
+        "vatId": "01514100500",
+        "name": "TIPOGRAFIA EDITRICE PISANA SNC"
+    },
+    {
+        "vatId": "01514230349",
+        "name": "CASA MUSICALE VARESE S.R.L."
+    },
+    {
+        "vatId": "01516110168",
+        "name": "BETTONI S.P.A."
+    },
+    {
+        "vatId": "01519180200",
+        "name": "IKON SEGNALI"
+    },
+    {
+        "vatId": "01519730277",
+        "name": "I.S.L.E.M. SRL"
+    },
+    {
+        "vatId": "01520190479",
+        "name": "ECO-FUTURA SRL"
+    },
+    {
+        "vatId": "01521880128",
+        "name": "BIO DATA SNC di Lepori e Pani"
+    },
+    {
+        "vatId": "01523171005",
+        "name": "ARENA S.R.L."
+    },
+    {
+        "vatId": "01524090899",
+        "name": "ZICCONE AUTONOLEGGI S.R.L."
+    },
+    {
+        "vatId": "01524160288",
+        "name": "PICCIN NUOVA LIBRARIA S.P.A."
+    },
+    {
+        "vatId": "01524840087",
+        "name": "EMPORIUM"
+    },
+    {
+        "vatId": "01524840160",
+        "name": "CHIOMED S.A.S DI PERADOTTO MASSIMO & C."
+    },
+    {
+        "vatId": "01527360216",
+        "name": "FAMAS SYSTEM S.P.A."
+    },
+    {
+        "vatId": "01528410614",
+        "name": "ITALIANA COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01529220434",
+        "name": "EUROCARTA S.R.L."
+    },
+    {
+        "vatId": "01533770903",
+        "name": "GE.CO.MAR. S.R.L."
+    },
+    {
+        "vatId": "01534050461",
+        "name": "SMAI S.R.L."
+    },
+    {
+        "vatId": "01534190036",
+        "name": "ORA SYSTEM S.R.L."
+    },
+    {
+        "vatId": "01534670805",
+        "name": "EXELENTIA"
+    },
+    {
+        "vatId": "01534940612",
+        "name": "52285 - PUNTO SETTE SNC"
+    },
+    {
+        "vatId": "01536031204",
+        "name": "NIGELLI IMBALLAGGI SRL"
+    },
+    {
+        "vatId": "01537000026",
+        "name": "ATAP S.P.A."
+    },
+    {
+        "vatId": "01541660203",
+        "name": "ELETTROMECCANICA RIGO SNC"
+    },
+    {
+        "vatId": "01542150162",
+        "name": "PROMOBERG ENTE FIERA"
+    },
+    {
+        "vatId": "01543231219",
+        "name": "ANTICA FARMACIA MEDICEA"
+    },
+    {
+        "vatId": "01544900069",
+        "name": "SCAGLIOTTI GEOM. GIUSEPPE E C. SNC"
+    },
+    {
+        "vatId": "01554910446",
+        "name": "STUDIO GRAFICO INFOGRAF DI CUCCO FABIO"
+    },
+    {
+        "vatId": "01555340502",
+        "name": "SAM SRL"
+    },
+    {
+        "vatId": "01555420767",
+        "name": "AGENZIA EDITORIALE EPISTEME DI VINCENZO SCUCCIMARRA"
+    },
+    {
+        "vatId": "01556680302",
+        "name": "GALANTE DINO & C. S.N.C."
+    },
+    {
+        "vatId": "01559080211",
+        "name": "Von Pföstl & Helfer GmbH"
+    },
+    {
+        "vatId": "01559200272",
+        "name": "Reale Mutua Assicurazioni"
+    },
+    {
+        "vatId": "01561140219",
+        "name": ""
+    },
+    {
+        "vatId": "01562720670",
+        "name": "COSTRU. STRAD. ARMANDO DI ELEUTERIO SRLU"
+    },
+    {
+        "vatId": "01563990702",
+        "name": "COPYPRINT MOLISE"
+    },
+    {
+        "vatId": "01565370382",
+        "name": "SOENERGY"
+    },
+    {
+        "vatId": "01565950191",
+        "name": "ACIBI SRL"
+    },
+    {
+        "vatId": "01567810138",
+        "name": "CRONOS SRL"
+    },
+    {
+        "vatId": "01568980930",
+        "name": "DEFCON 5"
+    },
+    {
+        "vatId": "01569410150",
+        "name": "TECNOVETRO"
+    },
+    {
+        "vatId": "01573670666",
+        "name": "TEC.R.A.S. Soc.Coop."
+    },
+    {
+        "vatId": "01575030927",
+        "name": "Istituto di Vigilanza Notturna e Diurna di Cannas Bruno & C. s.n.c "
+    },
+    {
+        "vatId": "01575040983",
+        "name": "APAVE ITALIA C.P.M. SRL"
+    },
+    {
+        "vatId": "01576740920",
+        "name": "VARGIU FRANCESCO & C. S.a.S."
+    },
+    {
+        "vatId": "01577330903",
+        "name": "BANCO DI SARDEGNA"
+    },
+    {
+        "vatId": "01578540021",
+        "name": "EDILFORNITURE FLLI GARBACCIO"
+    },
+    {
+        "vatId": "01579560283",
+        "name": "C.I.D.A. SRL"
+    },
+    {
+        "vatId": "01583680499",
+        "name": "LIVORNO CITYSEEING S.R.L."
+    },
+    {
+        "vatId": "01584650178",
+        "name": "CARP MET SALVETTI E C SNC"
+    },
+    {
+        "vatId": "01586980243",
+        "name": "LUIGI LIEVORE SRL"
+    },
+    {
+        "vatId": "01587600337",
+        "name": "BELLS SRL"
+    },
+    {
+        "vatId": "01588170066",
+        "name": "BAGNARINO S.R.L."
+    },
+    {
+        "vatId": "01589290061",
+        "name": "COMPUBAR SYSTEM SAS"
+    },
+    {
+        "vatId": "01590580443",
+        "name": "SIGMA SPA"
+    },
+    {
+        "vatId": "01592850935",
+        "name": "TS General Service Srl"
+    },
+    {
+        "vatId": "01593590605",
+        "name": "ITA SRL"
+    },
+    {
+        "vatId": "01594740761",
+        "name": "SATRIANO s.r.l."
+    },
+    {
+        "vatId": "01596220093",
+        "name": "TRIPI COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01596550135",
+        "name": ""
+    },
+    {
+        "vatId": "01597140282",
+        "name": "SEI EMG S.R.L."
+    },
+    {
+        "vatId": "01600610891",
+        "name": "LUCIANO CATANIA S.R.L."
+    },
+    {
+        "vatId": "01603000215",
+        "name": "ewo GmbH"
+    },
+    {
+        "vatId": "01605560927",
+        "name": "FOR.ME.S. DI CARDONI CARLO & C. SAS"
+    },
+    {
+        "vatId": "01606120614",
+        "name": "IMPRESA VELLA SALVATORE"
+    },
+    {
+        "vatId": "01606751004",
+        "name": "BECTHON DIVSIONE MEDICA SRL"
+    },
+    {
+        "vatId": "01608370233",
+        "name": "REPRO UFFICIO SRL"
+    },
+    {
+        "vatId": "01612040343",
+        "name": "CSA SRL"
+    },
+    {
+        "vatId": "01613110400",
+        "name": "CHIMICART S.R.L."
+    },
+    {
+        "vatId": "01613700275",
+        "name": "BIOMEDICAL SERVICE SRL"
+    },
+    {
+        "vatId": "01616780407",
+        "name": "TECNOCONTROL S.A.S. DI BRUSCHI ANDREA & C."
+    },
+    {
+        "vatId": "01616950182",
+        "name": "Gamma Servizi S.r.l."
+    },
+    {
+        "vatId": "01616960181",
+        "name": "SINDACAL SERVICE"
+    },
+    {
+        "vatId": "01622780060",
+        "name": "ESAOTE SPA"
+    },
+    {
+        "vatId": "01633350937",
+        "name": "ATIS SRL"
+    },
+    {
+        "vatId": "01634070435",
+        "name": "REMATARLAZZI SPA"
+    },
+    {
+        "vatId": "01634650996",
+        "name": "Eca Sindel s.r.l."
+    },
+    {
+        "vatId": "01635040478",
+        "name": "GIOPPINS TOUR OPERATOR S.r.l."
+    },
+    {
+        "vatId": "01638880441",
+        "name": "COMPUTER MANIA SRL"
+    },
+    {
+        "vatId": "01641590136",
+        "name": "SERIM SRL"
+    },
+    {
+        "vatId": "01641760515",
+        "name": "Diesis Teatrango soc. coop."
+    },
+    {
+        "vatId": "01643660853",
+        "name": "MILLE E PIU` S.R.L."
+    },
+    {
+        "vatId": "01643930934",
+        "name": "AMG ASCENSORI s.r.l."
+    },
+    {
+        "vatId": "01644780361",
+        "name": "MESCHIARI UFFICIO S.R.L."
+    },
+    {
+        "vatId": "01645130368",
+        "name": "ASFALTI ZANIBONI SAS DI ZANIBONI ALDO & C."
+    },
+    {
+        "vatId": "01648900213",
+        "name": "Larcher KG der Larcher Ingrid & Co Obstplatz 3 39100 Bozen BZ"
+    },
+    {
+        "vatId": "01648950226",
+        "name": "Azienza Multiservizi Rovereto"
+    },
+    {
+        "vatId": "01650770306",
+        "name": "STUDIO 3P ASSOCIATO"
+    },
+    {
+        "vatId": "01652220664",
+        "name": "GIULIANI VALERIO"
+    },
+    {
+        "vatId": "01652520022",
+        "name": "STUDIO BESUTTI CARTA COMOGLIO"
+    },
+    {
+        "vatId": "01652870211",
+        "name": "BAUBÜRO INGENIEURGEMEINSCHAFT"
+    },
+    {
+        "vatId": "01654260049",
+        "name": "CEM - COOPERATIVA EDITRICE MONREGALESE S.C.R.L."
+    },
+    {
+        "vatId": "01659620403",
+        "name": "LITOGRAFIA EREDI MARGELLONI STEFANO S.R.L."
+    },
+    {
+        "vatId": "01660101203",
+        "name": "ZAMARIAN DAVIDE GEOMETRA"
+    },
+    {
+        "vatId": "01661410678",
+        "name": "ETTORRE GOMME S.R.L."
+    },
+    {
+        "vatId": "01664240486",
+        "name": "SAEET S.P.A."
+    },
+    {
+        "vatId": "01670090560",
+        "name": "GLOBAL SERVICE snc"
+    },
+    {
+        "vatId": "01671750402",
+        "name": "TIPOLITOGRAFIA CASADEI E C. SNC"
+    },
+    {
+        "vatId": "01672880406",
+        "name": "ANTINCENDIO E SICUREZZA"
+    },
+    {
+        "vatId": "01679440519",
+        "name": "DIMENSIONE ELETTRONICA S.R.L."
+    },
+    {
+        "vatId": "01679980159",
+        "name": "PALL ITALIA"
+    },
+    {
+        "vatId": "01682080369",
+        "name": "IDEALTOURS DUE SNC"
+    },
+    {
+        "vatId": "01686500461",
+        "name": "AltaVersilia Viaggi"
+    },
+    {
+        "vatId": "01689290607",
+        "name": "GIMA INDUSTRIA SRL"
+    },
+    {
+        "vatId": "01689440764",
+        "name": "LA CARTOTECNICA SRL"
+    },
+    {
+        "vatId": "01691720468",
+        "name": "DIRSCUOLA Soc. Coop. a r.l."
+    },
+    {
+        "vatId": "01692910274",
+        "name": "MIRANO IMPIANTI SRL"
+    },
+    {
+        "vatId": "01695550812",
+        "name": "CENTRO AUTOMAZIONE UFFICI SNC"
+    },
+    {
+        "vatId": "01698911003",
+        "name": ""
+    },
+    {
+        "vatId": "01699520159",
+        "name": ""
+    },
+    {
+        "vatId": "01702340355",
+        "name": "REVERBERI ENETEC SRL"
+    },
+    {
+        "vatId": "01703790061",
+        "name": "E.L.C.I.  SOC. COOP. A R.L. IMPIANTI ELETTRICI"
+    },
+    {
+        "vatId": "01704400124",
+        "name": "CITY SERVICE COOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "01708990443",
+        "name": "C.C.C.P. SRL"
+    },
+    {
+        "vatId": "01717730210",
+        "name": "ASM BRESSANONE SPA"
+    },
+    {
+        "vatId": "01718201005",
+        "name": "ANCITEL"
+    },
+    {
+        "vatId": "01719470609",
+        "name": "FINELLI ARREDAMENTI DI FINELLI PIERLUIGI"
+    },
+    {
+        "vatId": "01720710993",
+        "name": "STUDIO MUNARI E ASSOCIATI - DR. GIRELLI ALESSADRO"
+    },
+    {
+        "vatId": "01721040440",
+        "name": "ALFAMED SRL"
+    },
+    {
+        "vatId": "01721450136",
+        "name": "SELVA MERCURIO"
+    },
+    {
+        "vatId": "01723610216",
+        "name": ""
+    },
+    {
+        "vatId": "01724990187",
+        "name": "DI.RU.SVO SNC"
+    },
+    {
+        "vatId": "01726550849",
+        "name": "Libreria Pirola Maggioli di Tedesco Maria"
+    },
+    {
+        "vatId": "01728600469",
+        "name": "GARFAGNANA REVISIONI"
+    },
+    {
+        "vatId": "01729680031",
+        "name": "WHITE TECHNOLOGY DI BIANCHI CESARE"
+    },
+    {
+        "vatId": "01730441001",
+        "name": "ANICIA SRL"
+    },
+    {
+        "vatId": "01732130214",
+        "name": "Alpin Geologie"
+    },
+    {
+        "vatId": "01733130676",
+        "name": "FAN BAR WATER SOLUTION SRL"
+    },
+    {
+        "vatId": "01740480023",
+        "name": "SALSI CELESTINO E C. S.N.C."
+    },
+    {
+        "vatId": "01743040063",
+        "name": "DEMO"
+    },
+    {
+        "vatId": "01747130670",
+        "name": "A.I.C. BROKER SRL"
+    },
+    {
+        "vatId": "01747140232",
+        "name": "FLOWER GLOVES SRL"
+    },
+    {
+        "vatId": "01748300900",
+        "name": "PROMOZIONE DIDATTICA EDITORIALE S.R.L. DI CARLO MURA"
+    },
+    {
+        "vatId": "01749120893",
+        "name": "ASS.NE MADE SICILY DI ABBRUZZO ELEONORA"
+    },
+    {
+        "vatId": "01750350785",
+        "name": "TEN"
+    },
+    {
+        "vatId": "01751011006",
+        "name": "A R A  ANTINCENDIO SNC"
+    },
+    {
+        "vatId": "01754050878",
+        "name": "DITTA GALATI ANTONINO"
+    },
+    {
+        "vatId": "01754270039",
+        "name": "DRESCO COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01754430989",
+        "name": "TRASPORTO E VISITA MUSEO DELLA SCIENZA E DELLA TECNICA DEL 09/12/2014"
+    },
+    {
+        "vatId": "01754800512",
+        "name": "Autonoleggi Vestri Irade snc"
+    },
+    {
+        "vatId": "01755150214",
+        "name": "TECHNO SYSTEMS ITALIA SRL"
+    },
+    {
+        "vatId": "01755570437",
+        "name": "LIBRAM - LIBRERIA ANTIQUARIA MARCHIGIANA"
+    },
+    {
+        "vatId": "01758800161",
+        "name": "FKV S.R.L."
+    },
+    {
+        "vatId": "01766910226",
+        "name": "RESET S.R.L."
+    },
+    {
+        "vatId": "01770060224",
+        "name": "Studio Azzali s.n.c."
+    },
+    {
+        "vatId": "01772930663",
+        "name": "GRAN SASSO ENERGIE SRL"
+    },
+    {
+        "vatId": "01773710171",
+        "name": "D.I.C.A.T.A.M."
+    },
+    {
+        "vatId": "01774020562",
+        "name": "srl"
+    },
+    {
+        "vatId": "01774420796",
+        "name": "EDITORIALE '91 S.C.R.L."
+    },
+    {
+        "vatId": "01774500159",
+        "name": "F.LLI GAGIANESI"
+    },
+    {
+        "vatId": "01776680785",
+        "name": "MURANO NATALE"
+    },
+    {
+        "vatId": "01779700242",
+        "name": "BATTAGLIN COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "01781130289",
+        "name": "GN HEARING ITALIA SRL"
+    },
+    {
+        "vatId": "01785020049",
+        "name": "STUDIO INFORMATICA  TELEMATICA DI MINA BARTOLOMEO"
+    },
+    {
+        "vatId": "01786660470",
+        "name": "OLEODINAMICA TOSCANA SRL"
+    },
+    {
+        "vatId": "01791170853",
+        "name": "VALENZA COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "01793120682",
+        "name": "AGENZIA NAZIONALE SICUREZZA SUL LAVORO"
+    },
+    {
+        "vatId": "01793820166",
+        "name": "AUTOSERVIZI MARIO SONZOGNI SRL"
+    },
+    {
+        "vatId": "01794050151",
+        "name": "LP ITALIANA S.P.A."
+    },
+    {
+        "vatId": "01798020739",
+        "name": "JET SRL"
+    },
+    {
+        "vatId": "01800480798",
+        "name": "ESPOSITO VIAGGI"
+    },
+    {
+        "vatId": "01802830842",
+        "name": "MOSEDIL S.R.L."
+    },
+    {
+        "vatId": "01804720694",
+        "name": "ALICOM  SRL"
+    },
+    {
+        "vatId": "01806140347",
+        "name": "VEMA S.A.S. DI MIODINI ALBERTO  & C."
+    },
+    {
+        "vatId": "01815290612",
+        "name": "HYDROGEO SRL"
+    },
+    {
+        "vatId": "01815700404",
+        "name": " DAMIR VIAGGI SAS"
+    },
+    {
+        "vatId": "01816330383",
+        "name": "AMMINISTRATORI DI SISTEMA S.R.L."
+    },
+    {
+        "vatId": "01821180047",
+        "name": "IL PODIO"
+    },
+    {
+        "vatId": "01823150261",
+        "name": "PLAY SPORT"
+    },
+    {
+        "vatId": "01824540049",
+        "name": "MEINERI EZIO"
+    },
+    {
+        "vatId": "01825680489",
+        "name": "Project s.r.l. Sistemi Informativi"
+    },
+    {
+        "vatId": "01826420927",
+        "name": "ANGIOLOGICA B.M. SRL"
+    },
+    {
+        "vatId": "01827230226",
+        "name": "MOAR"
+    },
+    {
+        "vatId": "01827690130",
+        "name": "srl"
+    },
+    {
+        "vatId": "01829390069",
+        "name": "EUROSERVIZI SAS"
+    },
+    {
+        "vatId": "01829680220",
+        "name": "DEXIT s.r.l."
+    },
+    {
+        "vatId": "01831070519",
+        "name": "GRUPPO TECNOCOPY"
+    },
+    {
+        "vatId": "01831350408",
+        "name": "SND  di Bettini Patrik"
+    },
+    {
+        "vatId": "01832580979",
+        "name": "FRATELLI MAGNI SRL"
+    },
+    {
+        "vatId": "01836980365",
+        "name": "MARR S.P.A."
+    },
+    {
+        "vatId": "01837100906",
+        "name": "D.L.A. DI DETTORI AGNESE"
+    },
+    {
+        "vatId": "01837270188",
+        "name": "EDIL TRE ELLE- COSTRUZIONI GENERALI s.p.a."
+    },
+    {
+        "vatId": "01837320207",
+        "name": "GIALDI"
+    },
+    {
+        "vatId": "01844660850",
+        "name": "IMPRESA BELLANCA SRL"
+    },
+    {
+        "vatId": "01844870244",
+        "name": "GI ERRE"
+    },
+    {
+        "vatId": "01846120341",
+        "name": "CUTRI' SRL"
+    },
+    {
+        "vatId": "01846710364",
+        "name": "RI.MOS SRL"
+    },
+    {
+        "vatId": "01850150168",
+        "name": "C.A.T. S.N.C."
+    },
+    {
+        "vatId": "01851630903",
+        "name": "Formula S.r.l."
+    },
+    {
+        "vatId": "01854500350",
+        "name": "KARISMEDICA"
+    },
+    {
+        "vatId": "01856240856",
+        "name": "CER.MED s.r.l."
+    },
+    {
+        "vatId": "01860580305",
+        "name": "FAE SRL"
+    },
+    {
+        "vatId": "01866280645",
+        "name": "TECNOLOGICA"
+    },
+    {
+        "vatId": "01866580812",
+        "name": "MEMOGRAPH"
+    },
+    {
+        "vatId": "01868790849",
+        "name": " Agenzia di stampa ITALPRESS srl"
+    },
+    {
+        "vatId": "01868941004",
+        "name": "B!"
+    },
+    {
+        "vatId": "01870320130",
+        "name": "EL.SIC S.R.L."
+    },
+    {
+        "vatId": "01870950308",
+        "name": "COSMOTEATRO"
+    },
+    {
+        "vatId": "01876940741",
+        "name": "Ciccimarra Carlo e Figli SRL"
+    },
+    {
+        "vatId": "01877340123",
+        "name": "AUTOSERVIZI BELTRAMINI & GIANOLI SRL"
+    },
+    {
+        "vatId": "01878420668",
+        "name": "WITEL srl TRASACCO p.iva 01878420668"
+    },
+    {
+        "vatId": "01879550547",
+        "name": ""
+    },
+    {
+        "vatId": "01881560641",
+        "name": "PICARIELLO GRIDO"
+    },
+    {
+        "vatId": "01888170618",
+        "name": "Espurghi San Nicola srl"
+    },
+    {
+        "vatId": "01889340137",
+        "name": "ATENA INFORMATICA SRL"
+    },
+    {
+        "vatId": "01892520675",
+        "name": "GRUPPO QUARTIGLIA SAS DI A. QUARTIGLIA E C."
+    },
+    {
+        "vatId": "01892730308",
+        "name": "AREA SPORT DI PIVIDORI D. & C. SNC"
+    },
+    {
+        "vatId": "01894660016",
+        "name": "MARIETTA ALDO AUTOSERVIZI"
+    },
+    {
+        "vatId": "01899190282",
+        "name": "LIBRERIA GREGORIANA ESTENSE"
+    },
+    {
+        "vatId": "01900880160",
+        "name": "HW STYLE SRL"
+    },
+    {
+        "vatId": "01904540463",
+        "name": "COSTRUIRE SRL"
+    },
+    {
+        "vatId": "01904930268",
+        "name": "COOPERATIVA SOCIALE PRIMAVERA SOCIETA' COOPERATIVA SOCIALE ONLUS"
+    },
+    {
+        "vatId": "01906510134",
+        "name": "PINA STEFANGELO"
+    },
+    {
+        "vatId": "01907510927",
+        "name": "SARDA COMPUTING"
+    },
+    {
+        "vatId": "01908850447",
+        "name": "GIOCONDI strumenti musicali"
+    },
+    {
+        "vatId": "01912530688",
+        "name": "PRODIELLE SRL"
+    },
+    {
+        "vatId": "01912710447",
+        "name": "INK-JET LASER S.N.C."
+    },
+    {
+        "vatId": "01915410516",
+        "name": "ESAFARMA"
+    },
+    {
+        "vatId": "01922280548",
+        "name": "CRIMO ITALIA"
+    },
+    {
+        "vatId": "01922510464",
+        "name": "PROMO P.A. FONDAZIONE"
+    },
+    {
+        "vatId": "01925561209",
+        "name": "Costruzioni Linee Ferroviarie C.L.F. Spa"
+    },
+    {
+        "vatId": "01928900230",
+        "name": "COMITEL SRL"
+    },
+    {
+        "vatId": "01932240409",
+        "name": "\"Il Millepiedi\" Cooperativa Sociale a.r.l."
+    },
+    {
+        "vatId": "01933201202",
+        "name": ""
+    },
+    {
+        "vatId": "01935360485",
+        "name": "SESTOTERMO SRL"
+    },
+    {
+        "vatId": "01935701209",
+        "name": "COOPERATIVA SOCIALE IL MOSAICO"
+    },
+    {
+        "vatId": "01938090303",
+        "name": "MITRI ALESSANDRO & C. SAS"
+    },
+    {
+        "vatId": "01939150023",
+        "name": "Consorzio Sociale Orizzonti - Via Piacenza,n. 11 - 13900 Biella"
+    },
+    {
+        "vatId": "01940020504",
+        "name": "AES SMONTAGGI S.R.L."
+    },
+    {
+        "vatId": "01940910175",
+        "name": "IMPI SRL"
+    },
+    {
+        "vatId": "01941790063",
+        "name": "ALLEGRI SRL-SERRAVALLE SCRIVIA(AL)"
+    },
+    {
+        "vatId": "01943160547",
+        "name": "CASSE DI RISPARMIO DELL'UMBRIA"
+    },
+    {
+        "vatId": "01943170207",
+        "name": "CAF ACLI SERVICE MANTOVA SRL"
+    },
+    {
+        "vatId": "01947020713",
+        "name": "MECCANICA INDUSTRIALE ROMOLO DI NUNZIO S.R.L."
+    },
+    {
+        "vatId": "01947670921",
+        "name": "TRE EFFECI DI FRAU VALTER & C. S.N.C."
+    },
+    {
+        "vatId": "01949000309",
+        "name": "EDILVERDE SRL"
+    },
+    {
+        "vatId": "01949570186",
+        "name": "ADAVASTRO & ASSOCIATI STUDIO LEGALE"
+    },
+    {
+        "vatId": "01950320547",
+        "name": "GRAFICHE MILLEFIORINI"
+    },
+    {
+        "vatId": "01952630356",
+        "name": "IDROTER SNC DI BARONI WALTER, GIANNASI GIAMBATTISTA"
+    },
+    {
+        "vatId": "01956380685",
+        "name": "D&D ARTI GRAFICHE SNC"
+    },
+    {
+        "vatId": "01960980280",
+        "name": "HUMANA MEDICAL SRL"
+    },
+    {
+        "vatId": "01961740618",
+        "name": "IDROECO"
+    },
+    {
+        "vatId": "01962560023",
+        "name": "2000NET SRL"
+    },
+    {
+        "vatId": "01965030461",
+        "name": "Fenice Impresa s.r.l."
+    },
+    {
+        "vatId": "01965100348",
+        "name": "SYGEST S.R.L."
+    },
+    {
+        "vatId": "01967320035",
+        "name": "RONCHI SCAVI"
+    },
+    {
+        "vatId": "01982690248",
+        "name": "ECOFER POZZATO S.R.L."
+    },
+    {
+        "vatId": "01987830245",
+        "name": "PULISTRADE SRL"
+    },
+    {
+        "vatId": "01990240135",
+        "name": "GOLDEN S.R.L."
+    },
+    {
+        "vatId": "01990390062",
+        "name": "WARM-UP DI CIRCOSTA,ROGGERO E C.SNC"
+    },
+    {
+        "vatId": "01990920546",
+        "name": "SOPRA IL MURO SOC. COOP. SOCIALE"
+    },
+    {
+        "vatId": "02003760283",
+        "name": "Zin Guglielmo e Fausto di Zin M & A snc"
+    },
+    {
+        "vatId": "02008520286",
+        "name": "GALIAZZO BRUNO S.N.C."
+    },
+    {
+        "vatId": "02009890209",
+        "name": "VIRGILIANA CONSULTING S.R.L."
+    },
+    {
+        "vatId": "02013090424",
+        "name": "FILIPPETTI SPA"
+    },
+    {
+        "vatId": "02013490426",
+        "name": ""
+    },
+    {
+        "vatId": "02015060698",
+        "name": "COGAS PIU'"
+    },
+    {
+        "vatId": "02016870061",
+        "name": "CARMI E UBERTIS CASALE SRL"
+    },
+    {
+        "vatId": "02019500186",
+        "name": "AEB SOLUTIONS S.R.L."
+    },
+    {
+        "vatId": "02019900543",
+        "name": "ISOLA COOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "02019960398",
+        "name": "BUSINESS-E"
+    },
+    {
+        "vatId": "02021940982",
+        "name": "EURO MEC SRL"
+    },
+    {
+        "vatId": "02023710995",
+        "name": "AVELCO WEB SRL"
+    },
+    {
+        "vatId": "02024670172",
+        "name": "DIFFUSIONE EDITORIALE BRESCIANA"
+    },
+    {
+        "vatId": "02025590817",
+        "name": "COMPUTER TECHNOLOGIES S.R.L."
+    },
+    {
+        "vatId": "02027070131",
+        "name": "EDILIZIA PALO"
+    },
+    {
+        "vatId": "02027320270",
+        "name": "Masiero Gino & Figli s.r.l."
+    },
+    {
+        "vatId": "02027571203",
+        "name": "LAERDAL MEDICAL AS"
+    },
+    {
+        "vatId": "02029130693",
+        "name": "VASTARREDO S.R.L."
+    },
+    {
+        "vatId": "02037150238",
+        "name": "AP PROMOTION SNC"
+    },
+    {
+        "vatId": "02041870904",
+        "name": "LOVISI SRL"
+    },
+    {
+        "vatId": "02043050372",
+        "name": "A.S.C.A. AUTOFFICINA S.A.S DI P.ATZORI E C."
+    },
+    {
+        "vatId": "02046440513",
+        "name": "TIEMME S.P.A."
+    },
+    {
+        "vatId": "02046570426",
+        "name": "NAMIRIAL S.P.A."
+    },
+    {
+        "vatId": "02047620691",
+        "name": "P.M. IMPIANTI ELETTRICI SRL"
+    },
+    {
+        "vatId": "02048890814",
+        "name": "ARREDI PER UFFICIO DI ARCERI BRUNA & C. SAS"
+    },
+    {
+        "vatId": "02051160816",
+        "name": "BARBARA GIUSEPPE"
+    },
+    {
+        "vatId": "02052830029",
+        "name": "ENRICO COLOMBO SPA"
+    },
+    {
+        "vatId": "02055200741",
+        "name": "TECNOGAL SERVICE SRL"
+    },
+    {
+        "vatId": "02058850013",
+        "name": "TELECONTROL VIGILANZA S.P.A."
+    },
+    {
+        "vatId": "02059430906",
+        "name": "SINUARIA Società Cooperativa"
+    },
+    {
+        "vatId": "02060030687",
+        "name": "SADEL MEDICA S.R.L.S. UNIPERSONALE"
+    },
+    {
+        "vatId": "02060030901",
+        "name": "UNIPOLSAI ASSICURAZIONI"
+    },
+    {
+        "vatId": "02062680612",
+        "name": "I.C.I. IMPRESA COSTRUZIONI INDUSTRIALI"
+    },
+    {
+        "vatId": "02063170738",
+        "name": "GLIM VIAGGI S.R.L."
+    },
+    {
+        "vatId": "02064190289",
+        "name": "RAGAZZO Srl"
+    },
+    {
+        "vatId": "02065130714",
+        "name": "SIMONE E D'ERRICO SRL"
+    },
+    {
+        "vatId": "02066700978",
+        "name": "GIGLIO SRL"
+    },
+    {
+        "vatId": "02066950748",
+        "name": "F.LLI SUMERANO S.N.C. OSTUNI"
+    },
+    {
+        "vatId": "02070900283",
+        "name": "CORVALLIS SPA"
+    },
+    {
+        "vatId": "02072910272",
+        "name": "OFFICINA C.C.C. DI FERRARESE CARLO"
+    },
+    {
+        "vatId": "02076770516",
+        "name": "CVC SRL"
+    },
+    {
+        "vatId": "02080591205",
+        "name": "C.KONTRACT SRL"
+    },
+    {
+        "vatId": "02080670017",
+        "name": "AUTOSERVIZI VIAGGI F.LLI MUNARO (VI.MU) S.n.c. di Munaro Lorenzo e Riccardo"
+    },
+    {
+        "vatId": "02082300548",
+        "name": ""
+    },
+    {
+        "vatId": "02085540926",
+        "name": "CO.& BI. SRL"
+    },
+    {
+        "vatId": "02087100273",
+        "name": "SQUILLANTE FELICE"
+    },
+    {
+        "vatId": "02087510646",
+        "name": "PENNA VIAGGI"
+    },
+    {
+        "vatId": "02088360066",
+        "name": "A.T. S.R.L."
+    },
+    {
+        "vatId": "02088860511",
+        "name": "NEXT DUEPUNTOZERO SRL"
+    },
+    {
+        "vatId": "02089271205",
+        "name": "3A SISTEMI SRL"
+    },
+    {
+        "vatId": "02091490066",
+        "name": "LAZZARIN DI CATTARIN FABRIZIO S.R.L."
+    },
+    {
+        "vatId": "02092181201",
+        "name": "CULLIGAN B.W. SRL"
+    },
+    {
+        "vatId": "02093720429",
+        "name": "AARSMED"
+    },
+    {
+        "vatId": "02097900837",
+        "name": "PRESTI S.R.L."
+    },
+    {
+        "vatId": "02101770606",
+        "name": "MORRA SRL"
+    },
+    {
+        "vatId": "02102821002",
+        "name": ""
+    },
+    {
+        "vatId": "02103960908",
+        "name": "SOC. SOCIALE ARL LACHESOS"
+    },
+    {
+        "vatId": "02105980037",
+        "name": "CASA VIVA SRL"
+    },
+    {
+        "vatId": "02106510122",
+        "name": "C.I.P.E. SRL"
+    },
+    {
+        "vatId": "02111231003",
+        "name": "ROTOFORM S.R.L."
+    },
+    {
+        "vatId": "02114490309",
+        "name": "DI PIAZZA VANTE S.R.L."
+    },
+    {
+        "vatId": "02117920906",
+        "name": "PROGETTI D'UFFICIO S.R.L."
+    },
+    {
+        "vatId": "02119870208",
+        "name": "TEAACQUE SRL"
+    },
+    {
+        "vatId": "02125100160",
+        "name": "KCS CAREGIVER COOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "02125341004",
+        "name": "ENPA"
+    },
+    {
+        "vatId": "02126260062",
+        "name": "ANTAS SRL"
+    },
+    {
+        "vatId": "02132390424",
+        "name": "TECNOUFFICIO SRL"
+    },
+    {
+        "vatId": "02135310486",
+        "name": ""
+    },
+    {
+        "vatId": "02136220759",
+        "name": "GIANNOCCARO COSTRUZIONI STRADALI SAS"
+    },
+    {
+        "vatId": "02138650599",
+        "name": "EURO SCAVI 2003 SRL"
+    },
+    {
+        "vatId": "02144660343",
+        "name": "SERVIZI ITALIA S.P.A."
+    },
+    {
+        "vatId": "02145510414",
+        "name": "LORISYSTEM EUROPE"
+    },
+    {
+        "vatId": "02145541005",
+        "name": "CEIDA SRL"
+    },
+    {
+        "vatId": "02146250515",
+        "name": "ASTRA ELETTRONICA S.R.L."
+    },
+    {
+        "vatId": "02146990185",
+        "name": "STRADE E SERVIZI SRL"
+    },
+    {
+        "vatId": "02149930600",
+        "name": "REALI s.r.l."
+    },
+    {
+        "vatId": "02152550261",
+        "name": "DALLE PASQUALINE ANTONIO"
+    },
+    {
+        "vatId": "02152610784",
+        "name": "CAM HOSPITAL SRL"
+    },
+    {
+        "vatId": "02155320720",
+        "name": "ARIETE SOC. COOP."
+    },
+    {
+        "vatId": "02160210221",
+        "name": "Edutech S.r.l."
+    },
+    {
+        "vatId": "02162160812",
+        "name": "ID.EL. IMPIANTI di Basile G."
+    },
+    {
+        "vatId": "02163320308",
+        "name": "FORSER - FORMAZIONE E SERVIZI PER LA PUBBLICA AMMINISTRAZIONE"
+    },
+    {
+        "vatId": "02169920036",
+        "name": "AKRON REGENERATION SRL"
+    },
+    {
+        "vatId": "02170220178",
+        "name": "FMI S.P.A. UNIPERSONALE"
+    },
+    {
+        "vatId": "02170630467",
+        "name": "SMS SEGNALETICA DI SERAFINI MIRKO"
+    },
+    {
+        "vatId": "02171110048",
+        "name": "GENESI ELETTRONICA"
+    },
+    {
+        "vatId": "02175790183",
+        "name": "ZURICH - AGENZIA DI STRADELLA"
+    },
+    {
+        "vatId": "02178881203",
+        "name": "CURATORE FALLIM. RIZZOLI ORTOP. SPA"
+    },
+    {
+        "vatId": "02180610137",
+        "name": "SCL SERVICE "
+    },
+    {
+        "vatId": "02181840238",
+        "name": "Libreria JOLLY DEL LIBRO"
+    },
+    {
+        "vatId": "02190140067",
+        "name": "AZIENDA SANITARIA LOCALE ALESSANDRIA"
+    },
+    {
+        "vatId": "02191710744",
+        "name": "TOZZI AVV. DONATO - STUDIO LEGALE"
+    },
+    {
+        "vatId": "02193230204",
+        "name": "EVOSOLUTION S.R.L."
+    },
+    {
+        "vatId": "02197000124",
+        "name": "3A di Andrea Autelli"
+    },
+    {
+        "vatId": "02203350307",
+        "name": "SERLING soc. coop."
+    },
+    {
+        "vatId": "02205490697",
+        "name": "DI FONZO VIAGGI"
+    },
+    {
+        "vatId": "02205960426",
+        "name": "SINTEK TECHNOLOGY"
+    },
+    {
+        "vatId": "02207140753",
+        "name": "MAZZINI VIAGGI"
+    },
+    {
+        "vatId": "02207980216",
+        "name": "Stefans Garden"
+    },
+    {
+        "vatId": "02210220923",
+        "name": "PAPERPOINT di Manolo Cossu &C. S.A.S."
+    },
+    {
+        "vatId": "02211980418",
+        "name": "STAR FLYER SRL"
+    },
+    {
+        "vatId": "02213820208",
+        "name": "PUBLIKA SRL"
+    },
+    {
+        "vatId": "02214490696",
+        "name": "ABRUZZO TOURING S.R.L."
+    },
+    {
+        "vatId": "02217980925",
+        "name": "A.M.A. sas  INSURANCE BROKERS"
+    },
+    {
+        "vatId": "02221270750",
+        "name": "APICELLA FIORENTINO GIANLUCA"
+    },
+    {
+        "vatId": "02223180395",
+        "name": "NUOVA SB SYSTEM SRL"
+    },
+    {
+        "vatId": "02223711207",
+        "name": "TECNICA E FUTURO"
+    },
+    {
+        "vatId": "02224410023",
+        "name": "BANCA SELLA"
+    },
+    {
+        "vatId": "02227070212",
+        "name": "ATZWANGER S.P.A."
+    },
+    {
+        "vatId": "02229400409",
+        "name": "MENGOZZI"
+    },
+    {
+        "vatId": "02231010212",
+        "name": "SEAB SPA"
+    },
+    {
+        "vatId": "02232020798",
+        "name": "OSTRO "
+    },
+    {
+        "vatId": "02236190233",
+        "name": "STED SERVIZI E TECNOLOGIE ELETTROMEDICALI"
+    },
+    {
+        "vatId": "02244820904",
+        "name": "TINEKART INGROSS SRL"
+    },
+    {
+        "vatId": "02246690784",
+        "name": "BONETTI  IGINO & Figli di BONETTI MASSIMO SaS"
+    },
+    {
+        "vatId": "02255230100",
+        "name": "I.C.E.A. S.R.L."
+    },
+    {
+        "vatId": "02259960033",
+        "name": "LALIBELA SRL"
+    },
+    {
+        "vatId": "02261690420",
+        "name": "GREEN SERVICE SNC DI GOBBI CLAUDIA & C."
+    },
+    {
+        "vatId": "02261790287",
+        "name": "CENTRO COPIE BERCHET SAS"
+    },
+    {
+        "vatId": "02264370020",
+        "name": "ZETADI srl "
+    },
+    {
+        "vatId": "02266360599",
+        "name": "B & B MEDIAZIONI ASSICURATIVE S.r.l."
+    },
+    {
+        "vatId": "02267290373",
+        "name": "TIMBRIFICIO LAMPO"
+    },
+    {
+        "vatId": "02271240653",
+        "name": "AUTOTRASFER SRL"
+    },
+    {
+        "vatId": "02272420130",
+        "name": "AURORA COOPERATIVA SOCIALE"
+    },
+    {
+        "vatId": "02276490204",
+        "name": "NSA6  Via Mazzini, 39 ASOLA (MN)"
+    },
+    {
+        "vatId": "02278960402",
+        "name": "TECNOLEGNO DI COMANDINI MORENA & C. S.N.C."
+    },
+    {
+        "vatId": "02279100545",
+        "name": "IN.I.T. S.R.L."
+    },
+    {
+        "vatId": "02279190751",
+        "name": "NUOVA FISE"
+    },
+    {
+        "vatId": "02283080402",
+        "name": "CARTARIA FORLIVESE S.R.L."
+    },
+    {
+        "vatId": "02283370464",
+        "name": "ALREDY TOSCANA SOC. COOP."
+    },
+    {
+        "vatId": "02285590341",
+        "name": "AIDA S.R.L. - ADVANCED INDUSTRIAL DESIGN IN ACOUSTICS UNITA' LOCALE"
+    },
+    {
+        "vatId": "02286030594",
+        "name": "PAPALEO SRL"
+    },
+    {
+        "vatId": "02286310210",
+        "name": "SICUR TYRES GROUP SRL"
+    },
+    {
+        "vatId": "02288380617",
+        "name": "ZACCARIELLO VINCENZO"
+    },
+    {
+        "vatId": "02288840248",
+        "name": "PROGETTO CAD S.R.L."
+    },
+    {
+        "vatId": "02290270400",
+        "name": "SPORT ITALIA SRL"
+    },
+    {
+        "vatId": "02290660212",
+        "name": "GLESSDOX SRL"
+    },
+    {
+        "vatId": "02292460041",
+        "name": "COLOMBANO  S.R.L."
+    },
+    {
+        "vatId": "02293180242",
+        "name": "MISA S.R.L."
+    },
+    {
+        "vatId": "02293200248",
+        "name": "GRAFICHE LEONI S.A.S. di  Leoni Lucio e c."
+    },
+    {
+        "vatId": "02294280181",
+        "name": "CENTRO RURALE LA TORRETTA LOCALITA CA BARACCA 1 BORGO PRIOLO"
+    },
+    {
+        "vatId": "02296760974",
+        "name": "CONSIAG SERVIZI COMUNI SRL"
+    },
+    {
+        "vatId": "02297570844",
+        "name": "NEW ENERGY GROUP S.R.L."
+    },
+    {
+        "vatId": "02297980399",
+        "name": "MEDICAL DEVICES GROUP S.R.L."
+    },
+    {
+        "vatId": "02304250216",
+        "name": "ARCHI.COM S.A.S. di Giovanelli G & Co"
+    },
+    {
+        "vatId": "02306240355",
+        "name": "“Scaruffi” di Scaruffi Davide, con sede in  Via E. Bagnoli, 95/e-42035 Castelnovo Ne’ Monti"
+    },
+    {
+        "vatId": "02311570788",
+        "name": "ESSO DI PL Carburanti Sas"
+    },
+    {
+        "vatId": "02312550714",
+        "name": "FESTA COSTRUZIONI GENERALI SRL"
+    },
+    {
+        "vatId": "02313100741",
+        "name": "CO.EDI.SOL. S.R.L."
+    },
+    {
+        "vatId": "02315800421",
+        "name": "BIOEDIL S.R.L."
+    },
+    {
+        "vatId": "02318150303",
+        "name": "TIED IMPIANTI SRL"
+    },
+    {
+        "vatId": "02319920043",
+        "name": "ASFALTI PETITI DI GHESSA DENIS& C SNC"
+    },
+    {
+        "vatId": "02322430733",
+        "name": "NUOVA ELETTROMECCANICA SRL"
+    },
+    {
+        "vatId": "02322500600",
+        "name": "ARDOVINI RENZO E C. SAS"
+    },
+    {
+        "vatId": "02323180279",
+        "name": "SME S.P.A."
+    },
+    {
+        "vatId": "02325370266",
+        "name": "TINET SRL"
+    },
+    {
+        "vatId": "02325530133",
+        "name": "DATASIS GROUP"
+    },
+    {
+        "vatId": "02326880925",
+        "name": "CUCCU SRL"
+    },
+    {
+        "vatId": "02330250404",
+        "name": "ASPEX S.P.A."
+    },
+    {
+        "vatId": "02330970209",
+        "name": "M.T.V. MEDICAL S.R.L."
+    },
+    {
+        "vatId": "02331250213",
+        "name": "OBEROSLER S.F. S.R.L."
+    },
+    {
+        "vatId": "02333580781",
+        "name": "SANTISE COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "02334550288",
+        "name": "SIAV"
+    },
+    {
+        "vatId": "02339700029",
+        "name": "ITATRACOM SRL"
+    },
+    {
+        "vatId": "02342500275",
+        "name": "PRISMA SRL"
+    },
+    {
+        "vatId": "02343180812",
+        "name": "INTESA VERDE S.R.L."
+    },
+    {
+        "vatId": "02344040643",
+        "name": "NOBA SRL"
+    },
+    {
+        "vatId": "02350380040",
+        "name": "MERLINO S.n.c. di Davide MERLINO"
+    },
+    {
+        "vatId": "02359760283",
+        "name": "ELLIS"
+    },
+    {
+        "vatId": "02361410844",
+        "name": "M.P. COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "02362600344",
+        "name": "CSAMED SRL"
+    },
+    {
+        "vatId": "02366590244",
+        "name": "TESAN S.P.A."
+    },
+    {
+        "vatId": "02367910243",
+        "name": "EURO INFORMATICA"
+    },
+    {
+        "vatId": "02369570987",
+        "name": "GIFRAN"
+    },
+    {
+        "vatId": "02370340248",
+        "name": "NEST2 S.P.A."
+    },
+    {
+        "vatId": "02371530870",
+        "name": "COPITEL di Sanfilippo & C. snc"
+    },
+    {
+        "vatId": "02375420417",
+        "name": "SORMANI SRL"
+    },
+    {
+        "vatId": "02376860421",
+        "name": "BIOSAF IN SRL"
+    },
+    {
+        "vatId": "02377010646",
+        "name": "CMS S.R.L."
+    },
+    {
+        "vatId": "02377720210",
+        "name": ""
+    },
+    {
+        "vatId": "02378850420",
+        "name": "Ristorante Tobia"
+    },
+    {
+        "vatId": "02379150655",
+        "name": "srl"
+    },
+    {
+        "vatId": "02381160411",
+        "name": "CASAVECCHIA GROUP SRL"
+    },
+    {
+        "vatId": "02386580209",
+        "name": "AIDEM"
+    },
+    {
+        "vatId": "02391510266",
+        "name": "ABACO S.P.A."
+    },
+    {
+        "vatId": "02393000928",
+        "name": "SOCIETà NAVIGAZIONE DEI LAGHI SRL"
+    },
+    {
+        "vatId": "02401870429",
+        "name": "EDILNUOVO SRL"
+    },
+    {
+        "vatId": "02402671206",
+        "name": "MANUTENCOOP"
+    },
+    {
+        "vatId": "02403000231",
+        "name": "Paiola Bruno di Paiola Giorgio & C. Sas"
+    },
+    {
+        "vatId": "02410200121",
+        "name": "MEDIA RE.HA. SRL - LONATE POZZOLO"
+    },
+    {
+        "vatId": "02410900811",
+        "name": "Duotek Service s.n.c."
+    },
+    {
+        "vatId": "02414900304",
+        "name": "Forgiarini Edilizia di Forgiarini Enzo"
+    },
+    {
+        "vatId": "02420120848",
+        "name": "RI.FE srl "
+    },
+    {
+        "vatId": "02421800273",
+        "name": "COGO BILANCE S.R.L."
+    },
+    {
+        "vatId": "02422720249",
+        "name": "PRISMA SOC.COOP.SOCIALE CONSORTILE"
+    },
+    {
+        "vatId": "02425570823",
+        "name": "ITALKALI"
+    },
+    {
+        "vatId": "02426820987",
+        "name": "NCE SRL"
+    },
+    {
+        "vatId": "02430000980",
+        "name": "FORTINI SERVIZI ANTINCENDI S.R.L."
+    },
+    {
+        "vatId": "02433460694",
+        "name": "S.T.S. DI DI CRESCENZO LEONICE"
+    },
+    {
+        "vatId": "02436460600",
+        "name": "EMERGENCY GROUP di Patrizi Antonio  & c. sas"
+    },
+    {
+        "vatId": "02438010213",
+        "name": "Winkler Andreas"
+    },
+    {
+        "vatId": "02438750586",
+        "name": "COMUNE DI ROMA"
+    },
+    {
+        "vatId": "02441700289",
+        "name": "ICA SYSTEMS SRL"
+    },
+    {
+        "vatId": "02443860214",
+        "name": "Angerer Wassertechnik d. Angerer Herbert and C. KG"
+    },
+    {
+        "vatId": "02446110104",
+        "name": "PISTONE GIROLAMO"
+    },
+    {
+        "vatId": "02454040607",
+        "name": "I.M.C. APPALTI SRL"
+    },
+    {
+        "vatId": "02458810906",
+        "name": "Fialco S.r.l."
+    },
+    {
+        "vatId": "02461530822",
+        "name": "CONCA D'ORO"
+    },
+    {
+        "vatId": "02462070042",
+        "name": "ISI LINE"
+    },
+    {
+        "vatId": "02466440167",
+        "name": "MEDIGAS ITALIA SRL"
+    },
+    {
+        "vatId": "02466620644",
+        "name": "VIAGGI DI LEO"
+    },
+    {
+        "vatId": "02467390304",
+        "name": "ING. FABRIZIO CACITTI DELLO STUDIO TECNICO ASSOCIATO ING. CACITTI F. E P.I. GUBEILA O."
+    },
+    {
+        "vatId": "02468520875",
+        "name": "COMER SPA"
+    },
+    {
+        "vatId": "02469810374",
+        "name": "ALTERCOOP"
+    },
+    {
+        "vatId": "02473410211",
+        "name": "E. INNERHOFER  SPA "
+    },
+    {
+        "vatId": "02475650731",
+        "name": "EUROPOINT COMPUTER"
+    },
+    {
+        "vatId": "02476550047",
+        "name": "P.G. SERVICE S.R.L"
+    },
+    {
+        "vatId": "02478220185",
+        "name": "ASMARE SRL"
+    },
+    {
+        "vatId": "02478270842",
+        "name": "BREDIL SRL"
+    },
+    {
+        "vatId": "02478810423",
+        "name": "DRC S.R.L."
+    },
+    {
+        "vatId": "02482070352",
+        "name": "SIRCANA BUS"
+    },
+    {
+        "vatId": "02484550278",
+        "name": "R.I.S. S.r.l."
+    },
+    {
+        "vatId": "02488670783",
+        "name": "PRONOVIS s.n.c"
+    },
+    {
+        "vatId": "02488860848",
+        "name": "ISOR COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "02490110737",
+        "name": "M.E.TA. S.R.L. ELETTROMECCANICA"
+    },
+    {
+        "vatId": "02493870840",
+        "name": "SO.GE.MAR. C.NI SRL"
+    },
+    {
+        "vatId": "02501461202",
+        "name": "NOVAMEDISAN ITALIA S.R.L."
+    },
+    {
+        "vatId": "02504711207",
+        "name": "COCHLEAR ITALIA"
+    },
+    {
+        "vatId": "02508100928",
+        "name": ""
+    },
+    {
+        "vatId": "02508710247",
+        "name": "TELEMAR SPA"
+    },
+    {
+        "vatId": "02509140287",
+        "name": "TOLOMIO SRL"
+    },
+    {
+        "vatId": "02513370169",
+        "name": "MGR ANTINCENDIO"
+    },
+    {
+        "vatId": "02513990420",
+        "name": "CO.PRO.L.A."
+    },
+    {
+        "vatId": "02516070618",
+        "name": "DIRITTO ITALIA SRL"
+    },
+    {
+        "vatId": "02518351214",
+        "name": "TECNO INFISSI DI BENEDUCE GIUSEPPE"
+    },
+    {
+        "vatId": "02521390613",
+        "name": "D.M. COMPUTERS DI DELLA GATTA CARMINE"
+    },
+    {
+        "vatId": "02523190920",
+        "name": "SER.CO S.r.l."
+    },
+    {
+        "vatId": "02525260010",
+        "name": "SIRIES DI TORINO"
+    },
+    {
+        "vatId": "02541880213",
+        "name": "Steinkassererbau GMBH"
+    },
+    {
+        "vatId": "02552380236",
+        "name": "ITALFRIGO di Pretto Romeo"
+    },
+    {
+        "vatId": "02554410924",
+        "name": "VACCA VIAGGI s.n.c."
+    },
+    {
+        "vatId": "02555860010",
+        "name": "GOLMAR ITALIA S.P.A"
+    },
+    {
+        "vatId": "02556490163",
+        "name": "ECORETRAS S.R.L."
+    },
+    {
+        "vatId": "02556750368",
+        "name": "REDAX S.P.A."
+    },
+    {
+        "vatId": "02557110240",
+        "name": "ALFABETO S.R.L."
+    },
+    {
+        "vatId": "02558740243",
+        "name": "NEULIFT SERVICE TRIVENETO S.R.L."
+    },
+    {
+        "vatId": "02562670246",
+        "name": "AUTONOLEGGI PEZZELATO SRL"
+    },
+    {
+        "vatId": "02565380132",
+        "name": "ENEA BRIVIO"
+    },
+    {
+        "vatId": "02570170213",
+        "name": "GUFLER METALL KG"
+    },
+    {
+        "vatId": "02570930848",
+        "name": "AZIENDA SANITARIA PROVINCIALE DI AGRIGENTO"
+    },
+    {
+        "vatId": "02571230289",
+        "name": "AGOGEST S.R.L."
+    },
+    {
+        "vatId": "02575600420",
+        "name": "IL TRIFOGLIO - OSIMO"
+    },
+    {
+        "vatId": "02578750347",
+        "name": "SPAGGIARI EDIZIONI S.R.L."
+    },
+    {
+        "vatId": "02579180734",
+        "name": "ITALVELOCE S.R.L."
+    },
+    {
+        "vatId": "02583020421",
+        "name": "PLASTICA EMPORIO DI GIANFRANCO MARIO"
+    },
+    {
+        "vatId": "02589240015",
+        "name": "Studio Tosetto Weigmann e associati"
+    },
+    {
+        "vatId": "02597900105",
+        "name": "SANGOI & FIGLI SRL"
+    },
+    {
+        "vatId": "02599170137",
+        "name": "GRUPPO MERCURIO S.R.L."
+    },
+    {
+        "vatId": "02601300011",
+        "name": "COPPO SNC DI COPPO PAOLO E FRANCO"
+    },
+    {
+        "vatId": "02601870401",
+        "name": "F.lli Franchini s.r.l."
+    },
+    {
+        "vatId": "02604200424",
+        "name": "T.C.S.  S.R.L."
+    },
+    {
+        "vatId": "02609920042",
+        "name": "CNR SERVICE S.R.L."
+    },
+    {
+        "vatId": "02610700219",
+        "name": "PLANPUNKT GMBH"
+    },
+    {
+        "vatId": "02611570215",
+        "name": "Sozialgen.\"Die Kinderfreunde Südtirol\""
+    },
+    {
+        "vatId": "02614310924",
+        "name": "EDICOR  S.r.l"
+    },
+    {
+        "vatId": "02614940928",
+        "name": "NUOVA COLFI"
+    },
+    {
+        "vatId": "02615110125",
+        "name": "NUOVO UFFICIO S.A.S. DI LUCIANA BELLOTTI"
+    },
+    {
+        "vatId": "02621100219",
+        "name": "TELMEKOM GMBH"
+    },
+    {
+        "vatId": "02624530594",
+        "name": "COPERARTE"
+    },
+    {
+        "vatId": "02626510644",
+        "name": "IRPINIAMBIENTE S.P.A."
+    },
+    {
+        "vatId": "02628290617",
+        "name": "52173-S.Te.Bi. Srl"
+    },
+    {
+        "vatId": "02638740163",
+        "name": "EUROMEDICAL SRL"
+    },
+    {
+        "vatId": "02641550211",
+        "name": "INNOVA S.R.L."
+    },
+    {
+        "vatId": "02642690784",
+        "name": "MAGFIN SRL"
+    },
+    {
+        "vatId": "02644730927",
+        "name": "SIELM IMPIANTI SRL"
+    },
+    {
+        "vatId": "02645780780",
+        "name": "AG. STAMPA ADT GROUP PRESS EDITORI SRL"
+    },
+    {
+        "vatId": "02647890165",
+        "name": "FV DI FERRANTI S.R.L."
+    },
+    {
+        "vatId": "02655060214",
+        "name": "Bioenerghia scrl"
+    },
+    {
+        "vatId": "02656390834",
+        "name": "CRISAMAR S.A.S. VIAGGI"
+    },
+    {
+        "vatId": "02657610834",
+        "name": "M. PAPARONE DI PAPARONE CALOGERO"
+    },
+    {
+        "vatId": "02659750968",
+        "name": "NETECH SRL"
+    },
+    {
+        "vatId": "02663550214",
+        "name": "R   B TIEFBAU OHG DES REISIGL FRANZ JOSEF UND BENETTI CHRISTIAN"
+    },
+    {
+        "vatId": "02672800642",
+        "name": "MECOBIL ENTERPRISE S.R.L."
+    },
+    {
+        "vatId": "02680370273",
+        "name": "RETI BRENTA S.A.S di Rigoni Renzo & C."
+    },
+    {
+        "vatId": "02686240405",
+        "name": "COMPUTER MICROBYTE S.R.L."
+    },
+    {
+        "vatId": "02689470926",
+        "name": "SERLU COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "02690290404",
+        "name": "TINFO SRL"
+    },
+    {
+        "vatId": "02695070546",
+        "name": "CYANUS ambiente lavoro"
+    },
+    {
+        "vatId": "02695140216",
+        "name": "Faro Shopping GmbH"
+    },
+    {
+        "vatId": "02697910210",
+        "name": "Leitner Electro GmbH"
+    },
+    {
+        "vatId": "02700011204",
+        "name": "SEAC FILM SRL"
+    },
+    {
+        "vatId": "02703241204",
+        "name": "TECNOCART"
+    },
+    {
+        "vatId": "02704100805",
+        "name": "New Life di Laface Daniele"
+    },
+    {
+        "vatId": "02704610985",
+        "name": "EUROSPURGHI LONATO DI PEDROTTI SRL"
+    },
+    {
+        "vatId": "02706400542",
+        "name": "FERRIERA S.R.L."
+    },
+    {
+        "vatId": "02708330101",
+        "name": "VISCOL SPA"
+    },
+    {
+        "vatId": "02708680042",
+        "name": "STUDIO LEONARDO S.R.L."
+    },
+    {
+        "vatId": "02709310045",
+        "name": "5B DI BARBERA ROBERTO"
+    },
+    {
+        "vatId": "02710470986",
+        "name": "AMBIENTEPARCO SRL"
+    },
+    {
+        "vatId": "02711671202",
+        "name": "SERGIO BISONTI SAS DI ELENA BISONTI C."
+    },
+    {
+        "vatId": "02714860604",
+        "name": "T u A t o u r  -  TURISMO ARANCIONE  TOURS"
+    },
+    {
+        "vatId": "02719700045",
+        "name": "BI.EMME UFFICIO SRL"
+    },
+    {
+        "vatId": "02721530729",
+        "name": "GENTILE LEONARDO SRL"
+    },
+    {
+        "vatId": "02724561200",
+        "name": "DIGITECK SRL"
+    },
+    {
+        "vatId": "02729370128",
+        "name": "BI.H.ERRE"
+    },
+    {
+        "vatId": "02731490237",
+        "name": "NGS Infomedia Srl                                                               "
+    },
+    {
+        "vatId": "02733210104",
+        "name": "ATHENA S.R.L."
+    },
+    {
+        "vatId": "02738460217",
+        "name": ""
+    },
+    {
+        "vatId": "02738860101",
+        "name": "CENTRO DIFFUSIONE EDITORIALE S.A.S. DI DITULLIO PIERLUIGI"
+    },
+    {
+        "vatId": "02743710986",
+        "name": "SERGEN SRL"
+    },
+    {
+        "vatId": "02745350922",
+        "name": "EL.CO SARDA DI ANTONIANO PUTZU"
+    },
+    {
+        "vatId": "02754020242",
+        "name": "OMP ENGINEERING SRL"
+    },
+    {
+        "vatId": "02755700545",
+        "name": "OVERNET"
+    },
+    {
+        "vatId": "02756650640",
+        "name": "ditta individuale"
+    },
+    {
+        "vatId": "02758430926",
+        "name": "AUTOSERVIZI  VACCA VIAGGI"
+    },
+    {
+        "vatId": "02762230130",
+        "name": "MERCURIO SERVIZI S.R.L."
+    },
+    {
+        "vatId": "02762610042",
+        "name": "SETTEBROKER srl"
+    },
+    {
+        "vatId": "02764930786",
+        "name": "EUGENIO AZZINNARI EREDI SNC"
+    },
+    {
+        "vatId": "02774420133",
+        "name": "UNION CHEF SRL"
+    },
+    {
+        "vatId": "02775450923",
+        "name": "AGORA' COSTRUZIONI "
+    },
+    {
+        "vatId": "02782190157",
+        "name": "LA TRIVENETA CAVI SPA"
+    },
+    {
+        "vatId": "02784150134",
+        "name": "MEDIASTUDIO"
+    },
+    {
+        "vatId": "02787410923",
+        "name": "TENDER DUE S.A.S. DI GIORGIO ROSI"
+    },
+    {
+        "vatId": "02789340789",
+        "name": "ARCANA SRL"
+    },
+    {
+        "vatId": "02791590728",
+        "name": "La Pulita & Service Soc. coop. a r.l."
+    },
+    {
+        "vatId": "02795630249",
+        "name": "VIVAI F.LLI ZANELLA S.R.L."
+    },
+    {
+        "vatId": "02799520164",
+        "name": "BRAVOSOLUTION S.P.A."
+    },
+    {
+        "vatId": "02800880102",
+        "name": "INTERFRON S. R. L."
+    },
+    {
+        "vatId": "02801700044",
+        "name": "MOLLO ORAZIO"
+    },
+    {
+        "vatId": "02802900361",
+        "name": "SOSEL BUSINESS COMMUNICATIONS SRL"
+    },
+    {
+        "vatId": "02803441209",
+        "name": "DI GIOVANNI"
+    },
+    {
+        "vatId": "02803690961",
+        "name": "NOVA CHIMICA SRL"
+    },
+    {
+        "vatId": "02810000279",
+        "name": "OPEN SOFTWARE MEDIA S.R.L."
+    },
+    {
+        "vatId": "02811580246",
+        "name": "MIRIADE SPA"
+    },
+    {
+        "vatId": "02812080543",
+        "name": "SEKURITALIA SRL"
+    },
+    {
+        "vatId": "02812740120",
+        "name": "MULTI MEDICAL SERVICE SRL"
+    },
+    {
+        "vatId": "02817510163",
+        "name": "BONOMI S.R.L."
+    },
+    {
+        "vatId": "02821260540",
+        "name": "GRUPPO POLIGRAFICO TIBERINO"
+    },
+    {
+        "vatId": "02825290618",
+        "name": "COPYNET"
+    },
+    {
+        "vatId": "02826600138",
+        "name": "LAZZARINI S.R.L."
+    },
+    {
+        "vatId": "02828600987",
+        "name": "TIBER SPA"
+    },
+    {
+        "vatId": "02829260583",
+        "name": "INTERM - INSTALLAZIONI TERMOMECCANICHE"
+    },
+    {
+        "vatId": "02832500157",
+        "name": "SCAL S.R.L."
+    },
+    {
+        "vatId": "02838250831",
+        "name": "SALVATORE FOTI SRL"
+    },
+    {
+        "vatId": "02848250235",
+        "name": "CONFORTI"
+    },
+    {
+        "vatId": "02848400921",
+        "name": "DITTA SIPAL"
+    },
+    {
+        "vatId": "02849410549",
+        "name": "MENCARELLI DELFO S.N.C."
+    },
+    {
+        "vatId": "02851990040",
+        "name": "NUOVI ORIZZONTI SCARL"
+    },
+    {
+        "vatId": "02852590872",
+        "name": "RIVEM SRL"
+    },
+    {
+        "vatId": "02853020788",
+        "name": "TIPOLITOGRAFIA F.LLI BENVENUTO"
+    },
+    {
+        "vatId": "02854880164",
+        "name": "CONTIMPIANI SRL UNIPERSONALE con sede in San Giuliano Milanese (MI)"
+    },
+    {
+        "vatId": "02857671206",
+        "name": "STUDIO ASSOCIATO GRUPPO EDEN"
+    },
+    {
+        "vatId": "02858660232",
+        "name": "SINAC INFORMATICA"
+    },
+    {
+        "vatId": "02859640241",
+        "name": "SOA NORD ALPI S.P.A."
+    },
+    {
+        "vatId": "02861340137",
+        "name": "A&B SISTEMI S.R.L."
+    },
+    {
+        "vatId": "02864600040",
+        "name": "MILANOAGENDE SRL"
+    },
+    {
+        "vatId": "02866490614",
+        "name": "SVILUPPO UFFICIO"
+    },
+    {
+        "vatId": "02868650272",
+        "name": "I.S.E. S.R.L."
+    },
+    {
+        "vatId": "02878280839",
+        "name": "PROGEMIR SRL"
+    },
+    {
+        "vatId": "02880870783",
+        "name": "IMPRESIT SRL UNIPERSONALE"
+    },
+    {
+        "vatId": "02884930658",
+        "name": "ALFA BIT OMEGA SRL"
+    },
+    {
+        "vatId": "02886830872",
+        "name": "Ra Cart di A. Randazzo"
+    },
+    {
+        "vatId": "02894960166",
+        "name": "TSP ITALIA S.R.L."
+    },
+    {
+        "vatId": "02897010969",
+        "name": "FUJITSU"
+    },
+    {
+        "vatId": "02899460154",
+        "name": "COMAS"
+    },
+    {
+        "vatId": "02906150236",
+        "name": "STIZZOLI SAS DI STIZZOLI ANTONIO"
+    },
+    {
+        "vatId": "02906930165",
+        "name": "COOPERATIVA SOCIALE NAMASTE'"
+    },
+    {
+        "vatId": "02907490961",
+        "name": "MEDICAL SERVICE"
+    },
+    {
+        "vatId": "02909520732",
+        "name": "NADIR CANCELLERIA DI LORENZO LORUSSO & C. SAS"
+    },
+    {
+        "vatId": "02914760042",
+        "name": "R.F.V. SNC *"
+    },
+    {
+        "vatId": "02926290830",
+        "name": "SO.LO. COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "02931140244",
+        "name": "NUOVAMACUT NORDEST S.r.l."
+    },
+    {
+        "vatId": "02938930589",
+        "name": "CELDES SRL"
+    },
+    {
+        "vatId": "02948210980",
+        "name": "EUROFIMET"
+    },
+    {
+        "vatId": "02948410796",
+        "name": "AREA COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "02951910989",
+        "name": "VEZZOLI SRL"
+    },
+    {
+        "vatId": "02955510173",
+        "name": "Autolinee Nicolini snc"
+    },
+    {
+        "vatId": "02966470755",
+        "name": "GRAFICHE CHIRIATTI"
+    },
+    {
+        "vatId": "02973470046",
+        "name": "GEMAP 2 SERVICE S.R.L."
+    },
+    {
+        "vatId": "02988101206",
+        "name": "SIROL SRL"
+    },
+    {
+        "vatId": "02997210964",
+        "name": "BELLISOLINA SRL"
+    },
+    {
+        "vatId": "02998820233",
+        "name": "CENTRO STUDI ENTI LOCALI"
+    },
+    {
+        "vatId": "03016810727",
+        "name": "PAGONE SRL"
+    },
+    {
+        "vatId": "03023070240",
+        "name": "TIPOGRAFIA DAL MASO LINO SRL"
+    },
+    {
+        "vatId": "03027910235",
+        "name": "MULTIUTILITY S.P.A."
+    },
+    {
+        "vatId": "03030050151",
+        "name": "FCR SPA"
+    },
+    {
+        "vatId": "03041451216",
+        "name": "COSTRUZIONI GIULISA S.R.L."
+    },
+    {
+        "vatId": "03071000750",
+        "name": "LEZZI S.U.R.L."
+    },
+    {
+        "vatId": "03071180164",
+        "name": "HIDROGEST SPA"
+    },
+    {
+        "vatId": "03072570793",
+        "name": "NETO TRAVEL"
+    },
+    {
+        "vatId": "03075990824",
+        "name": "GEN. E. RAY"
+    },
+    {
+        "vatId": "03076310105",
+        "name": "EUROPAM"
+    },
+    {
+        "vatId": "03079470278",
+        "name": "OBIETTIVO LINGUA"
+    },
+    {
+        "vatId": "03081080164",
+        "name": "ECOLOGIA AMBIENTALE SOC. COOP. A R.L."
+    },
+    {
+        "vatId": "03091200984",
+        "name": "AVANZINI COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "03097310126",
+        "name": "L'INKUDINE di Prato M. e Visinoni A."
+    },
+    {
+        "vatId": "03100270234",
+        "name": "NICOLIS INFORMATICA & SERVIZI"
+    },
+    {
+        "vatId": "03100600364",
+        "name": "LENZOTTI"
+    },
+    {
+        "vatId": "03102031204",
+        "name": "ASSIST OFFICE s.r.l."
+    },
+    {
+        "vatId": "03113170264",
+        "name": "SDN DI DE NADAI STEFANO"
+    },
+    {
+        "vatId": "03115070405",
+        "name": "S.P.I. Srl"
+    },
+    {
+        "vatId": "03117060719",
+        "name": "Elettromeccanica C.M.C. s.r.l."
+    },
+    {
+        "vatId": "03121000271",
+        "name": "RANZATO ANTONIO S.R.L."
+    },
+    {
+        "vatId": "03121680403",
+        "name": "IL BISONTE DELLA STRADA CONS. ATT. EST."
+    },
+    {
+        "vatId": "03132960018",
+        "name": "ELETTRO DESIGN  di  PORTACOLONE WALTER"
+    },
+    {
+        "vatId": "03138100924",
+        "name": "NTC COSTRUZIONI GENERALI SRL"
+    },
+    {
+        "vatId": "03139650984",
+        "name": ""
+    },
+    {
+        "vatId": "03139850923",
+        "name": "ROBYLU' VIAGGI"
+    },
+    {
+        "vatId": "03140630611",
+        "name": "D.F. STRADE SAS"
+    },
+    {
+        "vatId": "03143270720",
+        "name": "MEDICA SUD SRL"
+    },
+    {
+        "vatId": "03147810927",
+        "name": "FRANZ COMMERCIALE"
+    },
+    {
+        "vatId": "03153711209",
+        "name": "CARDIOLINE S.P.A."
+    },
+    {
+        "vatId": "03171310984",
+        "name": "CIEB - ELETTROFORNITURE SPA"
+    },
+    {
+        "vatId": "03180120796",
+        "name": "CONDOTTE S.R.L."
+    },
+    {
+        "vatId": "03185890484",
+        "name": "SOCIETA' COOPERATIVA ARCHEOLOGIA BREVEMENTE DETTA COOPERATIVA ARCHEOLOGIA"
+    },
+    {
+        "vatId": "03192360752",
+        "name": "SEIM IMPIANTI SAS DI\nCOSIMO DONATO BASCIA'\n\n\n"
+    },
+    {
+        "vatId": "03200690240",
+        "name": "U.T.F. S.r.l. Unipersonale"
+    },
+    {
+        "vatId": "03201250176",
+        "name": "BRIXIA COMPUTER STORE S.R.L."
+    },
+    {
+        "vatId": "03222370722",
+        "name": "LA LUCENTEZZA"
+    },
+    {
+        "vatId": "03228420547",
+        "name": "MANDARINI UFFICIO S.R.L."
+    },
+    {
+        "vatId": "03229660125",
+        "name": "NUOVO STUDIO ASSOCIATO 626"
+    },
+    {
+        "vatId": "03231410402",
+        "name": "S.P.A."
+    },
+    {
+        "vatId": "03233560964",
+        "name": "GEPA S.R.L."
+    },
+    {
+        "vatId": "03234490831",
+        "name": "SEGIPA SRL"
+    },
+    {
+        "vatId": "03242480402",
+        "name": "MONTEGA SRL MISANO ADRIATICO (RN)"
+    },
+    {
+        "vatId": "03242880106",
+        "name": "C.E.M.A."
+    },
+    {
+        "vatId": "03246871200",
+        "name": "ESA"
+    },
+    {
+        "vatId": "03249000724",
+        "name": "Fratelli Simone Giuseppe, Carlo e Bruno fu Francesco S.n.c."
+    },
+    {
+        "vatId": "03254350543",
+        "name": "C & B SRL"
+    },
+    {
+        "vatId": "03258180987",
+        "name": "A2A CICLO IDRICO SPA"
+    },
+    {
+        "vatId": "03265310163",
+        "name": "TRONY"
+    },
+    {
+        "vatId": "03273990964",
+        "name": "CARLO ERBA REAGENTI SRL"
+    },
+    {
+        "vatId": "03278580927",
+        "name": "QTECH SRL"
+    },
+    {
+        "vatId": "03278660984",
+        "name": "CIPIESSE SRL"
+    },
+    {
+        "vatId": "03288741212",
+        "name": "ANTINCENDIO OPLONTI S.A.S."
+    },
+    {
+        "vatId": "03292430786",
+        "name": "EDUSCUOLA DI VALENTINA CAUSA"
+    },
+    {
+        "vatId": "03295030260",
+        "name": "NICO VARDANEGA COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "03299640163",
+        "name": "UNIACQUE SPA"
+    },
+    {
+        "vatId": "03300430547",
+        "name": ""
+    },
+    {
+        "vatId": "03306930136",
+        "name": "SACCHI E SECCHI DI ZOCCATELLI SILVIA"
+    },
+    {
+        "vatId": "03309870966",
+        "name": "SERENA COOP SOCIALE"
+    },
+    {
+        "vatId": "03314600481",
+        "name": "GIUNTI EDITORE SPA"
+    },
+    {
+        "vatId": "03317300261",
+        "name": "COPY LINE S.N.C. DI P. CERNIC & M. CASCIANO"
+    },
+    {
+        "vatId": "03330700232",
+        "name": "CIDITECH S.R.L."
+    },
+    {
+        "vatId": "03340340276",
+        "name": "MISTRETTA SRL"
+    },
+    {
+        "vatId": "03341540106",
+        "name": "ALGRAPHY SRL"
+    },
+    {
+        "vatId": "03344280239",
+        "name": "Cerbetto Viaggi  T.R.G. srl"
+    },
+    {
+        "vatId": "03346850963",
+        "name": "LUCINI SURGICAL CONCEPT"
+    },
+    {
+        "vatId": "03349310965",
+        "name": "AUCHAN S.P.A."
+    },
+    {
+        "vatId": "03349430235",
+        "name": "Biodisinfest Pest Control di Boschini"
+    },
+    {
+        "vatId": "03351850965",
+        "name": "CARENZI SERVICE S.R.L."
+    },
+    {
+        "vatId": "03352130045",
+        "name": "AGENZIA SIAE LANGHIRANO "
+    },
+    {
+        "vatId": "03358880924",
+        "name": "PANI VIAGGI E TURISMO"
+    },
+    {
+        "vatId": "03359900960",
+        "name": "SEMAFORI BUSNELLI"
+    },
+    {
+        "vatId": "03359970716",
+        "name": "EDIL COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "03360930154",
+        "name": "STARHOTELS S.P.A."
+    },
+    {
+        "vatId": "03362950960",
+        "name": "DRAEGER SAFETY ITALIA S.P.A."
+    },
+    {
+        "vatId": "03365760150",
+        "name": "FISMEDICAL S.R.L."
+    },
+    {
+        "vatId": "03370220281",
+        "name": "ESSELLE SYSTEM SAS - NOVENTA PADOVANA"
+    },
+    {
+        "vatId": "03372780175",
+        "name": "SINTEX SRL"
+    },
+    {
+        "vatId": "03376680611",
+        "name": "ALTIFIN S.R.L."
+    },
+    {
+        "vatId": "03382990400",
+        "name": "LA PITAGORA"
+    },
+    {
+        "vatId": "03383350638",
+        "name": "ADVANCED SYSTEMS SRL"
+    },
+    {
+        "vatId": "03385840040",
+        "name": "FASHION TRAVEL - (AGENZIA VIAGGI)"
+    },
+    {
+        "vatId": "03387280161",
+        "name": "CDS TRACCIALINEE SRL"
+    },
+    {
+        "vatId": "03388100137",
+        "name": "STUDIO ASSOCIATO PROTEA"
+    },
+    {
+        "vatId": "03394780716",
+        "name": "TELEIN S.N.C. di LALLO GIOVANNI & ANGELICA"
+    },
+    {
+        "vatId": "03394891216",
+        "name": "QUEEN MEC"
+    },
+    {
+        "vatId": "03401570043",
+        "name": "MORE NEWS SOC. COOP."
+    },
+    {
+        "vatId": "03405620364",
+        "name": "DEFENCE SYSTEM SRL"
+    },
+    {
+        "vatId": "03410050367",
+        "name": "ATCM"
+    },
+    {
+        "vatId": "03412220240",
+        "name": "S.T.L. S.R.L."
+    },
+    {
+        "vatId": "03428570240",
+        "name": "BRISTOL AUTOSERVIZI SRL"
+    },
+    {
+        "vatId": "03430120133",
+        "name": "IDROSERVICE SRL"
+    },
+    {
+        "vatId": "03433320375",
+        "name": "FAVS DI GNUDI ANDREA E ANTONELLA & C. S.A.S."
+    },
+    {
+        "vatId": "03438080610",
+        "name": "MTK S.R.L."
+    },
+    {
+        "vatId": "03439870639",
+        "name": "COEDIL SUD SRL"
+    },
+    {
+        "vatId": "03443420231",
+        "name": "GLOBAL POWER"
+    },
+    {
+        "vatId": "03455080162",
+        "name": "OLIMPIA SNC"
+    },
+    {
+        "vatId": "03465450165",
+        "name": "MARCHINGENIO SRL"
+    },
+    {
+        "vatId": "03467080960",
+        "name": "EON MEDICA S.R.L."
+    },
+    {
+        "vatId": "03473230237",
+        "name": "ZOCCATELLI ASSICURAZIONI S.A.S."
+    },
+    {
+        "vatId": "03477090249",
+        "name": "GIANFORT S.R.L."
+    },
+    {
+        "vatId": "03479250874",
+        "name": "PER LABO s.a.s."
+    },
+    {
+        "vatId": "03485930923",
+        "name": "Nonnis Costruzioni srl"
+    },
+    {
+        "vatId": "03486180718",
+        "name": "COSMIC IMPIANTI SRL"
+    },
+    {
+        "vatId": "03487251211",
+        "name": "CLINTEX"
+    },
+    {
+        "vatId": "03487400750",
+        "name": ""
+    },
+    {
+        "vatId": "03487840104",
+        "name": "RINA"
+    },
+    {
+        "vatId": "03488860242",
+        "name": "STUDIO STORTI"
+    },
+    {
+        "vatId": "03491830612",
+        "name": "OPIFEL S.R.L."
+    },
+    {
+        "vatId": "03495810487",
+        "name": "DITTA SIXTUS ITALIA S.R.L"
+    },
+    {
+        "vatId": "03498220288",
+        "name": "ZATTI IMPIANTI SRL"
+    },
+    {
+        "vatId": "03498370927",
+        "name": "AKENOSIS PA"
+    },
+    {
+        "vatId": "03499700270",
+        "name": "BRUNO SANSO' & C. S.a.s."
+    },
+    {
+        "vatId": "03500980960",
+        "name": "PROLUDIC S.R.L."
+    },
+    {
+        "vatId": "03504110408",
+        "name": "LA GRAFICA S.A.S."
+    },
+    {
+        "vatId": "03511320248",
+        "name": "MIATELLO SRL FORNITURE ALBERGHIERE"
+    },
+    {
+        "vatId": "03520550264",
+        "name": "SIAP+MICROS"
+    },
+    {
+        "vatId": "03522310279",
+        "name": "TECNOS"
+    },
+    {
+        "vatId": "03525680165",
+        "name": "CALCIANA VIAGGI S.R.L."
+    },
+    {
+        "vatId": "03533961003",
+        "name": "RTI SINTESI SPA"
+    },
+    {
+        "vatId": "03542800655",
+        "name": "EL.CO. INFORMATICA S.R.L."
+    },
+    {
+        "vatId": "03543870616",
+        "name": "DIMENSIONE UFFICIO SRL"
+    },
+    {
+        "vatId": "03544221009",
+        "name": "ALFATOUR"
+    },
+    {
+        "vatId": "03545540720",
+        "name": "NAPOLITANO SRL"
+    },
+    {
+        "vatId": "03550910727",
+        "name": "SEDIT S.r.l. Servizi Editoriali, via delle orchidee, 1 70026 Modugno (BA)"
+    },
+    {
+        "vatId": "03553230651",
+        "name": "SIMAD sas"
+    },
+    {
+        "vatId": "03557710245",
+        "name": "ELETTROMECCANICA ZAMBERLAN SPA"
+    },
+    {
+        "vatId": "03566490631",
+        "name": "CAROS S.R.L."
+    },
+    {
+        "vatId": "03568180164",
+        "name": "AREA PROTECH SRL"
+    },
+    {
+        "vatId": "03575040724",
+        "name": "AIROL SISTEMI S.N.C."
+    },
+    {
+        "vatId": "03582120964",
+        "name": "AMBROSIANA GAS SRL- via carlo marx 23 - 20153 Milano"
+    },
+    {
+        "vatId": "03584750248",
+        "name": "ANDRITZ FRAUTECH SRL°"
+    },
+    {
+        "vatId": "03593210176",
+        "name": "PIANETA SRL"
+    },
+    {
+        "vatId": "03596871008",
+        "name": "BRUMAR"
+    },
+    {
+        "vatId": "03612050827",
+        "name": "COMEG  s.r.l."
+    },
+    {
+        "vatId": "03614591216",
+        "name": "2M ITALIA SRL"
+    },
+    {
+        "vatId": "03614790875",
+        "name": "AP SISTEMI DI MACI PAOLO E CARBONE ALESSANDRO"
+    },
+    {
+        "vatId": "03623720616",
+        "name": "BARDI SRL"
+    },
+    {
+        "vatId": "03623920281",
+        "name": "BRENTA LAVORI S.R.L."
+    },
+    {
+        "vatId": "03625220268",
+        "name": "TERMOIDRAULICA BENEDET SNC"
+    },
+    {
+        "vatId": "03633510106",
+        "name": "AMBIENTE S.r.l."
+    },
+    {
+        "vatId": "03641630268",
+        "name": "CENTRO BIBLIOTECHE LOVAT S.R.L."
+    },
+    {
+        "vatId": "03642300960",
+        "name": "R-BIOPHARM ITALIA"
+    },
+    {
+        "vatId": "03648620635",
+        "name": "BRANCACCIO COSTRUZIONI SPA"
+    },
+    {
+        "vatId": "03650400652",
+        "name": "SAGGESE S.P.A."
+    },
+    {
+        "vatId": "03652730825",
+        "name": "NORAT DI CAPPELLETTI ELVIRA"
+    },
+    {
+        "vatId": "03659560019",
+        "name": "I.E.C. INDUSTRIAL ENGINEERING CONSULTANTS S.R.L."
+    },
+    {
+        "vatId": "03672380262",
+        "name": "DAMA S.R.L."
+    },
+    {
+        "vatId": "03673620161",
+        "name": "ART.EDIL DI CAMPENNÌ ROCCO & C. S.R.L."
+    },
+    {
+        "vatId": "03675290286",
+        "name": ""
+    },
+    {
+        "vatId": "03679260285",
+        "name": "MODO S.R.L."
+    },
+    {
+        "vatId": "03685940714",
+        "name": "MATERA COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "03692370483",
+        "name": "ENGINEERING COSTRUZIONI GRUPPO EMPOLI LUCE SRL"
+    },
+    {
+        "vatId": "03693300638",
+        "name": "LA FIORELLA 82 ARL"
+    },
+    {
+        "vatId": "03694350756",
+        "name": "EDILELE S.R.L."
+    },
+    {
+        "vatId": "03695400964",
+        "name": "MONDOFFICE"
+    },
+    {
+        "vatId": "03702820964",
+        "name": "MYCROCLEAN ITALIA S.R.L."
+    },
+    {
+        "vatId": "03716240969",
+        "name": "PROSTRAKAN S.R.L."
+    },
+    {
+        "vatId": "03717780633",
+        "name": "CASA EDITRICE DEI COMUNI"
+    },
+    {
+        "vatId": "03748411216",
+        "name": "TUTTOSCUOLA DI CUOMO MICHELE"
+    },
+    {
+        "vatId": "03749380162",
+        "name": "DCLABS SRL"
+    },
+    {
+        "vatId": "03751190632",
+        "name": "ALLERTA S.R.L."
+    },
+    {
+        "vatId": "03752210876",
+        "name": "C.I.S.ELT. S.r.l."
+    },
+    {
+        "vatId": "03763310012",
+        "name": "3B S.R.L."
+    },
+    {
+        "vatId": "03771011214",
+        "name": "EDILSERVICE"
+    },
+    {
+        "vatId": "03772140160",
+        "name": "GECO SRL"
+    },
+    {
+        "vatId": "03774120236",
+        "name": "ELETTROMECCANICA PIZZAMIGLIO - VALEGGIO S/M (VR)"
+    },
+    {
+        "vatId": "03776140240",
+        "name": "STUDIO PSI.GAB."
+    },
+    {
+        "vatId": "03778030829",
+        "name": "S.G.C. SOCIETA' GENERALI COSTRUZIONI S.A.S."
+    },
+    {
+        "vatId": "03781770379",
+        "name": "HMT HIGH MEDICAL TECHNOLOGIES"
+    },
+    {
+        "vatId": "03790350874",
+        "name": "OSANET SRL"
+    },
+    {
+        "vatId": "03793100276",
+        "name": "FRACASSO S.P.A."
+    },
+    {
+        "vatId": "03804220154",
+        "name": "ZAMBON ITALIA S.R.L."
+    },
+    {
+        "vatId": "03804730483",
+        "name": "L'ELETTRICA S.P.A."
+    },
+    {
+        "vatId": "03810341002",
+        "name": "IDEALCLIMA LAVORI"
+    },
+    {
+        "vatId": "03810620827",
+        "name": "CARIGE ASSICURAZIONI"
+    },
+    {
+        "vatId": "03819530282",
+        "name": "ASSOCIAZIONE CULTURALE STUDIO D"
+    },
+    {
+        "vatId": "03823620236",
+        "name": "SPACELABS HEALTHCARE S.R.L."
+    },
+    {
+        "vatId": "03827340658",
+        "name": "INTERCOM S.R.L."
+    },
+    {
+        "vatId": "03827400106",
+        "name": "EMMEGI GROUP SRL"
+    },
+    {
+        "vatId": "03832260826",
+        "name": "ICAR LINE SRL"
+    },
+    {
+        "vatId": "03832621001",
+        "name": "G.C.F. Generale Costruzioni Ferroviarie"
+    },
+    {
+        "vatId": "03837421001",
+        "name": "ESRI ITALIA SPA"
+    },
+    {
+        "vatId": "03838150716",
+        "name": "ARETE&#39; s.r.l."
+    },
+    {
+        "vatId": "03850710249",
+        "name": "ONGARO S.R.L."
+    },
+    {
+        "vatId": "03856410166",
+        "name": "Fili intrecciati Fa"
+    },
+    {
+        "vatId": "03878140239",
+        "name": "VIIV HEALTHCARE S.R.L."
+    },
+    {
+        "vatId": "03878640238",
+        "name": ""
+    },
+    {
+        "vatId": "03891480968",
+        "name": "CSS SERVICE SRL"
+    },
+    {
+        "vatId": "03898680826",
+        "name": "PC SERVICE SRL"
+    },
+    {
+        "vatId": "03898780378",
+        "name": "TEMA RICERCA S.R.L."
+    },
+    {
+        "vatId": "03910150485",
+        "name": "INFOSCHOOL S.R.L. AREA CENTRO"
+    },
+    {
+        "vatId": "03912060823",
+        "name": "ALBA SRL"
+    },
+    {
+        "vatId": "03933320727",
+        "name": "Ecologica Pugliese S.r.l."
+    },
+    {
+        "vatId": "03940410289",
+        "name": "CI.GI.ESSE S.R.L."
+    },
+    {
+        "vatId": "03954980011",
+        "name": "C.D.C. - CENTRO POLISPECIALISTICO PRIVATO S.R.L."
+    },
+    {
+        "vatId": "03964440261",
+        "name": "VENETA COLORI s.r.l."
+    },
+    {
+        "vatId": "03971511005",
+        "name": "TEMAS SNC DI DANTE CIANFARINI & C"
+    },
+    {
+        "vatId": "03981390408",
+        "name": "PUBLICOR SRL"
+    },
+    {
+        "vatId": "03990881215",
+        "name": "IMPIANTI TECNOLOGICI AVANZATI I.T.A."
+    },
+    {
+        "vatId": "04017840010",
+        "name": "L'EUROPEA DI MILIANI S.N.C. - SAN CARLO C.SE"
+    },
+    {
+        "vatId": "04017960404",
+        "name": "Agenzia viaggi SALE SCUOLA VIAGGI"
+    },
+    {
+        "vatId": "04024650261",
+        "name": "TEDESCO ZARIO & C. S.N.C."
+    },
+    {
+        "vatId": "04029180371",
+        "name": "COLOPLAST"
+    },
+    {
+        "vatId": "04034090482",
+        "name": "EDP FLORENCE"
+    },
+    {
+        "vatId": "04046200483",
+        "name": "MINUTO GIOACCHINO SRL"
+    },
+    {
+        "vatId": "04047600400",
+        "name": "COMETA GROUP SOC. COOP."
+    },
+    {
+        "vatId": "04051160234",
+        "name": "GIOCHEMICA S.R.L. UNIPERSONALE"
+    },
+    {
+        "vatId": "04060021211",
+        "name": "GIMI SERVICE SRL"
+    },
+    {
+        "vatId": "04065690754",
+        "name": "AREA UFFICIO E MEDICAL"
+    },
+    {
+        "vatId": "04095550283",
+        "name": "CLEANER"
+    },
+    {
+        "vatId": "04104671005",
+        "name": "TECNOPRAS DI MILIACCA GIORGIO & C. SAS"
+    },
+    {
+        "vatId": "04106230404",
+        "name": "SPACE SRL SEMPLIFICATA"
+    },
+    {
+        "vatId": "04116020969",
+        "name": "TARENZI S.P.A."
+    },
+    {
+        "vatId": "04119190371",
+        "name": "GRANAROLO"
+    },
+    {
+        "vatId": "04127270157",
+        "name": "SOL S.P.A."
+    },
+    {
+        "vatId": "04127701219",
+        "name": "SEPEM SRL"
+    },
+    {
+        "vatId": "04148860283",
+        "name": "LIFE AREA SRL"
+    },
+    {
+        "vatId": "04159281213",
+        "name": "G.M.A. COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "04164060370",
+        "name": "HORIZONS UNLIMITED H.U. S.R.L."
+    },
+    {
+        "vatId": "04167160151",
+        "name": "LOMBARDA H"
+    },
+    {
+        "vatId": "04172760284",
+        "name": "RADARMETEO SRL"
+    },
+    {
+        "vatId": "04185561000",
+        "name": "INTERECO SERVIZI S.R.L."
+    },
+    {
+        "vatId": "04211410370",
+        "name": "DEDANEXT"
+    },
+    {
+        "vatId": "04213800875",
+        "name": "NEW SERVICE CLIMA DI SPINOSA ALFIO"
+    },
+    {
+        "vatId": "04216500019",
+        "name": "EURO IMPIANTI ELETTRONIC SPA"
+    },
+    {
+        "vatId": "04229940871",
+        "name": "ETNA NORD SERVIZI SRL"
+    },
+    {
+        "vatId": "04246520482",
+        "name": "HI.TECH S.P.A..  SOFTWARE ENGINEERING"
+    },
+    {
+        "vatId": "04248450720",
+        "name": "F.LLI PETROSINO & C.SAS DI A.PETROSINO"
+    },
+    {
+        "vatId": "04257180754",
+        "name": "AB.CF SOLUTION DI ANDREA BRUNO E FRANCESCO CANDIDO"
+    },
+    {
+        "vatId": "04272070824",
+        "name": "M.T.H. S.R.L."
+    },
+    {
+        "vatId": "04285150753",
+        "name": "DE GIORGI GLOBAL SERVICE S.R.L."
+    },
+    {
+        "vatId": "04289840268",
+        "name": "3D SYSTEM SRL"
+    },
+    {
+        "vatId": "04290860370",
+        "name": ""
+    },
+    {
+        "vatId": "04296350269",
+        "name": "Wood Cape S.r.l.,"
+    },
+    {
+        "vatId": "04335830826",
+        "name": "TECNO COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "04345180287",
+        "name": "BIOTECNICA SRL"
+    },
+    {
+        "vatId": "04355200967",
+        "name": "TECNOGAS SRL"
+    },
+    {
+        "vatId": "04356661001",
+        "name": "MARIO LEONETTI SRL"
+    },
+    {
+        "vatId": "04382280487",
+        "name": "Ditta Lazzaretti Marradi"
+    },
+    {
+        "vatId": "04387520283",
+        "name": "MANENS-TIFS SPA"
+    },
+    {
+        "vatId": "04408410480",
+        "name": "SELIN SRL"
+    },
+    {
+        "vatId": "04409410968",
+        "name": "CONSORZIO HCM"
+    },
+    {
+        "vatId": "04422531006",
+        "name": "TECNOFFICE SNC"
+    },
+    {
+        "vatId": "04425731009",
+        "name": "ISIDATA S.R.L."
+    },
+    {
+        "vatId": "04435720281",
+        "name": "ROBYONE S.r.l."
+    },
+    {
+        "vatId": "04445650965",
+        "name": "AZZERO C02"
+    },
+    {
+        "vatId": "04453520654",
+        "name": "COPIER DI VALERIO COLASANTE"
+    },
+    {
+        "vatId": "04472830159",
+        "name": ""
+    },
+    {
+        "vatId": "04477501003",
+        "name": "EUROLIT SRL"
+    },
+    {
+        "vatId": "04483510964",
+        "name": "LABORATORI ALTER SRL"
+    },
+    {
+        "vatId": "04494560289",
+        "name": "EMERSON NETWORK POWER ITALIA S.R.L."
+    },
+    {
+        "vatId": "04504971211",
+        "name": "BANCA DELLA CAMPANIA"
+    },
+    {
+        "vatId": "04505180283",
+        "name": "FERRARETTO ASSICURAZIONI DI FERRARETTO CAROLINA"
+    },
+    {
+        "vatId": "04507120824",
+        "name": "Centineo I e Sottile G. s.n.c."
+    },
+    {
+        "vatId": "04522920828",
+        "name": "D'ANNA GIUSEPPE"
+    },
+    {
+        "vatId": "04524800960",
+        "name": "BSI Group Italia S.r.l."
+    },
+    {
+        "vatId": "04525280964",
+        "name": "R.S MEDICA"
+    },
+    {
+        "vatId": "04529280655",
+        "name": "METE INFINITE"
+    },
+    {
+        "vatId": "04534970969",
+        "name": "INVERNIZZI ERNESTO-STAZIONE DI SERVIZIO Q8"
+    },
+    {
+        "vatId": "04541881001",
+        "name": "IMPRESA ROBERTO LOMBARDOZZI S.R.L."
+    },
+    {
+        "vatId": "04554571002",
+        "name": "LAND"
+    },
+    {
+        "vatId": "04564101006",
+        "name": "MIR SRL"
+    },
+    {
+        "vatId": "04601730965",
+        "name": "AL.MA. COSTRUZIONI EDILI SRL"
+    },
+    {
+        "vatId": "04612750481",
+        "name": "AZIENDA OSPEDALIERA CAREGGI"
+    },
+    {
+        "vatId": "04617510757",
+        "name": "SOC. COOP. AGR. L'AIERA"
+    },
+    {
+        "vatId": "04623550482",
+        "name": "MAGNA CHARTA"
+    },
+    {
+        "vatId": "04628980965",
+        "name": "SINCLAIR PHARMA S.R.L."
+    },
+    {
+        "vatId": "04630370965",
+        "name": "VI & VI DI MONGA ALESSANDRA"
+    },
+    {
+        "vatId": "04647720483",
+        "name": "CAREFUSION 311"
+    },
+    {
+        "vatId": "04654610874",
+        "name": "INFORMATICA NET SRL"
+    },
+    {
+        "vatId": "04656100726",
+        "name": "DITTA INFO SRL"
+    },
+    {
+        "vatId": "04656270016",
+        "name": "BRA-MAC SERVICE SRL"
+    },
+    {
+        "vatId": "04665400968",
+        "name": "DSPM INDUSTRIA"
+    },
+    {
+        "vatId": "04670460825",
+        "name": "SPORT & PREMI S.N.C"
+    },
+    {
+        "vatId": "04672050285",
+        "name": "3P Technologies Srl"
+    },
+    {
+        "vatId": "04723521003",
+        "name": "GAP MED"
+    },
+    {
+        "vatId": "04732240967",
+        "name": "EISAI S.R.L."
+    },
+    {
+        "vatId": "04734201009",
+        "name": "ASL RM B"
+    },
+    {
+        "vatId": "04754231217",
+        "name": "PUMAVER S.R.L."
+    },
+    {
+        "vatId": "04760301210",
+        "name": "LAVORI GENERALI LA ROSA S.R.L."
+    },
+    {
+        "vatId": "04760660961",
+        "name": "DOCTOR SHOP"
+    },
+    {
+        "vatId": "04762340729",
+        "name": "TESEO INTERNET PROVIDER S.R.L."
+    },
+    {
+        "vatId": "04785851009",
+        "name": "SIEMENS HEALTHCARE DIAGNOSTICS S.R.L."
+    },
+    {
+        "vatId": "04786421000",
+        "name": "TECNOSERVICECAMERE SCPA"
+    },
+    {
+        "vatId": "04790171005",
+        "name": "ITER GESTIONI E APPALTI"
+    },
+    {
+        "vatId": "04798210631",
+        "name": "SCUOTTO IMPIANTI ELETTRICI E TECNOLOGICI SRL"
+    },
+    {
+        "vatId": "04804230151",
+        "name": "LAGITRE S.R.L."
+    },
+    {
+        "vatId": "04872051216",
+        "name": "EDIL MED"
+    },
+    {
+        "vatId": "04875890156",
+        "name": "GE HEALTHCARE CLINICAL SYSTEM SRL"
+    },
+    {
+        "vatId": "04877961005",
+        "name": "CAPGEMINI ITALIA SPA"
+    },
+    {
+        "vatId": "04880630159",
+        "name": "EVEREST S.R.L."
+    },
+    {
+        "vatId": "04882140876",
+        "name": "CONSORZIO STABILE \"LAVORI, FORNITURE E SERVIZI\""
+    },
+    {
+        "vatId": "04888070960",
+        "name": "POLIFARMA BENESSERE SRL"
+    },
+    {
+        "vatId": "04891320014",
+        "name": "ENRICO BRUNO SRL"
+    },
+    {
+        "vatId": "04910180019",
+        "name": "SCALETTI S.R.L."
+    },
+    {
+        "vatId": "04915230017",
+        "name": "CA.NOVA SPA"
+    },
+    {
+        "vatId": "04921880961",
+        "name": "RAJAPAF S.R.L."
+    },
+    {
+        "vatId": "04925950653",
+        "name": "SAMOA RESTAURI SRL"
+    },
+    {
+        "vatId": "04927530651",
+        "name": "PD TONER S.R.L."
+    },
+    {
+        "vatId": "04942360969",
+        "name": "FUTURA 3000"
+    },
+    {
+        "vatId": "04945120873",
+        "name": "CROMATICAMENTE DI SPITALERI DOMENICO & MUSCOLINO RAFAEL S.N.C."
+    },
+    {
+        "vatId": "04948820826",
+        "name": "MAZZOLA MICHELE & C.S.N.C."
+    },
+    {
+        "vatId": "04955300720",
+        "name": "WEB INFORMATICA E SERVIZI S.R.L."
+    },
+    {
+        "vatId": "04956380960",
+        "name": "Azienda Speciale Consortile Servizi alla Persona"
+    },
+    {
+        "vatId": "04958641005",
+        "name": "SVECO SRL"
+    },
+    {
+        "vatId": "04959970015",
+        "name": "ALLEGRO CON MOTO SOCIETA' COOPERATIVA SOCIALE A R.L. ONLUS"
+    },
+    {
+        "vatId": "04978870824",
+        "name": "CAPE LAND VIAGGI E TURISMO"
+    },
+    {
+        "vatId": "04980350013",
+        "name": "MONTEPAONE S.R.L."
+    },
+    {
+        "vatId": "4430020828",
+        "name": "Codice fiscale assente o non valido"
+    },
+    {
+        "vatId": "05008170580",
+        "name": "Veterinaria 2000 srl"
+    },
+    {
+        "vatId": "05008950874",
+        "name": "FREE SAT TELECOMUNICAZIONI SRL"
+    },
+    {
+        "vatId": "05015060659",
+        "name": "ARTI GRAFICHE SALERNO SRL"
+    },
+    {
+        "vatId": "05023870826",
+        "name": "ITALFORNITURE SOCIETA' COOPERATIVA"
+    },
+    {
+        "vatId": "05024680729",
+        "name": "EFFE EMME COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "05032630963",
+        "name": "ALLIANZ RAS ASSICURAZIONI"
+    },
+    {
+        "vatId": "05038691001",
+        "name": "BRUNO FARMACEUTICI"
+    },
+    {
+        "vatId": "05047350821",
+        "name": "CENTRO DIDATTICO LOMBARDO"
+    },
+    {
+        "vatId": "05060260154",
+        "name": "SA.VE.PA. SAS"
+    },
+    {
+        "vatId": "05067451210",
+        "name": "N.T. COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "05068620821",
+        "name": "DISPOSABLE LINE"
+    },
+    {
+        "vatId": "05069070158",
+        "name": "KONE ASCENSORI SPA"
+    },
+    {
+        "vatId": "05074220962",
+        "name": "Rana sas Lavori edili di Rana Fabio & C."
+    },
+    {
+        "vatId": "05077540960",
+        "name": "INWARE EDIZIONI srl"
+    },
+    {
+        "vatId": "05097101215",
+        "name": "EDIL F.A.L.C."
+    },
+    {
+        "vatId": "05102470159",
+        "name": "EMME 3 SAS"
+    },
+    {
+        "vatId": "05111260583",
+        "name": " RECIR SRL"
+    },
+    {
+        "vatId": "05134880870",
+        "name": "PK SUD SRL"
+    },
+    {
+        "vatId": "05149470634",
+        "name": "ALLEANZA SALUTE DISTRIBUZIONE S.P.A."
+    },
+    {
+        "vatId": "05151330825",
+        "name": "Pistone S.p.A."
+    },
+    {
+        "vatId": "05158401009",
+        "name": "RESNOVA S.R.L."
+    },
+    {
+        "vatId": "05167530582",
+        "name": "DI TOMMASO D."
+    },
+    {
+        "vatId": "05190400720",
+        "name": "Grafiche del Colle di G. Procino & C. s.a.s"
+    },
+    {
+        "vatId": "05198491002",
+        "name": "rossi transworld"
+    },
+    {
+        "vatId": "05199111005",
+        "name": "TIPOGRAFIA FACCIOTTI SRL"
+    },
+    {
+        "vatId": "05206041211",
+        "name": "FUTURA HOSPITAL"
+    },
+    {
+        "vatId": "05243130720",
+        "name": "NET SERVICE"
+    },
+    {
+        "vatId": "05272040584",
+        "name": "NUOVA SUPER IRIDE SRL"
+    },
+    {
+        "vatId": "05272350827",
+        "name": "NUOVA AMMIRAGLIA ECOLOGICA"
+    },
+    {
+        "vatId": "05314661009",
+        "name": "PLENZICH S.R.L."
+    },
+    {
+        "vatId": "05383391009",
+        "name": "LEGISLAZIONE TECNICA"
+    },
+    {
+        "vatId": "05400500723",
+        "name": "LEADER SERVICE S.C.A R.L."
+    },
+    {
+        "vatId": "05410741002",
+        "name": "WIND INFOSTRADA"
+    },
+    {
+        "vatId": "05415291003",
+        "name": "MPB SRL"
+    },
+    {
+        "vatId": "05416341211",
+        "name": "AREACHEM S.R.L."
+    },
+    {
+        "vatId": "05424020963",
+        "name": "MASIMO EUROPE LIMITED"
+    },
+    {
+        "vatId": "05436540826",
+        "name": "BIOCASA"
+    },
+    {
+        "vatId": "05452230823",
+        "name": "Ing. Carrubba Daniele"
+    },
+    {
+        "vatId": "05462470963",
+        "name": "PI.CA. Holding IT s.r.l"
+    },
+    {
+        "vatId": "05465101219",
+        "name": "Hullabaloo S.r.l."
+    },
+    {
+        "vatId": "05486580961",
+        "name": "SOCIETA ACQUA LODIGIANA SRL  O PIU BREVEMENTE SAL SR L"
+    },
+    {
+        "vatId": "05506871002",
+        "name": "GETINGE"
+    },
+    {
+        "vatId": "05513780485",
+        "name": "A.S.S.O.  HOSPITAL SRL"
+    },
+    {
+        "vatId": "05526190482",
+        "name": "ERGON"
+    },
+    {
+        "vatId": "05537510967",
+        "name": "77870 - SIMONETTA S.A.S. DI LENTO M.&C."
+    },
+    {
+        "vatId": "05541190483",
+        "name": "ELETTRA SRL"
+    },
+    {
+        "vatId": "05556630720",
+        "name": "GIANNELLI IMPIANTI SRL"
+    },
+    {
+        "vatId": "05571200012",
+        "name": "INFRASTRUTTURE SC"
+    },
+    {
+        "vatId": "05583260483",
+        "name": "CENTER TRUCKS S.R.L."
+    },
+    {
+        "vatId": "05583940019",
+        "name": "BRUNO SISTEMI S.R.L."
+    },
+    {
+        "vatId": "05599730487",
+        "name": "Firenze servizi società cooperativa sociale onlus"
+    },
+    {
+        "vatId": "05602670969",
+        "name": "BRICOMAN"
+    },
+    {
+        "vatId": "05617631006",
+        "name": "HITRAC ENGINEERING GROUP srl"
+    },
+    {
+        "vatId": "05623681219",
+        "name": "DVS DIGITAL VIDEO STUDIO DI ANTONIO AZZURRO"
+    },
+    {
+        "vatId": "05638840826",
+        "name": "TECNO PROGET S.R.L."
+    },
+    {
+        "vatId": "05641680011",
+        "name": "GIEMME SRL DI D'AGOSTINO F."
+    },
+    {
+        "vatId": "05641980726",
+        "name": "MANUTENZIONI S.R.L"
+    },
+    {
+        "vatId": "05645250720",
+        "name": "LE MUSE S.R.L."
+    },
+    {
+        "vatId": "05661600485",
+        "name": "OMNIAVIS SRL"
+    },
+    {
+        "vatId": "05665070966",
+        "name": "ALEXION PHARMA ITALY"
+    },
+    {
+        "vatId": "05692741001",
+        "name": "GEVI SERVICE ITALIA"
+    },
+    {
+        "vatId": "05696990489",
+        "name": "TADDEI ROBERTO Srl"
+    },
+    {
+        "vatId": "05735411000",
+        "name": "AXIOS ITALIA DEVELOPMENT S.r.l."
+    },
+    {
+        "vatId": "05761720720",
+        "name": "I.TE.CO."
+    },
+    {
+        "vatId": "05763690483",
+        "name": "FLORENTIA BUS"
+    },
+    {
+        "vatId": "05763890638",
+        "name": "EUROMED SRL"
+    },
+    {
+        "vatId": "05779711000",
+        "name": ""
+    },
+    {
+        "vatId": "05791161002",
+        "name": "DBNET S.R.L."
+    },
+    {
+        "vatId": "05795490969",
+        "name": "COSTANZAFARMA S.R.L."
+    },
+    {
+        "vatId": "05804990967",
+        "name": "SI.MA.UT srl via volta 28 - 20020 Arconate (Mi)"
+    },
+    {
+        "vatId": "05812891009",
+        "name": "CONSORZIO MARTE EUROSERVICE"
+    },
+    {
+        "vatId": "05816900723",
+        "name": "PUGLIASCUOLA"
+    },
+    {
+        "vatId": "05824820632",
+        "name": "TS & T srl"
+    },
+    {
+        "vatId": "05833480725",
+        "name": "MEDIA GRAPHIC"
+    },
+    {
+        "vatId": "05855370010",
+        "name": "FOR S.A.S. DI CAPONI DAVIDE & C."
+    },
+    {
+        "vatId": "05881180482",
+        "name": "COSI AUTO S R L"
+    },
+    {
+        "vatId": "05888970489",
+        "name": "TRII"
+    },
+    {
+        "vatId": "05889920822",
+        "name": "Avatar Eco srl"
+    },
+    {
+        "vatId": "05892611004",
+        "name": "Technology & Global Service"
+    },
+    {
+        "vatId": "05895030012",
+        "name": "SA.PI. S.R.L."
+    },
+    {
+        "vatId": "05908410961",
+        "name": "ANALYTICAL CONTROL DE MORI"
+    },
+    {
+        "vatId": "05919351212",
+        "name": "MILANO INFORMATICA S.R.L."
+    },
+    {
+        "vatId": "05941670969",
+        "name": "ORION PHARMA S.R.L."
+    },
+    {
+        "vatId": "05974730151",
+        "name": "SALTECO SPA"
+    },
+    {
+        "vatId": "05978251006",
+        "name": "CLANET S.R.L."
+    },
+    {
+        "vatId": "05985320158",
+        "name": "MASCIA BRUNELLI S.P.A."
+    },
+    {
+        "vatId": "05994580727",
+        "name": "OPERA SRL"
+    },
+    {
+        "vatId": "05999530016",
+        "name": "ESSECI S.r.l. - Collegno (TO)"
+    },
+    {
+        "vatId": "06016121003",
+        "name": "STEP SRL"
+    },
+    {
+        "vatId": "06019191219",
+        "name": "DIGITAL SRL"
+    },
+    {
+        "vatId": "06022590480",
+        "name": "ELETTRO 2010"
+    },
+    {
+        "vatId": "06025851210",
+        "name": "C.L.P. COSTRUZIONI SRL"
+    },
+    {
+        "vatId": "06041980829",
+        "name": "MICROMAX SOLUTION"
+    },
+    {
+        "vatId": "06057300961",
+        "name": "B.R.A.H.M.S. ITALIA SRL"
+    },
+    {
+        "vatId": "06081090968",
+        "name": "XENA PROJECTS SNC"
+    },
+    {
+        "vatId": "06093770482",
+        "name": "MAX SERVICE SRL"
+    },
+    {
+        "vatId": "06100000824",
+        "name": "Impresa Avvalente Edil Nardi Costruzioni "
+    },
+    {
+        "vatId": "06108840015",
+        "name": "MERLO S.R.L."
+    },
+    {
+        "vatId": "06114860726",
+        "name": "ARREDO UFFICIO DI PAPA ANTONIO & C. S.N.C."
+    },
+    {
+        "vatId": "06128480966",
+        "name": "ALLERGOPHARMA S.P.A."
+    },
+    {
+        "vatId": "06145310824",
+        "name": "PMO TRAVEL"
+    },
+    {
+        "vatId": "06155051003",
+        "name": "ENVIRON ITALY S.R.L."
+    },
+    {
+        "vatId": "06157981009",
+        "name": "ZOOMARINE ITALIA SPA"
+    },
+    {
+        "vatId": "06159791216",
+        "name": "CFV"
+    },
+    {
+        "vatId": "06173770485",
+        "name": "COSTRUZIONI GENERALI TOSCANE SPA"
+    },
+    {
+        "vatId": "06175680153",
+        "name": "CAZZANI SPA"
+    },
+    {
+        "vatId": "06198051218",
+        "name": "Consorzio Effe Group"
+    },
+    {
+        "vatId": "06202040157",
+        "name": "CONTROL CARD SRL"
+    },
+    {
+        "vatId": "06202160013",
+        "name": "TECHNOLOGIC"
+    },
+    {
+        "vatId": "06231120582",
+        "name": "Impresa Costruzioni Pasqualucci srl"
+    },
+    {
+        "vatId": "06263430826",
+        "name": "GDS MEDIA & COMMUNICATION SRL"
+    },
+    {
+        "vatId": "06268691216",
+        "name": "INFOSYS TEAM S.R.L."
+    },
+    {
+        "vatId": "06278320152",
+        "name": "F.C.D. Sas di Casiraghi Sergio Modesto"
+    },
+    {
+        "vatId": "06294880965",
+        "name": "SELESTA INGEGNERIA S.P.A."
+    },
+    {
+        "vatId": "06307331006",
+        "name": "FERRAMENTA PIACENTI SRL"
+    },
+    {
+        "vatId": "06349620960",
+        "name": "ERBE ITALIA SRL"
+    },
+    {
+        "vatId": "06357810156",
+        "name": "CEI - COMITATO ELETTROTECNICO ITALIANO"
+    },
+    {
+        "vatId": "06365451217",
+        "name": "F.M.C. DI MARCO ESPOSITO"
+    },
+    {
+        "vatId": "06375550966",
+        "name": "AMC SERVICES S.R.L.- ARKE' MANAGEMENT CONSULTING"
+    },
+    {
+        "vatId": "06376920721",
+        "name": "Breathing Art Company Associazione culturale"
+    },
+    {
+        "vatId": "06389590966",
+        "name": "MIDA BIO SRL"
+    },
+    {
+        "vatId": "06409850960",
+        "name": "TROVOLAVORO SRL"
+    },
+    {
+        "vatId": "06410060013",
+        "name": "CARPENTERIA CARENA S.R.L."
+    },
+    {
+        "vatId": "06451061003",
+        "name": "FOTOFORNITURE GUIDO SABATINI"
+    },
+    {
+        "vatId": "06461421007",
+        "name": "ACM SRL ASSISTENZA CARTOINFORMATICA MOBILI"
+    },
+    {
+        "vatId": "06484280018",
+        "name": "COOP. SOC. P.G. FRASSATI DI PRODUZIONE E LAVORO SCS ONLUS"
+    },
+    {
+        "vatId": "06511030634",
+        "name": "MACROSOFT COMPUTERS SNC"
+    },
+    {
+        "vatId": "06522401006",
+        "name": "SINERCOM SRL"
+    },
+    {
+        "vatId": "06544550012",
+        "name": "BORUS SRL"
+    },
+    {
+        "vatId": "06553920965",
+        "name": "CERERIA EUROCANDLES"
+    },
+    {
+        "vatId": "06566891005",
+        "name": "Eco in S.r.l."
+    },
+    {
+        "vatId": "06573800726",
+        "name": "DIGITALMATICA DI SALTINO ROBERTO"
+    },
+    {
+        "vatId": "06603861219",
+        "name": "So.Ge.Ser. Tecnology srl"
+    },
+    {
+        "vatId": "06604890969",
+        "name": "MEDICINA DEL LAVORO s.r.l."
+    },
+    {
+        "vatId": "06614450010",
+        "name": "COMPUTER LINE DI GRANGETTO GIANCARLO"
+    },
+    {
+        "vatId": "06620551009",
+        "name": "SPRINT S.R.L."
+    },
+    {
+        "vatId": "06622890967",
+        "name": "AG.I.COM"
+    },
+    {
+        "vatId": "06662801213",
+        "name": "PROGETTO PUBBLICITA' SCUOLE di Emilia Cascone"
+    },
+    {
+        "vatId": "06675930637",
+        "name": "ANALYSIS S.R.L."
+    },
+    {
+        "vatId": "06692220632",
+        "name": "SORBARA ALFREDO"
+    },
+    {
+        "vatId": "06693661008",
+        "name": "CLM SRL"
+    },
+    {
+        "vatId": "06704251005",
+        "name": "COMEDATA"
+    },
+    {
+        "vatId": "06722600019",
+        "name": "EDISON"
+    },
+    {
+        "vatId": "06750590587",
+        "name": "LA TECNICA ESP S.p.A."
+    },
+    {
+        "vatId": "06754140157",
+        "name": "BIO OPTICA MILANO SPA"
+    },
+    {
+        "vatId": "06764660632",
+        "name": "DIESSE DI DOMENICO SALEMME"
+    },
+    {
+        "vatId": "06770260013",
+        "name": "UNIMEDICAL SRL"
+    },
+    {
+        "vatId": "06776870583",
+        "name": "CEPI T.A.A.S."
+    },
+    {
+        "vatId": "06786170727",
+        "name": "DIDACO SRL"
+    },
+    {
+        "vatId": "06788560156",
+        "name": "FALCO RENZO SRL"
+    },
+    {
+        "vatId": "06803880589",
+        "name": "SOFTLAB Laboratori per la produzione industriale del software S.p.a."
+    },
+    {
+        "vatId": "06804210018",
+        "name": "SMC  Lavoro e Ambiente"
+    },
+    {
+        "vatId": "06832931007",
+        "name": "GALA SPA"
+    },
+    {
+        "vatId": "06870280580",
+        "name": "GRUPPO SETTE"
+    },
+    {
+        "vatId": "06874351007",
+        "name": "POSTE ITALIANE"
+    },
+    {
+        "vatId": "06882420729",
+        "name": "VS ELETTRICA"
+    },
+    {
+        "vatId": "06950870011",
+        "name": "ABEX ITALIA SRL"
+    },
+    {
+        "vatId": "06959201002",
+        "name": "INFORMATEK  s.n.c."
+    },
+    {
+        "vatId": "06961760722",
+        "name": "LAVORINT SPA"
+    },
+    {
+        "vatId": "06989940728",
+        "name": "CO. MAI SRL"
+    },
+    {
+        "vatId": "07008131216",
+        "name": "DE SIA E IDEATENDA"
+    },
+    {
+        "vatId": "07042741004",
+        "name": "AVVOCATI ROMANELLI-PAFUNDI"
+    },
+    {
+        "vatId": "07077990013",
+        "name": "NEUROMED"
+    },
+    {
+        "vatId": "07078270720",
+        "name": "D.A.BI.MUS digitalizzazione di Archivi, Biblioteche e Musei S.R.L."
+    },
+    {
+        "vatId": "07090960720",
+        "name": "MANCINI GROUP S.A.S. DI MANCINI E DALIANI POLI"
+    },
+    {
+        "vatId": "07106921005",
+        "name": "EOS TECHNOLOGY s.r.l."
+    },
+    {
+        "vatId": "07129091216",
+        "name": "FGF INFORMATICA"
+    },
+    {
+        "vatId": "07149860582",
+        "name": "ARGENTERIE BOSCHI SNC DI CORRADO BOSCHI & C."
+    },
+    {
+        "vatId": "07163510154",
+        "name": "SIEL SPA"
+    },
+    {
+        "vatId": "07179150151",
+        "name": "PAUL HARTMANN S.P.A."
+    },
+    {
+        "vatId": "07186210154",
+        "name": "VEGA SPA"
+    },
+    {
+        "vatId": "07192230634",
+        "name": "BIOCARE EUROPE SRL"
+    },
+    {
+        "vatId": "07220700962",
+        "name": "BEAVER-VISITEC INTERNATIONAL SALES LTD"
+    },
+    {
+        "vatId": "07234890965",
+        "name": "NAYAMED ITALY SRL"
+    },
+    {
+        "vatId": "07241680961",
+        "name": "AESSE SRL"
+    },
+    {
+        "vatId": "07285990011",
+        "name": "VERIS S.R.L."
+    },
+    {
+        "vatId": "07287621002",
+        "name": "ANGENERICO"
+    },
+    {
+        "vatId": "07299190632",
+        "name": "ALFONSO SCUOTTO GROUP SRL"
+    },
+    {
+        "vatId": "07333290588",
+        "name": "BLITZ ANTINCENDIO SRL"
+    },
+    {
+        "vatId": "07339760014",
+        "name": "Tenka Video di La Rocca Riccardo"
+    },
+    {
+        "vatId": "07351260158",
+        "name": "NEUMED"
+    },
+    {
+        "vatId": "07351371005",
+        "name": "EMMECI MEETING E CONGRESSI S.R.L."
+    },
+    {
+        "vatId": "07357011001",
+        "name": "OFFICELAND"
+    },
+    {
+        "vatId": "07364571211",
+        "name": "IMPIANTI & STRUTURE S.P.A."
+    },
+    {
+        "vatId": "07393830158",
+        "name": "BAUSCH & LOMB - IOM SPA"
+    },
+    {
+        "vatId": "07394350966",
+        "name": "SUNNEXT"
+    },
+    {
+        "vatId": "07415430011",
+        "name": "PEARSON ITALIA S.P.A."
+    },
+    {
+        "vatId": "07442170580",
+        "name": "RICCI SPA"
+    },
+    {
+        "vatId": "07468130013",
+        "name": "EMME 2 S.A.S. DI FERRERO MARIO & C."
+    },
+    {
+        "vatId": "07479320157",
+        "name": "NEW FOTO SERVICE"
+    },
+    {
+        "vatId": "07481590722",
+        "name": "NUMI SRL"
+    },
+    {
+        "vatId": "07490100018",
+        "name": "A.A.T. AZIENDA AUTONOLEGGIO TORINO - CONSORZIO SOCIETA' COOPERATIVA"
+    },
+    {
+        "vatId": "07507741002",
+        "name": "Duepigrecoerre s.r.l."
+    },
+    {
+        "vatId": "07510570158",
+        "name": "PELLINI SRL"
+    },
+    {
+        "vatId": "07516911000",
+        "name": ""
+    },
+    {
+        "vatId": "07547850011",
+        "name": "OMNIA COMPUTERS di Enrico Randazzo"
+    },
+    {
+        "vatId": "07577660637",
+        "name": "LA MINIPOLI S.R.L"
+    },
+    {
+        "vatId": "07609020966",
+        "name": "MERIT MEDICAL ITALY S.R.L."
+    },
+    {
+        "vatId": "07620470018",
+        "name": "TECNICA SCIENTIFICA SERVICE SRL"
+    },
+    {
+        "vatId": "07629630158",
+        "name": "OMNITEX S.R.L."
+    },
+    {
+        "vatId": "07632040585",
+        "name": "SO.MA.CO. SRL"
+    },
+    {
+        "vatId": "07643600013",
+        "name": "DIGITO"
+    },
+    {
+        "vatId": "07649050965",
+        "name": "THEA FARMA S.P.A."
+    },
+    {
+        "vatId": "07650480010",
+        "name": "IMPRESA EDILE GEOM. PEIRETTI"
+    },
+    {
+        "vatId": "07858440964",
+        "name": "PHARMA MAR S.R.L."
+    },
+    {
+        "vatId": "07879870637",
+        "name": "SOL.EDIL. S.R.L."
+    },
+    {
+        "vatId": "07897711003",
+        "name": "SICURITALIA"
+    },
+    {
+        "vatId": "07984380969",
+        "name": "EUROFINS GENOMICS SRL"
+    },
+    {
+        "vatId": "07995580151",
+        "name": "HANS BRAND S.R.L."
+    },
+    {
+        "vatId": "07999930964",
+        "name": "MALLINCKRODT ITALIA"
+    },
+    {
+        "vatId": "08010130014",
+        "name": "ORSOLA S.N.C."
+    },
+    {
+        "vatId": "08037550962",
+        "name": "BENACQUISTA ASSICURAZIONI SNC"
+    },
+    {
+        "vatId": "08040071006",
+        "name": "SACE BT SPA"
+    },
+    {
+        "vatId": "08066790968",
+        "name": "EDIL QUADRIFOGLIO SCARL"
+    },
+    {
+        "vatId": "08090540967",
+        "name": "CLASSIC COLOR S.R.L."
+    },
+    {
+        "vatId": "08102060152",
+        "name": "estintori stablum antifortunistica"
+    },
+    {
+        "vatId": "08134780157",
+        "name": "EUROTEL SPA"
+    },
+    {
+        "vatId": "08138650158",
+        "name": "canile rifugio Russo Alessandro"
+    },
+    {
+        "vatId": "08159811002",
+        "name": "CLIMA RENT S.R.L."
+    },
+    {
+        "vatId": "08216240013",
+        "name": "ASCOMET S.A.S."
+    },
+    {
+        "vatId": "08218960014",
+        "name": "PRONTUFFICIO S.R.L."
+    },
+    {
+        "vatId": "08223971006",
+        "name": "MULTIMEDIA UFFICIO"
+    },
+    {
+        "vatId": "08272960587",
+        "name": "LND SERVIZI SRL"
+    },
+    {
+        "vatId": "08314300586",
+        "name": "  MULTITEC s.r.l."
+    },
+    {
+        "vatId": "08334520015",
+        "name": "CONSORZIO COESA"
+    },
+    {
+        "vatId": "08381910150",
+        "name": "NEXTIRAONE ITALIA S.R.L."
+    },
+    {
+        "vatId": "08418370964",
+        "name": "RIVOIRA PHARMA SRL"
+    },
+    {
+        "vatId": "08426690155",
+        "name": "SUBVISION SRL"
+    },
+    {
+        "vatId": "08458520155",
+        "name": ""
+    },
+    {
+        "vatId": "08471381007",
+        "name": "ADG SRL"
+    },
+    {
+        "vatId": "08485520012",
+        "name": "EDIL DORA S.R.L."
+    },
+    {
+        "vatId": "08503910583",
+        "name": "TECNOFASTEN DI GATTI FABIO & C. S.N.C."
+    },
+    {
+        "vatId": "08509941004",
+        "name": "MACCHINE GRAFICHE BERNARDI S.R.L."
+    },
+    {
+        "vatId": "08526500155",
+        "name": ""
+    },
+    {
+        "vatId": "08539010010",
+        "name": ""
+    },
+    {
+        "vatId": "08550080017",
+        "name": "GEOVERDE SYSTEM SRL"
+    },
+    {
+        "vatId": "08552720016",
+        "name": "VOLLEY & SPORT"
+    },
+    {
+        "vatId": "08555860157",
+        "name": "ODOS VIAGGI"
+    },
+    {
+        "vatId": "08563150153",
+        "name": "SATI Srl"
+    },
+    {
+        "vatId": "08589510158",
+        "name": "ASSICURATRICE MILANESE"
+    },
+    {
+        "vatId": "08625311009",
+        "name": "Pragma società consortile"
+    },
+    {
+        "vatId": "08639830150",
+        "name": "Ditta Ing. Lucarelli & C. S.r.l."
+    },
+    {
+        "vatId": "08662950016",
+        "name": "GRANCLIMA S.R.L."
+    },
+    {
+        "vatId": "08685530019",
+        "name": "Power Equipments divisione PEIRS Srl"
+    },
+    {
+        "vatId": "08735580154",
+        "name": "DETERMASH"
+    },
+    {
+        "vatId": "08786190150",
+        "name": "SIRAM"
+    },
+    {
+        "vatId": "08817300158",
+        "name": "HILL ROM SPA"
+    },
+    {
+        "vatId": "08925440011",
+        "name": "Soc. Fradiante snc"
+    },
+    {
+        "vatId": "08935650013",
+        "name": "ROKOS SAS DI ANDREA FAISSINGHER AND C"
+    },
+    {
+        "vatId": "08938260158",
+        "name": "ECOLAB SRL"
+    },
+    {
+        "vatId": "08942070155",
+        "name": "ST SRL"
+    },
+    {
+        "vatId": "08956761004",
+        "name": "C.F.C. IMPIANTI SRL"
+    },
+    {
+        "vatId": "09024380157",
+        "name": "BONILAURI SRL- VIA SAINT BON 12- 20147 MILANO"
+    },
+    {
+        "vatId": "09053360153",
+        "name": "AORTA"
+    },
+    {
+        "vatId": "09082180580",
+        "name": "CASA EDITRICE R.RISA"
+    },
+    {
+        "vatId": "09106201008",
+        "name": "IMMOBIL COLUMBUS SRL"
+    },
+    {
+        "vatId": "09143390152",
+        "name": "BRESCIANI S.R.L."
+    },
+    {
+        "vatId": "09147251004",
+        "name": "LEXMEDIA SRL"
+    },
+    {
+        "vatId": "09156181001",
+        "name": ""
+    },
+    {
+        "vatId": "09247421002",
+        "name": "DIKE GIURIDICA EDITRICE S.R.L."
+    },
+    {
+        "vatId": "09270550016",
+        "name": "INTRAUMA SRL"
+    },
+    {
+        "vatId": "09279340153",
+        "name": "TECHNOGENETICS"
+    },
+    {
+        "vatId": "09410290010",
+        "name": "VADA COSTRUZIONI GENERALI SRL"
+    },
+    {
+        "vatId": "09452950158",
+        "name": "SAUTER ITALIA S.P.A."
+    },
+    {
+        "vatId": "09498220152",
+        "name": "SCALE DC SRL"
+    },
+    {
+        "vatId": "09530470153",
+        "name": "MORGIAN ITALIANA DI PARINI STEFANO"
+    },
+    {
+        "vatId": "09605391003",
+        "name": " CANON SOLUTIONS ITALIA CENTRO SUD"
+    },
+    {
+        "vatId": "09605701003",
+        "name": "ALPHA TAU SRL"
+    },
+    {
+        "vatId": "09615590156",
+        "name": "TECAN ITALIA SRL"
+    },
+    {
+        "vatId": "09712420018",
+        "name": "CS S.R.L."
+    },
+    {
+        "vatId": "09727051006",
+        "name": "RE.I.CO. SRL"
+    },
+    {
+        "vatId": "09737190018",
+        "name": "AZIENDA SANITARIA LOCALE TO2"
+    },
+    {
+        "vatId": "09771701001",
+        "name": "TELEPASS SPA"
+    },
+    {
+        "vatId": "09831040150",
+        "name": "NGC MEDICAL SPA"
+    },
+    {
+        "vatId": "09837781005",
+        "name": "ZUCCHET SERVICE S.R.L."
+    },
+    {
+        "vatId": "09862770154",
+        "name": "AQUARIA S.R.L."
+    },
+    {
+        "vatId": "09895970011",
+        "name": "NUKEM di Giovanni Germinara"
+    },
+    {
+        "vatId": "09921180015",
+        "name": "ALTEREGO di REFILCART 2 s.n.c"
+    },
+    {
+        "vatId": "09961590016",
+        "name": "R&A TECNICA"
+    },
+    {
+        "vatId": "09964950019",
+        "name": "PROIETTA S.R.L."
+    },
+    {
+        "vatId": "10030091002",
+        "name": "DLI S.p.A."
+    },
+    {
+        "vatId": "10065171000",
+        "name": "DESMOS SPA INSURANCE BROKER"
+    },
+    {
+        "vatId": "10125420157",
+        "name": "ITALFLASH SRL"
+    },
+    {
+        "vatId": "10169511002",
+        "name": "+ OTTO SRL"
+    },
+    {
+        "vatId": "10189850018",
+        "name": "ALLIANCE FRANCAISE DE TURIN"
+    },
+    {
+        "vatId": "10252970156",
+        "name": "ELLER VAINICHER MARIO"
+    },
+    {
+        "vatId": "10278020150",
+        "name": "POLINOMIA SRL"
+    },
+    {
+        "vatId": "10327720156",
+        "name": "Centro Studi Marangoni"
+    },
+    {
+        "vatId": "10371231001",
+        "name": "TACH CONTROLLER SRL"
+    },
+    {
+        "vatId": "10426590153",
+        "name": "COOPERATIVA KANTARA ONLUS"
+    },
+    {
+        "vatId": "10444150014",
+        "name": "ACTION THEATRE IN ENGLISH"
+    },
+    {
+        "vatId": "10454040154",
+        "name": "BABCOCK WANSON ITALIANA SPA"
+    },
+    {
+        "vatId": "10473610151",
+        "name": "IMAS Grafica S.r.L."
+    },
+    {
+        "vatId": "10500150015",
+        "name": "M.G.M. SRL"
+    },
+    {
+        "vatId": "10514751006",
+        "name": "OFFICE SOLUTION 2009 SRL"
+    },
+    {
+        "vatId": "10517560156",
+        "name": "LINK ITALIA S.P.A."
+    },
+    {
+        "vatId": "10519990013",
+        "name": "FIMAT"
+    },
+    {
+        "vatId": "10536421000",
+        "name": "ECOMITO SRL"
+    },
+    {
+        "vatId": "10554901008",
+        "name": "DEMEA CULTURA SRL"
+    },
+    {
+        "vatId": "10575210017",
+        "name": "PUL SERVICE SRL"
+    },
+    {
+        "vatId": "10584501000",
+        "name": "HELIOS VIAGGI SNC"
+    },
+    {
+        "vatId": "10607641007",
+        "name": "EDIL WORKS S.R.L.U."
+    },
+    {
+        "vatId": "10607700159",
+        "name": "BUCHI ITALIA SRL"
+    },
+    {
+        "vatId": "10616310156",
+        "name": "IBSA FARMACEUTICI ITALIA"
+    },
+    {
+        "vatId": "10644540154",
+        "name": "CO.F.O.L."
+    },
+    {
+        "vatId": "10649500153",
+        "name": "GASTE VESTA SRL"
+    },
+    {
+        "vatId": "10655700150",
+        "name": "LLOYD'S OF LONDON"
+    },
+    {
+        "vatId": "10687150150",
+        "name": "PHOENIX RX SRL PNX"
+    },
+    {
+        "vatId": "10738930154",
+        "name": "GIUNTA ERASMO S.A.S."
+    },
+    {
+        "vatId": "10752960152",
+        "name": "INSTRUMENTATION LABORATORY S.P.A."
+    },
+    {
+        "vatId": "10782860158",
+        "name": "SERVICE MED SRL"
+    },
+    {
+        "vatId": "10794580158",
+        "name": "GIAKOVA S.R.L."
+    },
+    {
+        "vatId": "10852890150",
+        "name": "GRIFOLS ITALIA"
+    },
+    {
+        "vatId": "10923790157",
+        "name": "HAEMONETICS ITALIA"
+    },
+    {
+        "vatId": "10926691006",
+        "name": "AUROGENE"
+    },
+    {
+        "vatId": "10940851008",
+        "name": "CENTRO STAMPA SRL"
+    },
+    {
+        "vatId": "10946740015",
+        "name": "G QUADRO"
+    },
+    {
+        "vatId": "11003900013",
+        "name": "COGEIS S.P.A."
+    },
+    {
+        "vatId": "11005760159",
+        "name": "DECATHLON"
+    },
+    {
+        "vatId": "11045820013",
+        "name": "STUDIO TECNICO SERRA ING. ADRIANO"
+    },
+    {
+        "vatId": "11159150157",
+        "name": "PENTAX"
+    },
+    {
+        "vatId": "11160660152",
+        "name": "AMBU"
+    },
+    {
+        "vatId": "11174260155",
+        "name": "BIOTIM SRL"
+    },
+    {
+        "vatId": "11303341009",
+        "name": "BMD S.R.L."
+    },
+    {
+        "vatId": "11317290150",
+        "name": "B.S.N. BIOLOGICAL SALES NETWORK S.R.L."
+    },
+    {
+        "vatId": "11329080151",
+        "name": "UGO PASSALACQUA"
+    },
+    {
+        "vatId": "11338450155",
+        "name": "ASSOCIAZIONE DIDATTICA MUSEALE"
+    },
+    {
+        "vatId": "11492820151",
+        "name": "HOLLISTER"
+    },
+    {
+        "vatId": "11549981006",
+        "name": "ALBA S.R.L."
+    },
+    {
+        "vatId": "11552601004",
+        "name": "K2M SOLUTIONS ITALY SRL"
+    },
+    {
+        "vatId": "11578000157",
+        "name": "SIEM NOVA"
+    },
+    {
+        "vatId": "11582010150",
+        "name": "LYRECO ITALIA SPA"
+    },
+    {
+        "vatId": "11595360154",
+        "name": "ULTIMOBYTE"
+    },
+    {
+        "vatId": "11629940153",
+        "name": "LOMELLINA ENERGIA SRL"
+    },
+    {
+        "vatId": "11636250158",
+        "name": "STERIS"
+    },
+    {
+        "vatId": "11814980154",
+        "name": "SOIL SRL"
+    },
+    {
+        "vatId": "11871361009",
+        "name": "LA FENICE SRL"
+    },
+    {
+        "vatId": "11954900152",
+        "name": "GE HEALTHCARE CLINICAL SYSTEMS S.R.L."
+    },
+    {
+        "vatId": "11964270158",
+        "name": "CONSORZIO SISTEMA BIBLIOTECARIO NORD OVEST"
+    },
+    {
+        "vatId": "12032450152",
+        "name": "IDEXX LABORATORIES ITALIA S.R.L."
+    },
+    {
+        "vatId": "12134811004",
+        "name": "AB TENDE S.R.L."
+    },
+    {
+        "vatId": "12288660157",
+        "name": "TEMPORARY S.P.A."
+    },
+    {
+        "vatId": "12289830155",
+        "name": "DELL"
+    },
+    {
+        "vatId": "12313930153",
+        "name": "ASL Provincia di Milano 1"
+    },
+    {
+        "vatId": "12317560154",
+        "name": "PROMEGA ITALIA S.R.L."
+    },
+    {
+        "vatId": "12408280159",
+        "name": "SEREGNI COSTRUZIONI S.R.L."
+    },
+    {
+        "vatId": "12435450155",
+        "name": "INFOBIT S.N.C."
+    },
+    {
+        "vatId": "12525420159",
+        "name": "XL INSURANCE"
+    },
+    {
+        "vatId": "12549600158",
+        "name": "MILTENYI BIOTEC S.R.L."
+    },
+    {
+        "vatId": "12581170151",
+        "name": "ARESI PAOLO"
+    },
+    {
+        "vatId": "12646950159",
+        "name": "ANSYS ITALIA S.R.L."
+    },
+    {
+        "vatId": "12681371006",
+        "name": "SRL"
+    },
+    {
+        "vatId": "12736110151",
+        "name": "ORPHAN EUROPE SRL"
+    },
+    {
+        "vatId": "12794130158",
+        "name": "BTS Bioengineering S.p.A."
+    },
+    {
+        "vatId": "12874300150",
+        "name": "ATI Melograno"
+    },
+    {
+        "vatId": "12882530152",
+        "name": "DENTSPLY IH SRL"
+    },
+    {
+        "vatId": "12883420155",
+        "name": "A2A ENERGIA"
+    },
+    {
+        "vatId": "12906300152",
+        "name": "AIR LIQUIDE SANITA' SERVICE S.P.A."
+    },
+    {
+        "vatId": "12938200156",
+        "name": "Par-Tec (Ex Babel)"
+    },
+    {
+        "vatId": "12976840152",
+        "name": "RACI SRL"
+    },
+    {
+        "vatId": "13005180156",
+        "name": "CROWNWORLDWIDE"
+    },
+    {
+        "vatId": "13083740152",
+        "name": "UTILITA' SPA"
+    },
+    {
+        "vatId": "13110270157",
+        "name": "QIAGEN"
+    },
+    {
+        "vatId": "13110730150",
+        "name": "FE.MA SRL"
+    },
+    {
+        "vatId": "13126280158",
+        "name": "BENACQUISTA ASSICURAZIONI S.n.c."
+    },
+    {
+        "vatId": "13199040158",
+        "name": "AXA ART VERSICHERUNG  Agenzia Rappresentante Generale per l'Italia"
+    },
+    {
+        "vatId": "13210460153",
+        "name": "ITALTEL S.P.A."
+    },
+    {
+        "vatId": "13258950156",
+        "name": "Impianti belotti spa"
+    },
+    {
+        "vatId": "13278160158",
+        "name": "WEBBIT S.R.L."
+    },
+    {
+        "vatId": "13286770154",
+        "name": "ASSINFONET SRL"
+    },
+    {
+        "vatId": "13340900151",
+        "name": "A. SERVICE snc"
+    },
+    {
+        "vatId": "13395820155",
+        "name": ""
+    },
+    {
+        "vatId": "13415360158",
+        "name": "QUALIFIED SERVICES SRL"
+    },
+    {
+        "vatId": "31417626587",
+        "name": "FISHER & PAYKEL HEALTHCARE SAS"
+    },
+    {
+        "vatId": "IT036160404",
+        "name": "Codice fiscale assente o non valido"
+    },
+    {
+        "vatId": "680767793",
+        "name": "Trinity College London"
+    },
+    {
+        "vatId": "80002070524",
+        "name": "UNIVERSITA' DEGLI STUDI DI SIENA"
+    },
+    {
+        "vatId": "80005040433",
+        "name": "COMANDO PROVINCIALE VIGILI DEL FUOCO"
+    },
+    {
+        "vatId": "80009680127",
+        "name": "UPEL VARESE"
+    },
+    {
+        "vatId": "80012650158",
+        "name": "UNIVERSITA' DEGLI STUDI DI MILANO"
+    },
+    {
+        "vatId": "80019530205",
+        "name": "PREFETTURA DI MANTOVA"
+    },
+    {
+        "vatId": "80082050016",
+        "name": "MUSEO DEL RISORGIMENTO ITALIANO, PALAZZO CARIGNANO"
+    },
+    {
+        "vatId": "80116050586",
+        "name": "E.N.P.A. Onlus"
+    },
+    {
+        "vatId": "80131350581",
+        "name": "BRITISH COUNCIL"
+    },
+    {
+        "vatId": "80145910156",
+        "name": "LEGA DELLE AUTONOMIE LOCALI"
+    },
+    {
+        "vatId": "80205530589",
+        "name": "A.I.C.C.R.E. ASS. ITALIANA PER I CONSIGLIO DEI COMUNI E DELLE REGIONI D'EUROPA"
+    },
+    {
+        "vatId": "80229670585",
+        "name": "GOETHE INSTITUT"
+    },
+    {
+        "vatId": "80230390587",
+        "name": "MINISTERO DELLE POSTE E TELECOMUNICAZIONI"
+    },
+    {
+        "vatId": "81001470889",
+        "name": "DIREZIONE DIDATTICA 3 CIRCOLO MODICA"
+    },
+    {
+        "vatId": "84002020273",
+        "name": "ATVO SPA"
+    },
+    {
+        "vatId": "87007530170",
+        "name": "GARDA UNO SPA"
+    },
+    {
+        "vatId": "90000910373",
+        "name": ""
+    },
+    {
+        "vatId": "90022960018",
+        "name": "ASSOCIAZIONE APRITICIELO"
+    },
+    {
+        "vatId": "90029710507",
+        "name": "DEA DEMOGRAFICI ASSOCIATI"
+    },
+    {
+        "vatId": "91081350331",
+        "name": "ASSOCIAZIONE SPAZI RITMIA"
+    },
+    {
+        "vatId": "92007760660",
+        "name": "COGESA SPA"
+    },
+    {
+        "vatId": "92034000635",
+        "name": "SCUOLA E DINTORNI"
+    },
+    {
+        "vatId": "93010440142",
+        "name": "DIDASCA"
+    },
+    {
+        "vatId": "93062840728",
+        "name": "ITC STATALE  V GIORDANO  BITONTO"
+    },
+    {
+        "vatId": "94000960263",
+        "name": "ISTITUTO TECNICO INDUSTRIALE STATALE \"MAX PLANCK\""
+    },
+    {
+        "vatId": "94502230157",
+        "name": "LOTTA CONTRO L’EMARGINAZIONE coop. sociale"
+    },
+    {
+        "vatId": "95019860162",
+        "name": "ASSOCIAZIONE DIAKONIA - ONLUS"
+    },
+    {
+        "vatId": "96034370062",
+        "name": "ISTITUTO COMPRENSIVO GPASCOLI"
+    },
+    {
+        "vatId": "97158180584",
+        "name": "ENTE NAZIONALE PER LAVIAZIONE CIVILE"
+    },
+    {
+        "vatId": "98017910179",
+        "name": "CONSORZIO DI BONIFICA CHIESE"
+    },
+    {
+        "vatId": "",
+        "name": "I.T.E.M. S.R.L."
+    },
+    {
+        "vatId": "99999999999",
+        "name": "I.T.E.M. S.R.L."
+    },
+    {
+        "vatId": "00000000000",
+        "name": "Codice fiscale assente o non valido"
+    },
+    {
+        "vatId": "000000000000",
+        "name": "Codice fiscale assente o non valido"
+    },
+    {
+        "vatId": "ISTITUTOPIEPOLISPA",
+        "name": "Codice fiscale assente o non valido"
+    },
+    {
+        "vatId": "BAUNRC79B24C111B",
+        "name": "B-INK di BAU' ENRICO"
+    },
+    {
+        "vatId": "BLSPMC75M30H727P",
+        "name": "BALSAMO"
+    },
+    {
+        "vatId": "BRDMRZ68L16F715S",
+        "name": "BORDONI MAURIZIO"
+    },
+    {
+        "vatId": "BRNMRC75L04B563R",
+        "name": "MBIT INFORMATICA DI BORINA MIRCO"
+    },
+    {
+        "vatId": "BRTSMN76L04G713R",
+        "name": "BERTI SIMONE"
+    },
+    {
+        "vatId": "BRZFBA59D21H612A",
+        "name": "Borz Fabio"
+    },
+    {
+        "vatId": "CCCRNG57S16L706Q",
+        "name": "CECCHETTO ARCANGELO"
+    },
+    {
+        "vatId": "CCCSVT61D30C129H",
+        "name": "HOBBY POINT DI CACACE SALVATORE"
+    },
+    {
+        "vatId": "CLLFNC60A46G348O",
+        "name": "CILLUFFO ING.  FRANCESCA"
+    },
+    {
+        "vatId": "CLTGPP73S03C351D",
+        "name": "CARTOIDEE DI CULTRARO VASTA GIUSEPPE"
+    },
+    {
+        "vatId": "CNAMRA64P23G113G",
+        "name": "LIBRERIA CANU DI CANU MAURO"
+    },
+    {
+        "vatId": "CNTNCL68T12A059B",
+        "name": "Geo Forniture di Canato Nicola"
+    },
+    {
+        "vatId": "CPPGLN66E08F054L",
+        "name": "COPPOLA GIULIANO"
+    },
+    {
+        "vatId": "CRBLCU75S52A522S",
+        "name": "L'IMPRIMERIE\" DI CAROBELLA LUCIA"
+    },
+    {
+        "vatId": "CRDFLF55B15G999C",
+        "name": "FABIO A. CARDINI DI FABIO ALFREDO CARDINI"
+    },
+    {
+        "vatId": "CRGSFN81T01B455N",
+        "name": "Ceragioli Costruzioni"
     }
 ]
