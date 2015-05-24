@@ -1,10 +1,19 @@
 var express = require('express');
+var PC = require('./query.js');
 
 var app = express();
 
 app.use(express.static('../'));
 
-var server = app.listen(3030, function() {
+app.get('/test', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.test, "text/turtle");
+});
+
+app.get('/allBusinessEntities', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
+});
+
+var server = app.listen(3035, function() {
     var host = server.address().address;
     var port = server.address().port;
     console.log('Server listening at http://%s:%s', host, port);
