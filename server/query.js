@@ -10,7 +10,8 @@ var prefixes = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
         "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> " +
         "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> " +
         "PREFIX dct: <http://purl.org/dc/terms/> " +
-        "PREFIX gr: <http://purl.org/goodrelations/v1#> "
+        "PREFIX gr: <http://purl.org/goodrelations/v1#> " +
+        "PREFIX pc: <http://purl.org/procurement/public-contracts#> " +
         "PREFIX foaf: <http://xmlns.com/foaf/0.1/>";
 
 exports.test = function() {
@@ -28,6 +29,26 @@ exports.allBusinessEntities = function () {
             "?subject <http://purl.org/goodrelations/v1#vatID> ?vatID . " +
             "?subject rdfs:label ?label . " +
         "}");
+}
+
+exports.allContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
+    return encodeURIComponent(prefixes +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <contract> ?cig . " +
+        "?cig rdfs:label ?cigLabel } " +
+        "WHERE {?pc <http://purl.org/procurement/public-contracts#bidder> <http://public-contracts.nexacenter.org/id/businessEntities/" + id + "> . " +
+        "?cig <http://purl.org/procurement/public-contracts#tender> ?pc . " +
+        "?cig rdfs:label ?cigLabel ." +
+        "} ");
+}
+
+exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
+    return encodeURIComponent(prefixes +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <contract> ?cig . " +
+        "?cig rdfs:label ?cigLabel } " +
+        "WHERE {?pc <http://purl.org/procurement/public-contracts#bidder> <http://public-contracts.nexacenter.org/id/businessEntities/" + id + "> . " +
+        "?cig <http://purl.org/procurement/public-contracts#awardedTender> ?pc . " +
+        "?cig rdfs:label ?cigLabel ." +
+        "} ");
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
@@ -170,3 +191,5 @@ exports.searchString = function (request, response, params) {
     }
     response.send(JSON.stringify(res));
 }
+
+//createAllBusinessEntitiesFile();
