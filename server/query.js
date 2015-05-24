@@ -64,3 +64,42 @@ exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
 
     req.end();
 }
+
+createAllBusinessEntitiesFile = function () {
+
+    var result = "";
+    var host = "localhost"; // For testing reasons
+    var acceptFormat = "application/json";
+
+    var options = {
+        host: host,
+        path: "/allBusinessEntities",
+        port: "3035",
+        method: "GET",
+        headers: {
+            accept: acceptFormat
+        }
+    };
+
+    var req = http.request(options, function(res) {
+        console.log('STATUS: ' + res.statusCode);
+        console.log('HEADERS: ' + JSON.stringify(res.headers));
+        res.setEncoding('utf8');
+        res.on('data', function(chunk) {
+            result += chunk;
+        });
+
+        res.on('end', function() {
+            //response.send(result);
+            var businessEntities = JSON.parse(result)["results"];
+        });
+    });
+
+    req.on('error', function(e) {
+        console.log('problem with request: ' + e.message);
+    });
+
+    req.end(); 
+}
+
+createAllBusinessEntitiesFile();
