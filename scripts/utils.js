@@ -41,10 +41,23 @@ var closeAlert = function (c) {
 };
 
 /* autocomplete search */
-$('#query').typeahead({        
+var productNames = new Array();
+var productIds = new Object();
+$.getJSON( './data/autocomplete.json', null,
+        function ( jsonData )
+        {
+            $.each( jsonData, function ( index, product )
+            {
+                productNames.push( product.name );
+                productIds[product.name] = product.vatId;
+            } );
+            $( '#query' ).typeahead( { local:productNames } );
+            $('.tt-query').css('background-color','#fff');
+        } );
+
+/*$('#query').typeahead({        
      prefetch: '../data/autocomplete.json',
      limit: 10
-}); 
+}); */
 
-$('.tt-query').css('background-color','#fff');
 
