@@ -41,23 +41,22 @@ var closeAlert = function (c) {
 };
 
 /* autocomplete search */
-var productNames = new Array();
-var productIds = new Object();
-$.getJSON( './data/autocomplete.json', null,
-        function ( jsonData )
-        {
-            $.each( jsonData, function ( index, product )
-            {
-                productNames.push( product.name );
-                productIds[product.name] = product.vatId;
-            } );
-            $( '#query' ).typeahead( { local:productNames } );
-            $('.tt-query').css('background-color','#fff');
-        } );
+var labels = function() {
+    return function findMatches(q, cb) {
+        $.ajax("http://localhost:3035/searchString/"+q,{dataType: "json"}).done(function(data) {
+          cb(_.sortBy(_.sortBy(data.results, function(b){return b.name.length}),function(s){return -s.name.search(new RegExp('^'+q,'i'))}));
+        });
+    };
+};
 
-/*$('#query').typeahead({        
-     prefetch: '../data/autocomplete.json',
-     limit: 10
-}); */
-
-
+$('#query').typeahead({
+    hint: true,
+    autoselect: true,
+    highlight: true,
+    minLength: 3
+},
+{
+    name: 'lables',
+    displayKey: 'name',
+    source: labels()
+});

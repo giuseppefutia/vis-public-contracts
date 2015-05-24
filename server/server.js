@@ -13,6 +13,10 @@ app.get('/allBusinessEntities', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
 });
 
+app.get('/searchString/:str', function (request, response) {
+    PC.searchString(request, response, request.params);
+});
+
 var server = app.listen(3035, function() {
     var host = server.address().address;
     var port = server.address().port;
