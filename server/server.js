@@ -25,6 +25,14 @@ app.get('/numAwardedByBusinessEntity/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.numAwardedByBusinessEntity(request.param("id")), "text/turtle");
 });
 
+app.get('/totAwardedBusinessEntity/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.totAwardedBusinessEntity(request.param("id")), "text/turtle");
+});
+
+app.get('/totPaidBusinessEntity/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.totPaidBusinessEntity(request.param("id")), "text/turtle");
+});
+
 app.get('/allBusinessEntities', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
 });
