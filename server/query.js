@@ -191,4 +191,23 @@ var indexOf = function (needle) {
     return indexOf.call(this, needle);
 };
 
+exports.searchString = function (request, response, params) {
+    var parsedJSON = require('../data/autocomplete.json'),
+        str = params.str,
+        res = new Object,
+        count = 0;
+
+    res.results = resultJSON = [];
+
+    for (var i=0 in parsedJSON) {
+        if(parsedJSON[i].name.indexOf(str) > -1 && count < 10) { //XXX better to stop loop
+            resultJSON[count] = new Object;
+            resultJSON[count].name = parsedJSON[i].name;
+            resultJSON[count].vatId = parsedJSON[i].vatId;
+            count++
+        }
+    }
+    response.send(JSON.stringify(res));
+}
+
 //createAllBusinessEntitiesFile();
