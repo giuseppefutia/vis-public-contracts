@@ -34,7 +34,7 @@ exports.allBusinessEntities = function () {
 
 exports.allContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
-        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <contract> ?cig . " +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/contract> ?cig . " +
         "?cig rdfs:label ?cigLabel } " +
         "WHERE {?pc <http://purl.org/procurement/public-contracts#bidder> <http://public-contracts.nexacenter.org/id/businessEntities/" + id + "> . " +
         "?cig <http://purl.org/procurement/public-contracts#tender> ?pc . " +
@@ -44,7 +44,7 @@ exports.allContracts = function (id) { // Example: http://public-contracts.nexac
 
 exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
-        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <wonContract> ?cig . " +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/wonContract> ?cig . " +
         "?cig rdfs:label ?cigLabel } " +
         "WHERE {?pc <http://purl.org/procurement/public-contracts#bidder> <http://public-contracts.nexacenter.org/id/businessEntities/" + id + "> . " +
         "?cig <http://purl.org/procurement/public-contracts#awardedTender> ?pc . " +
