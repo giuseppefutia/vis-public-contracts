@@ -35,7 +35,21 @@ var loadAll = function (vatId) {
     sumAwardedBEStore.graph(sumAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#main').html(out);
+                $('#totAmountPA').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
+
+    var numAwardedBEStore = new rdf.LdpStore();
+    var numAwardedBESource = 'http://localhost:3035/numAwardedByBusinessEntity/' + vatId;
+    alertInfo("Loading numAwardedByBusinessEntity ...");
+    numAwardedBEStore.graph(numAwardedBESource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#totNumPA').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {

@@ -55,13 +55,13 @@ exports.allWonContracts = function (id) { // Example: http://public-contracts.ne
 exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/awardedPaymentFrom> ?PA . " +
-       "?PA <http://public-contracts.nexacenter.org/id/awarded> ?importoSommeVersate . " +
+       "?PA <http://public-contracts.nexacenter.org/id/awarded> ?money . " +
        "?PA rdfs:label ?labelPA. } " +
        "WHERE{ " +
-           "SELECT ?importoSommeVersate ?PA SAMPLE(?label) as ?labelPA " +
+           "SELECT ?money ?PA SAMPLE(?label) as ?labelPA " +
            "WHERE { " +
            "{ " +
-               "SELECT ?PA (SUM(?amount) as ?importoSommeVersate) { " +
+               "SELECT ?PA (SUM(?amount) as ?money) { " +
                "?bEntity gr:vatID '"+ id +"'. " +
                "?tender pc:bidder ?bEntity . " +
                "?contract pc:awardedTender ?tender . " +
@@ -70,7 +70,27 @@ exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-c
                "} GROUP BY ?PA } " +
            "?PA rdfs:label ?label " +
            "} " +
-       "} ORDER BY DESC(?importoSommeVersate) LIMIT 10 ");
+       "} ORDER BY DESC(?money) LIMIT 10 ");
+}
+
+exports.numAwardedByBusinessEntity = function (id) {
+    return encodeURIComponent(prefixes + 
+        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/numberOfPaymentFrom> ?PA . " +
+        "?PA <http://public-contracts.nexacenter.org/id/number> ?nWonContracts . " +
+        "?PA rdfs:label ?labelPA. } " +
+        "WHERE { " +
+        "SELECT ?nWonContracts ?PA SAMPLE(?label) as ?labelPA " +
+        "WHERE { " +
+        "{ " +
+            "SELECT ?PA (COUNT(?contract) as ?nWonContracts) { " +
+            "?bEntity gr:vatID '"+ id +"'. " +
+            "?tender pc:bidder ?bEntity . " +
+            "?contract pc:awardedTender ?tender . " + 
+            "?contract pc:contractingAutority ?PA . " +
+            "}GROUP BY ?PA } " +
+        "?PA rdfs:label ?label " +
+        "}" +
+        "}ORDER BY DESC(?nWonContracts) LIMIT 10 " );
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
