@@ -10,6 +10,21 @@ body {
     margin: 0 auto;
 }
 
+#listContracts {
+    width: 100%;
+    margin: auto;
+}
+#takenContracts {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+#wonContracts {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
 #footer {
     padding-top:10px;
     padding-bottom:100px;
@@ -97,4 +112,19 @@ body {
 
 .tt-suggestion p {
   margin: 0;
+}
+
+/* Pagination */
+#nums_outer{
+    width: 100%;
+    text-align: center;
+}
+#nums {
+    display: inline-block;
+}
+#wonNums {
+    display: inline-block;
+}
+.ui-helper-center {
+    text-align: center;
 }

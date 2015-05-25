@@ -7,7 +7,7 @@ var loadAll = function (vatId) {
     allContractsStore.graph(allContractsSource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#main').html(out);
+                $('#takenContracts').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {
@@ -21,7 +21,7 @@ var loadAll = function (vatId) {
     allWonContractsStore.graph(allWonContractsSource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#footer').html(out);
+                $('#wonContracts').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {
