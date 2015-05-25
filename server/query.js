@@ -52,21 +52,25 @@ exports.allWonContracts = function (id) { // Example: http://public-contracts.ne
         "} ");
 }
 
-exports.sumReceivedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
+exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
-        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <receivesPaymentFrom> ?PA . " +
-        "?PA <paid> ?importoSommeVersate .} " +
-        "WHERE { " +
-        "{ " +
-            "SELECT ?PA (SUM(?amount) as ?importoSommeVersate) { " +
-            "?bEntity gr:vatID '" + id + "' . " +
-            "?tender pc:bidder ?bEntity . " +
-            "?contract pc:awardedTender ?tender . " +
-            "?contract payment:payment ?payment . " +
-            "?payment payment:netAmount ?amount . " +
-            "?contract pc:contractingAutority ?PA . " +
-            "} GROUP BY ?PA }" +
-        "}");
+       "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/awardedPaymentFrom> ?PA . " +
+       "?PA <http://public-contracts.nexacenter.org/id/awarded> ?importoSommeVersate . " +
+       "?PA rdfs:label ?labelPA. } " +
+       "WHERE{ " +
+           "SELECT ?importoSommeVersate ?PA SAMPLE(?label) as ?labelPA " +
+           "WHERE { " +
+           "{ " +
+               "SELECT ?PA (SUM(?amount) as ?importoSommeVersate) { " +
+               "?bEntity gr:vatID '"+ id +"'. " +
+               "?tender pc:bidder ?bEntity . " +
+               "?contract pc:awardedTender ?tender . " +
+               "?contract pc:agreedPrice ?amount . " +
+               "?contract pc:contractingAutority ?PA. " + 
+               "} GROUP BY ?PA } " +
+           "?PA rdfs:label ?label " +
+           "} " +
+       "}");
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
