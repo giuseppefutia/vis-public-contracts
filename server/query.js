@@ -70,7 +70,7 @@ exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-c
                "} GROUP BY ?PA } " +
            "?PA rdfs:label ?label " +
            "} " +
-       "}");
+       "} ORDER BY DESC(?importoSommeVersate) LIMIT 10 ");
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
