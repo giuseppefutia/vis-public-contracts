@@ -1,12 +1,27 @@
 var loadAll = function (vatId) {
-    var store = new rdf.LdpStore();
-    var source = 'test';
+    
+    var allContractsStore = new rdf.LdpStore();
+    var allContractsSource = 'http://localhost:3035/allContracts/' + vatId;
 
-    alertInfo("loading...");
-    store.graph(source, function (graph, error) {
+    alertInfo("Loading all contracts...");
+    allContractsStore.graph(allContractsSource, function (graph, error) {
         if (error == null) {
-            uduvudu.process(graph, {'resource': vatId} , function (out) {
-                $('#main').html(out);
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#allContracts').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
+
+    var allWonContractsStore = new rdf.LdpStore();
+    var allWonContractsSource = 'http://localhost:3035/allWonContracts/' + vatId;
+    alertInfo("Loading all won contracts...");
+    allWonContractsStore.graph(allWonContractsSource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#allWonContracts').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {
