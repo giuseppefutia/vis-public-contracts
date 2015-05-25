@@ -12,11 +12,12 @@ var prefixes = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
         "PREFIX dct: <http://purl.org/dc/terms/> " +
         "PREFIX gr: <http://purl.org/goodrelations/v1#> " +
         "PREFIX pc: <http://purl.org/procurement/public-contracts#> " +
-        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>";
+        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
+        "PREFIX payment: <http://reference.data.gov.uk/def/payment#>";
 
 exports.test = function() {
     return encodeURIComponent(prefixes +
-        "CONSTRUCT {?subject ?property ?object .}" +
+        "CONSTRUCT {?subject ?property ?object .} " +
         "WHERE {?subject ?property ?object .} LIMIT 100"
         );
 }
@@ -43,12 +44,29 @@ exports.allContracts = function (id) { // Example: http://public-contracts.nexac
 
 exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
-        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <contract> ?cig . " +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <wonContract> ?cig . " +
         "?cig rdfs:label ?cigLabel } " +
         "WHERE {?pc <http://purl.org/procurement/public-contracts#bidder> <http://public-contracts.nexacenter.org/id/businessEntities/" + id + "> . " +
         "?cig <http://purl.org/procurement/public-contracts#awardedTender> ?pc . " +
         "?cig rdfs:label ?cigLabel ." +
         "} ");
+}
+
+exports.sumReceivedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
+    return encodeURIComponent(prefixes +
+        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <receivesPaymentFrom> ?PA . " +
+        "?PA <paid> ?importoSommeVersate .} " +
+        "WHERE { " +
+        "{ " +
+            "SELECT ?PA (SUM(?amount) as ?importoSommeVersate) { " +
+            "?bEntity gr:vatID '" + id + "' . " +
+            "?tender pc:bidder ?bEntity . " +
+            "?contract pc:awardedTender ?tender . " +
+            "?contract payment:payment ?payment . " +
+            "?payment payment:netAmount ?amount . " +
+            "?contract pc:contractingAutority ?PA . " +
+            "} GROUP BY ?PA }" +
+        "}");
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
