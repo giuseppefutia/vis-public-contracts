@@ -17,6 +17,10 @@ app.get('/allWonContracts/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allWonContracts(request.param("id")), "text/turtle");
 });
 
+app.get('/sumReceivedByBusinessEntity/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.sumReceivedByBusinessEntity(request.param("id")), "text/turtle");
+});
+
 app.get('/allBusinessEntities', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
 });
