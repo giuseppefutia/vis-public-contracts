@@ -1,4 +1,16 @@
+var cleanAll = function () {
+    $("#main").html("")
+    $("#takenContracts").html("")
+    $("#wonContracts").html("")
+    $("#linkVatIDPANum").html("")
+    $("#main").html("")
+    $("#main").html("")
+    $("#main").html("")
+};
+
 var loadAll = function (vatId) {
+
+    cleanAll();
     
     var allContractsStore = new rdf.LdpStore();
     var allContractsSource = 'http://localhost:3035/allContracts/' + vatId;
@@ -35,7 +47,7 @@ var loadAll = function (vatId) {
     sumAwardedBEStore.graph(sumAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#totAmountPA').html(out);
+                $('#main').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {
@@ -49,7 +61,7 @@ var loadAll = function (vatId) {
     numAwardedBEStore.graph(numAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#totNumPA').html(out);
+                $('#main').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {
