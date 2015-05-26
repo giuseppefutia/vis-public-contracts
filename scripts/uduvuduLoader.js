@@ -92,6 +92,19 @@ var loadAll = function (vatId) {
         };
     });
 
+    var numOfContractsWonPerCompanyStore = new rdf.LdpStore();
+    var numOfContractsWonPerCompanySource = '/numOfContractsWonPerCompany/' + vatId;
+    numOfContractsWonPerCompanyStore.graph(numOfContractsWonPerCompanySource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#numCompany').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
+
     var totAwardedBEStore = new rdf.LdpStore();
     var totAwardedBESource = '/totAwardedBusinessEntity/' + vatId;
     totAwardedBEStore.graph(totAwardedBESource, function (graph, error) {
