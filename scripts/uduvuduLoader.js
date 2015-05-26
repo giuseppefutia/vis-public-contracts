@@ -55,6 +55,20 @@ var loadAll = function (vatId) {
         };
     });
 
+    var sumAwardedPAStore = new rdf.LdpStore();
+    var sumAwardedPASource = 'http://localhost:3035/sumAwardedByPA/' + vatId;
+    alertInfo("Loading sumAwardedByPA ...");
+    sumAwardedPAStore.graph(sumAwardedPASource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#main').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
+
     var numAwardedBEStore = new rdf.LdpStore();
     var numAwardedBESource = 'http://localhost:3035/numAwardedByBusinessEntity/' + vatId;
     alertInfo("Loading numAwardedByBusinessEntity ...");
