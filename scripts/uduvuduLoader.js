@@ -2,8 +2,8 @@ var cleanAll = function () {
     $("#main").html("")
     $("#takenContracts").html("")
     $("#wonContracts").html("")
+    $("#linkVatIDPA").html("")
     $("#linkVatIDPANum").html("")
-    $("#main").html("")
     $("#main").html("")
     $("#main").html("")
 };
