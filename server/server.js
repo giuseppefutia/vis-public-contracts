@@ -33,8 +33,16 @@ app.get('/totAwardedBusinessEntity/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.totAwardedBusinessEntity(request.param("id")), "text/turtle");
 });
 
+app.get('/totAwardedByPA/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.totAwardedByPA(request.param("id")), "text/turtle");
+});
+
 app.get('/totPaidBusinessEntity/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.totPaidBusinessEntity(request.param("id")), "text/turtle");
+});
+
+app.get('/totPaidByPA/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.totPaidByPA(request.param("id")), "text/turtle");
 });
 
 app.get('/allBusinessEntities', function (request, response) {

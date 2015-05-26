@@ -42,6 +42,7 @@ exports.allContracts = function (id) { // Example: http://public-contracts.nexac
         "} ");
 }
 
+// TO CHECK
 exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
         "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/wonContract> ?cig . " +
@@ -52,6 +53,7 @@ exports.allWonContracts = function (id) { // Example: http://public-contracts.ne
         "} ");
 }
 
+// TO CHECK
 exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/awardedPaymentFrom> ?PA . " +
@@ -73,49 +75,55 @@ exports.sumAwardedByBusinessEntity = function (id) { // Example: http://public-c
        "} ORDER BY DESC(?money) LIMIT 10 ");
 }
 
-exports.numAwardedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
+// OK
+exports.numAwardedByBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/06294960015;
     return encodeURIComponent(prefixes + 
-        "CONSTRUCT { <http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/numberOfPaymentFrom> ?PA . " +
-        "?PA <http://public-contracts.nexacenter.org/id/awarded> ?nWonContracts . " +
-        "?PA rdfs:label ?labelPA. } " +
+        "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + ">  <http://public-contracts.nexacenter.org/id/numberOfPaymentFrom> ?PA . " +
+        "?PA <http://public-contracts.nexacenter.org/id/awarded> ?nWonContracts. " +
+        "?PA rdfs:label ?labelPA.} " +
         "WHERE { " +
-            "SELECT ?nWonContracts ?PA SAMPLE(?label) as ?labelPA " +
-            "WHERE { " +
+            "SELECT (COUNT(?contract) as ?nWonContracts) ?PA ?labelPA " +
+            "WHERE " +
             "{ " +
-                "SELECT ?PA (COUNT(?contract) as ?nWonContracts) { " +
+                "SELECT DISTINCT SAMPLE(?label) as ?labelPA ?contract ?PA " +
+                "WHERE " +
+                "{ " +
                 "?bEntity gr:vatID '"+ id +"'. " +
-                "?tender pc:bidder ?bEntity . " +
-                "?contract pc:awardedTender ?tender . " + 
-                "?contract pc:contractingAutority ?PA . " +
-                "}GROUP BY ?PA } " +
-            "?PA rdfs:label ?label " +
-            "}" +
-        "}ORDER BY DESC(?nWonContracts) LIMIT 10 " );
+                "?tender pc:bidder ?bEntity. " +
+                "?contract pc:awardedTender ?tender; " + 
+                           "pc:contractingAutority ?PA. " +
+                           "?PA rdfs:label ?label " +
+                "} " +
+            "} " +
+        "}ORDER BY DESC(?nWonContracts) LIMIT 10 ");
 }
 
+// Agreed amount of money from a PA
+// OK
 exports.sumAwardedByPA = function (id) { // Example id: 00518460019
     return encodeURIComponent(prefixes +
-        "CONSTRUCT{ ?PA <http://public-contracts.nexacenter.org/id/awardedBusinessEntity> ?bidder . " +
+        "CONSTRUCT{ ?PA <http://public-contracts.nexacenter.org/id/awardsBusinessEntity> ?bidder . " +
         "?bidder <http://public-contracts.nexacenter.org/id/awardedBusinessEntity> ?money . " +
         "?bidder rdfs:label ?company } " +
         "WHERE{ " +
             "SELECT ?PA ?bidder (SUM(?price) as ?money) (SAMPLE(?label) as ?company) " +
             "WHERE { " +
-                "{ " +
-                "SELECT DISTINCT ?PA ?bidderVatID ?bidder ?price " +
-                "WHERE { " +
-                "?PA gr:vatID '" + id + "' . " +
-                "?contract pc:contractingAutority ?PA ; " +
-                "pc:awardedTender ?tender ; " +
-                "pc:agreedPrice ?price . " +
-                "?tender pc:bidder  ?bidder . " +
-                "?bidder gr:vatID   ?bidderVatID . " +
-                "} ORDER BY ?bidder ?price} . " +
+            "{ " +
+            "SELECT DISTINCT ?PA ?bidderVatID ?bidder ?price " +
+            "WHERE { " +
+            "?PA gr:vatID '" + id + "' . " +
+            "?contract pc:contractingAutority ?PA ; " +
+            "pc:awardedTender ?tender ; " +
+            "pc:agreedPrice ?price . " +
+            "?tender pc:bidder  ?bidder . " +
+            "?bidder gr:vatID   ?bidderVatID . " +
+            "} ORDER BY ?bidder ?price} . " +
             "?bidder rdfs:label ?label. " +
         "} " +
         "}ORDER BY DESC(?money) LIMIT 10 ");
 }
 
+// TO CHECK
 exports.totAwardedBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes + 
         "CONSTRUCT {?company <http://public-contracts.nexacenter.org/id/awardedTotal> ?awardedTotal . } " +
@@ -130,6 +138,8 @@ exports.totAwardedBusinessEntity = function (id) { // Example: http://public-con
         "} ");
 }
 
+// Amount of money received by a specific company
+//TO CHECK
 exports.totPaidBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes + 
         "CONSTRUCT {?company <http://public-contracts.nexacenter.org/id/paidTotal> ?paidTotal . } " +
@@ -141,6 +151,44 @@ exports.totPaidBusinessEntity = function (id) { // Example: http://public-contra
             "?contract pc:awardedTender ?bid . " +
             "?contract payment:payment ?payment . " + 
             "?payment payment:netAmount ?amount . " +
+            "} " +
+        "} ");
+}
+
+// Amount of money awarded by a specific PA
+// OK
+exports.totAwardedByPA = function (id) { // Example: 
+    return encodeURIComponent(prefixes +
+        "CONSTRUCT {?contractingAutority <http://public-contracts.nexacenter.org/id/awardsTotal> ?money} " +
+        "WHERE { " +
+            "SELECT SUM(?amount) as ?money ?contractingAutority " +
+            "WHERE{ " +
+                "SELECT DISTINCT * " +
+                "WHERE { " +
+                "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
+                "?contract pc:contractingAutority  ?contractingAutority. " +
+                "?contract pc:agreedPrice  ?amount. " +
+                "} ORDER BY ?contract " +
+            "}" +
+        "}"
+        );
+}
+
+// Amount of money paid by a specific PA
+// OK
+exports.totPaidByPA = function (id) { // Example: vatID = 00518460019
+    return encodeURIComponent(prefixes + 
+        "CONSTRUCT {?contractingAutority <http://public-contracts.nexacenter.org/id/paysTotal> ?pay} " +
+        "WHERE{ " +
+            "SELECT ?contractingAutority SUM(?amount) as ?pay " +
+            "WHERE { " +
+                "SELECT DISTINCT * " +
+                "WHERE { " +
+                "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
+                "?contract pc:contractingAutority  ?contractingAutority. " +
+                "?contract payment:payment ?payment. " +
+                "?payment payment:netAmount ?amount. " +
+                "} " +
             "} " +
         "} ");
 }
