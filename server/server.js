@@ -9,6 +9,10 @@ app.get('/test', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.test, "text/turtle");
 });
 
+app.get('/labelVatIDOfBusinessEntity/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.labelVatIDOfBusinessEntity(request.param("id")), "text/turtle");
+});
+
 app.get('/allContracts/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allContracts(request.param("id")), "text/turtle");
 });

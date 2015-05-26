@@ -42,6 +42,18 @@ exports.allContracts = function (id) { // Example: http://public-contracts.nexac
         "} ");
 }
 
+exports.labelVatIDOfBusinessEntity = function (id) {
+    return encodeURIComponent(prefixes +
+        "CONSTRUCT{?businessEntity rdfs:label ?businessEntityLabel . " +
+        "?businessEntity <http://purl.org/goodrelations/v1#vatID> ?vatID} " + 
+        "WHERE{ " +
+        "SELECT distinct ?businessEntity ?vatID SAMPLE(?label) as ?businessEntityLabel WHERE " +
+        " {?businessEntity <http://purl.org/goodrelations/v1#vatID> '"+ id +"'. " +
+        "?businessEntity rdfs:label ?label . " +
+        "?businessEntity <http://purl.org/goodrelations/v1#vatID> ?vatID} LIMIT 100 " +
+        "} ");
+}
+
 // TO CHECK
 exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +

@@ -12,9 +12,22 @@ var loadAll = function (vatId) {
 
     cleanAll();
     alertInfo("Loading all data...");
+
+    var registryStore = new rdf.LdpStore();
+    var registrySource = '/labelVatIDOfBusinessEntity/' + vatId;
+    registryStore.graph(registrySource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#registry').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
     
     var allContractsStore = new rdf.LdpStore();
-    var allContractsSource = 'http://localhost:3035/allContracts/' + vatId;
+    var allContractsSource = '/allContracts/' + vatId;
 
     allContractsStore.graph(allContractsSource, function (graph, error) {
         if (error == null) {
@@ -28,7 +41,7 @@ var loadAll = function (vatId) {
     });
 
     var allWonContractsStore = new rdf.LdpStore();
-    var allWonContractsSource = 'http://localhost:3035/allWonContracts/' + vatId;
+    var allWonContractsSource = '/allWonContracts/' + vatId;
     allWonContractsStore.graph(allWonContractsSource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -41,7 +54,7 @@ var loadAll = function (vatId) {
     });
 
     var sumAwardedBEStore = new rdf.LdpStore();
-    var sumAwardedBESource = 'http://localhost:3035/sumAwardedByBusinessEntity/' + vatId;
+    var sumAwardedBESource = '/sumAwardedByBusinessEntity/' + vatId;
     sumAwardedBEStore.graph(sumAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -54,7 +67,7 @@ var loadAll = function (vatId) {
     });
 
     var sumAwardedPAStore = new rdf.LdpStore();
-    var sumAwardedPASource = 'http://localhost:3035/sumAwardedByPA/' + vatId;
+    var sumAwardedPASource = '/sumAwardedByPA/' + vatId;
     sumAwardedPAStore.graph(sumAwardedPASource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -67,7 +80,7 @@ var loadAll = function (vatId) {
     });
 
     var numAwardedBEStore = new rdf.LdpStore();
-    var numAwardedBESource = 'http://localhost:3035/numAwardedByBusinessEntity/' + vatId;
+    var numAwardedBESource = '/numAwardedByBusinessEntity/' + vatId;
     numAwardedBEStore.graph(numAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -80,7 +93,7 @@ var loadAll = function (vatId) {
     });
 
     var totAwardedBEStore = new rdf.LdpStore();
-    var totAwardedBESource = 'http://localhost:3035/totAwardedBusinessEntity/' + vatId;
+    var totAwardedBESource = '/totAwardedBusinessEntity/' + vatId;
     totAwardedBEStore.graph(totAwardedBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -93,7 +106,7 @@ var loadAll = function (vatId) {
     });
 
     var totAwardedPAStore = new rdf.LdpStore();
-    var totAwardedPASource = 'http://localhost:3035/totAwardedByPA/' + vatId;
+    var totAwardedPASource = '/totAwardedByPA/' + vatId;
     totAwardedPAStore.graph(totAwardedPASource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -106,7 +119,7 @@ var loadAll = function (vatId) {
     });
 
     var totPaidBEStore = new rdf.LdpStore();
-    var totPaidBESource = 'http://localhost:3035/totPaidBusinessEntity/' + vatId;
+    var totPaidBESource = '/totPaidBusinessEntity/' + vatId;
     totPaidBEStore.graph(totPaidBESource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
@@ -119,7 +132,7 @@ var loadAll = function (vatId) {
     });
 
     var totPaidPAStore = new rdf.LdpStore();
-    var totPaidPASource = 'http://localhost:3035/totPaidByPA/' + vatId;
+    var totPaidPASource = '/totPaidByPA/' + vatId;
     totPaidPAStore.graph(totPaidPASource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
