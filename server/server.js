@@ -55,6 +55,10 @@ app.get('/totPaidByPA/:id', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.totPaidByPA(request.param("id")), "text/turtle");
 });
 
+app.get('/procedureType/:id', function (request, response) {
+    PC.launchSparqlQuery(request, response, PC.procedureType(request.param("id")), "text/turtle");
+});
+
 app.get('/allBusinessEntities', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
 });
