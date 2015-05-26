@@ -1,11 +1,25 @@
 var cleanAll = function () {
     $("#main").html("")
+    //table
+    $("#totAwardedBE").html("")
+    $("#totPaidBE").html("")
+    $("#totAwardedByPA").html("")
+    $("#totPaidByPA").html("")
+    //contracts
     $("#takenContracts").html("")
     $("#wonContracts").html("")
+    //bars
     $("#linkVatIDPA").html("")
     $("#linkVatIDPANum").html("")
-    $("#main").html("")
-    $("#main").html("")
+    $("#linkVatIDBE").html("")
+    $("#linkVatIDBENum").html("")
+    $("#titleLinkVatIDPA").html("")
+    $("#titleLinkVatIDPANum").html("")
+    $("#titleLinkVatIDBE").html("")
+    $("#titleLinkVatIDBENum").html("")
+    //bubbles
+    $("#titleProcedureType").html("")
+    $("#vis").html("")
 };
 
 var loadAll = function (vatId) {
