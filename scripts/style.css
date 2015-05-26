@@ -10,6 +10,24 @@ body {
     margin: 0 auto;
 }
 
+#tables {
+    clear:both;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100%;
+    margin: auto;
+}
+#totAwardedBE {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+#totPaidBE {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
 #listContracts {
     width: 100%;
     margin: auto;
