@@ -111,7 +111,7 @@ exports.numAwardedByBusinessEntity = function (id) { // Example: http://public-c
 }
 
 // Agreed amount of money from a PA
-// OK
+// Not ok!!!!!!!
 exports.sumAwardedByPA = function (id) { // Example id: 00518460019
     return encodeURIComponent(prefixes +
         "CONSTRUCT{ ?PA <http://public-contracts.nexacenter.org/id/awardsBusinessEntity> ?bidder . " +
@@ -201,6 +201,29 @@ exports.totPaidByPA = function (id) { // Example: vatID = 00518460019
                 "?contract payment:payment ?payment. " +
                 "?payment payment:netAmount ?amount. " +
                 "} " +
+            "} " +
+        "} ");
+}
+
+exports.procedureType = function (id) {
+    return encodeURIComponent(prefixes + 
+        "CONSTRUCT{ <http://public-contracts.nexacenter.org/id/businessEntities/00518460019> <http://public-contracts.nexacenter.org/id/hasContract> ?contract . " +
+        "?contract rdfs:label ?contractLabel . " +
+        "?contract <http://public-contracts.nexacenter.org/id/import> ?amount .  " +
+        "?contract <http://public-contracts.nexacenter.org/id/procedureType> ?labelProcType} " +
+        "WHERE{ " +
+            "SELECT ?contract ?amount ?procType ?contractLabel SAMPLE(?label) as ?labelProcType " +
+            "WHERE { " + 
+             "{ " +
+                 "SELECT DISTINCT ?contract ?amount ?procType ?contractLabel " +
+                "{ " +
+                  "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
+                  "?contract pc:contractingAutority  ?contractingAutority. " +
+                  "?contract pc:procedureType ?procType. " +
+                  "?contract pc:agreedPrice ?amount. " +
+                  "?contract rdfs:label ?contractLabel . " +
+                "} GROUP BY ?procType } " +
+                "?procType rdfs:label ?label . " +
             "} " +
         "} ");
 }

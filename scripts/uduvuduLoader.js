@@ -143,6 +143,19 @@ var loadAll = function (vatId) {
             alertDanger(error);
         };
     });
+
+    var procedureTypeStore = new rdf.LdpStore();
+    var procedureTypeSource = '/procedureType/' + vatId;
+    procedureTypeStore.graph(procedureTypeSource, function (graph, error) {
+        if (error == null) {
+            uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
+                $('#procedureType').html(out);
+                closeAlert(".uduvudualert");
+            });
+        } else {
+            alertDanger(error);
+        };
+    });
 }
 
 // prepare visualizer templates for uduvudu
