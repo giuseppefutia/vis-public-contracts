@@ -149,7 +149,7 @@ var loadAll = function (vatId) {
     procedureTypeStore.graph(procedureTypeSource, function (graph, error) {
         if (error == null) {
             uduvudu.process(graph, {'resource': "http://public-contracts.nexacenter.org/id/businessEntities/" + vatId} , function (out) {
-                $('#procedureType').html(out);
+                $('#main').html(out);
                 closeAlert(".uduvudualert");
             });
         } else {

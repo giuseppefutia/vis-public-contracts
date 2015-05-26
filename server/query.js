@@ -225,7 +225,7 @@ exports.procedureType = function (id) {
                 "} GROUP BY ?procType } " +
                 "?procType rdfs:label ?label . " +
             "} " +
-        "} ORDER BY DESC(?amount) LIMIT 500");
+        "} ORDER BY DESC(?amount) LIMIT 100");
 }
 
 exports.launchSparqlQuery = function (request, response, query, acceptFormat) {
