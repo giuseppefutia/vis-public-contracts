@@ -103,7 +103,7 @@ exports.numAwardedByBusinessEntity = function (id) { // Example: http://public-c
 exports.sumAwardedByPA = function (id) { // Example id: 00518460019
     return encodeURIComponent(prefixes +
         "CONSTRUCT{ ?PA <http://public-contracts.nexacenter.org/id/awardsBusinessEntity> ?bidder . " +
-        "?bidder <http://public-contracts.nexacenter.org/id/awardedBusinessEntity> ?money . " +
+        "?bidder <http://public-contracts.nexacenter.org/id/awarded> ?money . " +
         "?bidder rdfs:label ?company } " +
         "WHERE{ " +
             "SELECT ?PA ?bidder (SUM(?price) as ?money) (SAMPLE(?label) as ?company) " +
