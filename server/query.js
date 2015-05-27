@@ -111,28 +111,26 @@ exports.numAwardedByBusinessEntity = function (id) { // Example: http://public-c
 }
 
 // Agreed amount of money from a PA
-// Not ok!!!!!!!
+// OK
 exports.sumAwardedByPA = function (id) { // Example id: 00518460019
     return encodeURIComponent(prefixes +
         "CONSTRUCT{ ?PA <http://public-contracts.nexacenter.org/id/awardsBusinessEntity> ?bidder . " +
         "?bidder <http://public-contracts.nexacenter.org/id/awarded> ?money . " +
         "?bidder rdfs:label ?company } " +
-        "WHERE{ " +
-            "SELECT ?PA ?bidder (SUM(?price) as ?money) (SAMPLE(?label) as ?company) " +
-            "WHERE { " +
-            "{ " +
-            "SELECT DISTINCT ?PA ?bidderVatID ?bidder ?price " +
-            "WHERE { " +
-            "?PA gr:vatID '" + id + "' . " +
-            "?contract pc:contractingAutority ?PA ; " +
-            "pc:awardedTender ?tender ; " +
-            "pc:agreedPrice ?price . " +
-            "?tender pc:bidder  ?bidder . " +
-            "?bidder gr:vatID   ?bidderVatID . " +
-            "} ORDER BY ?bidder ?price} . " +
-            "?bidder rdfs:label ?label. " +
+        "WHERE { " +
+        "SELECT ?PA ?bidder  (SUM(?price) as ?money) ?company " +
+        "WHERE { " +
+        "SELECT DISTINCT ?contract ?bidder ?PA ?price (SAMPLE(?label) as ?company) " +
+        " WHERE { ?PA gr:vatID '" + id + "' . " + 
+        " ?contract pc:contractingAutority ?PA . " +
+        " ?contract pc:awardedTender ?tender . " +
+        " ?contract pc:agreedPrice ?price . " +
+        "?tender pc:bidder  ?bidder . " +
+        " ?bidder gr:vatID   ?bidderVatID . " +
+        "?bidder rdfs:label ?label . " +
+        " } " +
         "} " +
-        "}ORDER BY DESC(?money) LIMIT 10 ");
+        "} ORDER BY DESC(?money) LIMIT 10");
 }
 
 
