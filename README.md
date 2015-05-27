@@ -26,4 +26,4 @@ Bars charts to show rankings.
 
 A bubble chart to see the dimension of the contracts.
 
-<img src="bubble.png" align="right" alt="Bubbles" />
+<img src="bubbles.png" align="right" alt="Bubbles" />
