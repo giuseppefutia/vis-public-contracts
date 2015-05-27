@@ -4,7 +4,7 @@
 var custom_bubble_chart = (function(d3, CustomTooltip) {
     "use strict";
  
-    var width = 940, //canvas dimensions
+    var width = 1140, //canvas dimensions
         height = 600,
         tooltip = CustomTooltip("gates_tooltip", 240),
         layout_gravity = -0.01,
@@ -15,9 +15,9 @@ var custom_bubble_chart = (function(d3, CustomTooltip) {
     var center = {x: width / 2, y: height / 2};
  
     var year_centers = { //define n centers for each group
-        "2008": {x: width / 3, y: height / 2},
-        "2009": {x: width / 2, y: height / 2},
-        "2010": {x: 2 * width / 3, y: height / 2}
+        "2013": {x: width / 3, y: height / 2},
+        "2014": {x: width / 2, y: height / 2},
+        "2015": {x: 2 * width / 3, y: height / 2}
     };
 
     var fill_color = "#0283AF"; //main color
@@ -41,6 +41,7 @@ var custom_bubble_chart = (function(d3, CustomTooltip) {
                 value: d.total_amount,
                 name: d.grant_title,
                 year: d.start_year,
+                procedure: d.procedure_type,
                 x: Math.random() * 900,
                 y: Math.random() * 800
             };
@@ -122,7 +123,7 @@ var custom_bubble_chart = (function(d3, CustomTooltip) {
  
  
     function display_years() { //display groups names
-        var years_x = {"2008": 160, "2009": width / 2, "2010": width - 160};
+        var years_x = {"2013": 160, "2014": width / 2, "2015": width - 160};
         var years_data = d3.keys(years_x);
         var years = vis.selectAll(".years")
                        .data(years_data);
@@ -143,9 +144,10 @@ var custom_bubble_chart = (function(d3, CustomTooltip) {
  
     function show_details(data, i, element) {
         d3.select(element).attr("stroke", "black");
-        var content = "<span class=\"name\">Title:</span><span class=\"value\"> " + data.name + "</span><br/>";
-            content +="<span class=\"name\">Amount:</span><span class=\"value\"> $" + addCommas(data.value) + "</span><br/>";
-            content +="<span class=\"name\">Year:</span><span class=\"value\"> " + data.year + "</span>";
+        var content = "<span class=\"name\">Titolo:</span><span class=\"value\"> " + data.name + "</span><br/>";
+            content +="<span class=\"name\">Ammontare:</span><span class=\"value\"> " + addCommas(data.value) + " €</span><br/>";
+            content +="<span class=\"name\">Anno:</span><span class=\"value\"> " + data.year + "</span><br/>";
+            content +="<span class=\"name\">Tipo di procedura:</span><span class=\"value\"> " + data.procedure + "</span>";
         tooltip.showTooltip(content, d3.event);
     }
 
