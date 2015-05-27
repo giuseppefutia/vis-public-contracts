@@ -40,8 +40,6 @@ var custom_bubble_chart = (function(d3, CustomTooltip) {
                 radius: radius_scale(parseInt(d.total_amount, 10)),
                 value: d.total_amount,
                 name: d.grant_title,
-                org: d.organization,
-                group: d.group,
                 year: d.start_year,
                 x: Math.random() * 900,
                 y: Math.random() * 800
