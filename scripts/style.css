@@ -13,8 +13,6 @@ body {
 /* Tables zone */
 #tables {
     clear:both;
-    padding-top:10px;
-    padding-bottom:10px;
     width: 100%;
     margin: auto;
 }
@@ -58,14 +56,24 @@ body {
 /* Bars chart zone */
 #listBars {
     clear:both;
-    padding-top:10px;
-    padding-bottom:10px;
 }
 
 #footer {
     clear:both;
     padding-top:10px;
     padding-bottom:20px;
+    margin:0;
+}
+
+#footerText { 
+    float:left;
+    width:75%;
+    overflow:hidden;
+}
+#footerImg { 
+    float:left;
+    width:25%;
+    overflow:hidden;
 }
 
 /* Navbar zone */
