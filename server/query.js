@@ -55,7 +55,7 @@ exports.labelVatIDOfBusinessEntity = function (id) {
         "} ");
 }
 
-// TO CHECK
+// OK
 exports.allWonContracts = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes +
         "CONSTRUCT {<http://public-contracts.nexacenter.org/id/businessEntities/"+ id + "> <http://public-contracts.nexacenter.org/id/wonContract> ?cig . " +
@@ -159,34 +159,41 @@ exports.numOfContractsWonPerCompany = function (id) {
 }
 
 
-// TO CHECK
+// OK
 exports.totAwardedBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes + 
-        "CONSTRUCT {?company <http://public-contracts.nexacenter.org/id/awardedTotal> ?awardedTotal . } " +
+        "CONSTRUCT {?company <http://public-contracts.nexacenter.org/id/awardedTotal> ?awardedTotal . }  " +
         "WHERE{ " +
-            "SELECT SUM(?amount) as ?awardedTotal ?company " +
-            "WHERE { " +
+        "SELECT SUM(?amount) as ?awardedTotal ?company  " +
+        "WHERE{  " +
+            "SELECT DISTINCT ?amount ?company  " +
+            "WHERE {  " +
             "?company <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
-            "?bid pc:bidder ?company . " +
-            "?contract pc:awardedTender ?bid . " +
-            "?contract pc:agreedPrice ?amount . " +
-            "} " +
+            "?bid pc:bidder ?company .  " +
+            "?contract pc:awardedTender ?bid .  " +
+            "?contract pc:agreedPrice ?amount .  " +
+            "}  " +
+        "}  " +
+
         "} ");
 }
 
 // Amount of money received by a specific company
-//TO CHECK
+// OK
 exports.totPaidBusinessEntity = function (id) { // Example: http://public-contracts.nexacenter.org/id/businessEntities/04145300010;
     return encodeURIComponent(prefixes + 
         "CONSTRUCT {?company <http://public-contracts.nexacenter.org/id/paidTotal> ?paidTotal . } " +
         "WHERE{ " +
             "SELECT SUM(?amount) as ?paidTotal ?company " +
             "WHERE { " +
+            "SELECT DISTINCT ?contract ?amount ?company  " +
+            "WHERE { " +
             "?company <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
             "?bid pc:bidder ?company . " +
             "?contract pc:awardedTender ?bid . " +
             "?contract payment:payment ?payment . " + 
             "?payment payment:netAmount ?amount . " +
+            "} " +
             "} " +
         "} ");
 }
@@ -197,17 +204,16 @@ exports.totAwardedByPA = function (id) { // Example:
     return encodeURIComponent(prefixes +
         "CONSTRUCT {?contractingAutority <http://public-contracts.nexacenter.org/id/awardsTotal> ?money} " +
         "WHERE { " +
-            "SELECT SUM(?amount) as ?money ?contractingAutority " +
-            "WHERE{ " +
-                "SELECT DISTINCT * " +
-                "WHERE { " +
-                "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
-                "?contract pc:contractingAutority  ?contractingAutority. " +
-                "?contract pc:agreedPrice  ?amount. " +
-                "} ORDER BY ?contract " +
-            "}" +
-        "}"
-        );
+        "SELECT SUM(?amount) as ?money ?contractingAutority " +
+        "WHERE{ " +
+            "SELECT DISTINCT ?contract ?amount ?contractingAutority " +
+            "WHERE { " +
+            "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
+            "?contract pc:contractingAutority  ?contractingAutority. " +
+            "?contract pc:agreedPrice  ?amount. " +
+            "} " +
+            "} " +
+        "}" );
 }
 
 // Amount of money paid by a specific PA
