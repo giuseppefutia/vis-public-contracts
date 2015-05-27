@@ -1,5 +1,8 @@
 var cleanAll = function () {
     $("#main").html("")
+    $("#alerts").html("")
+    //registry
+    $("#registry").html("")
     //table
     $("#totAwardedBE").html("")
     $("#totPaidBE").html("")
@@ -19,6 +22,7 @@ var cleanAll = function () {
     $("#titleLinkVatIDBENum").html("")
     //bubbles
     $("#titleProcedureType").html("")
+    $("#view_selection").html("")
     $("#vis").html("")
 };
 
