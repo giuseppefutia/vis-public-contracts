@@ -67,7 +67,7 @@ app.get('/allBusinessEntities', function (request, response) {
     PC.launchSparqlQuery(request, response, PC.allBusinessEntities, "application/json");
 });
 
-app.get('http://public-contracts.nexacenter.org/searchString/:str', function (request, response) { //XXX
+app.get('/searchString/:str', function (request, response) {
     PC.searchString(request, response, request.params);
 });
 
