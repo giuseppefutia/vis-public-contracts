@@ -12,8 +12,9 @@ var prefixes = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
         "PREFIX dct: <http://purl.org/dc/terms/> " +
         "PREFIX gr: <http://purl.org/goodrelations/v1#> " +
         "PREFIX pc: <http://purl.org/procurement/public-contracts#> " +
-        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
-        "PREFIX payment: <http://reference.data.gov.uk/def/payment#>";
+        "PREFIX foaf: <http://xmlns.com/foaf/0.1/> " +
+        "PREFIX time: <http://www.w3.org/2006/time#> " +
+        "PREFIX payment: <http://reference.data.gov.uk/def/payment#> ";
 
 exports.test = function() {
     return encodeURIComponent(prefixes +
@@ -232,18 +233,20 @@ exports.procedureType = function (id) {
     return encodeURIComponent(prefixes + 
         "CONSTRUCT{ <http://public-contracts.nexacenter.org/id/businessEntities/00518460019> <http://public-contracts.nexacenter.org/id/hasContract> ?contract . " +
         "?contract rdfs:label ?contractLabel . " +
-        "?contract <http://public-contracts.nexacenter.org/id/import> ?amount .  " +
-        "?contract <http://public-contracts.nexacenter.org/id/procedureType> ?labelProcType} " +
+        "?contract <http://public-contracts.nexacenter.org/id/import> ?amount . " +
+        "?contract time:year ?year . " +
+        "?contract <http://public-contracts.nexacenter.org/id/procedureType> ?labelProcType .} " +
         "WHERE{ " +
-            "SELECT ?contract ?amount ?procType ?contractLabel SAMPLE(?label) as ?labelProcType " +
+            "SELECT ?contract ?amount ?procType ?contractLabel SAMPLE(?label) as ?labelProcType ?year " +
             "WHERE { " + 
              "{ " +
-                 "SELECT DISTINCT ?contract ?amount ?procType ?contractLabel " +
+                 "SELECT DISTINCT ?contract ?amount ?procType ?contractLabel ?year " +
                 "{ " +
                   "?contractingAutority <http://purl.org/goodrelations/v1#vatID> '" + id + "'. " +
                   "?contract pc:contractingAutority  ?contractingAutority. " +
                   "?contract pc:procedureType ?procType. " +
                   "?contract pc:agreedPrice ?amount. " +
+                  "?contract time:year ?year. " +
                   "?contract rdfs:label ?contractLabel . " +
                 "} GROUP BY ?procType } " +
                 "?procType rdfs:label ?label . " +
