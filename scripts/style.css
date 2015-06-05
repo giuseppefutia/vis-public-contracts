@@ -10,6 +10,18 @@ body {
     margin: 0 auto;
 }
 
+#incomeTitle {
+    clear:both;
+    width: 100%;
+    margin: auto;
+}
+
+#outcomeTitle {
+    clear:both;
+    width: 100%;
+    margin: auto;
+}
+
 /* Tables zone */
 #tables {
     clear:both;

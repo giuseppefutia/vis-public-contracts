@@ -1,6 +1,9 @@
 var cleanAll = function () {
     $("#main").html("")
     $("#alerts").html("")
+    //title
+    $("#incomeTitle").html("")
+    $("#outcomeTitle").html("")
     //registry
     $("#registry").html("")
     //table
