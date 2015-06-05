@@ -1,11 +1,12 @@
 var cleanAll = function () {
     $("#main").html("")
     $("#alerts").html("")
+    //title
+    $("#incomeTitle").html("")
+    $("#outcomeTitle").html("")
     //registry
     $("#registry").html("")
     //table
-    $("#incomeTitle").html("")
-    $("#outcomeTitle").html("")
     $("#totAwardedBE").html("")
     $("#totPaidBE").html("")
     $("#totAwardedByPA").html("")
