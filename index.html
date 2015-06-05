@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Public contracts</title>
+    <title>Bandi di gara e contratti pubblici</title>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="scripts/style.css" rel="stylesheet">
 </head>
@@ -13,7 +13,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home">Public contracts</a>
+            <a class="navbar-brand" href="#home">Bandi di gara e contratti</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -33,7 +33,8 @@
     <div class="container" id="home">
         <h1 class="text-center">Linked open data sui contratti pubblici</h1>
         <br>
-        <p>Il Centro Nexa su Internet & Società ha sviluppato un servizio per rappresentare e interrogare i dati sui bandi e contratti pubblici di circa 18mila pubbliche amministrazioni italiane, disponibili agli utenti mediante una ricerca per nome o per partita IVA.</p>
+        <p>Vuoi sapere quali appalti e contratti ha affidato il tuo Comune, la tua Università, la tua Scuola, il tuo ospedale, a chi, e con quale ammontare? Oppure quanti fondi sono stati aggiudicati e percepiti da una specifica impresa? Puoi effettuare una ricerca <b>per nome</b> o per <b>partita IVA / codice fiscale</b>, e scoprire ciò che ti interessa.
+        </p>
         <p>Il servizio traduce in linked open data i dati esposti dalle pubbliche amministrazioni italiane secondo quanto prescritto dalla "Legge Anticorruzione", (L. 190/2012), che disciplina, tra l’altro, gli obblighi di trasparenza, pubblicità e diffusione delle informazioni riguardanti i bandi di gara ed i contratti pubblici. In particolare, le modalità di pubblicazione dei dati - in formato XML - sono strettamente regolamentate dall'ANAC (Autorità Nazionale Anti Corruzione), il che ha favorito il rilascio, dal 2012, di grandi quantità informazioni in formato standard ed aperto.</p>
         <p>Se ricerchi un organismo pubblico, è possibile tu ti imbatta in entrambe le fattispecie: lo stesso può infatti essere, in alcuni casi, stazione appaltante, e in altri aggiudicatario di un bando promosso da un altro soggetto.</p>
         <br>
@@ -51,36 +52,47 @@
         <div id="alerts"></div>
         <div id="main"></div>
         <div id="registry"></div>
-        <div id="tables">
+        <div id="income">
+          <div id="incomeTitle"></div>
+           <div id="tables">
             <div id="totAwardedBE"></div>
             <div id="totPaidBE"></div>
-            <div id="totAwardedByPA"></div>
-            <div id="totPaidByPA"></div>
-        </div>
-        <div id="listContracts">
-            <div id="takenContracts"></div>
-            <div id="wonContracts"></div>
-        </div>
-        <div id="listBars">
+          </div>
+          <div id="listBars">
             <div id="titleLinkVatIDPA"></div>
             <div id="linkVatIDPA"></div>
             <div id="titleLinkVatIDPANum"></div>
             <div id="linkVatIDPANum"></div>
+          </div>
+          <div id="listContracts">
+            <div id="takenContracts"></div>
+            <div id="wonContracts"></div>
+          </div>
+        </div>
+        <div id="outcome">
+          <div id="outcomeTitle"></div>
+          <div id="tables">
+            <div id="totAwardedByPA"></div>
+            <div id="totPaidByPA"></div>
+          </div>
+          <div id="listBars">
             <div id="titleLinkVatIDBE"></div>
             <div id="linkVatIDBE"></div>
             <div id="titleLinkVatIDBENum"></div>
             <div id="linkVatIDBENum"></div>
-        </div>
-        <div id="procedureType">
+          </div>
+          <div id="procedureType">
             <div id="titleProcedureType"></div>
             <div id="view_selection" class="btn-group" role="group"></div>
             <div id="mainVis" role="main">
-                <div id="vis"></div>
+              <div id="vis"></div>
             </div>
+          </div>
         </div>
+     
         <div id="footer">
             <div id="footerText">
-                <p>I dati si riferiscono al 2014. Al momento i dati visualizzati e le statistiche non includono i bandi ed i contratti aggiudicati dalle aziende in consorzi o Associazioni Temporanee di Impresa. Per eventuali dubbi, consulta le nostre <a href="https://github.com/nexacenter/public-contracts/blob/master/FAQ.md" target="_blank">FAQ</a>. Il codice mediante il quale i dati sorgente sono stati estratti e rielaborati è disponibile su GitHub ed è rilasciato secondo la <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License 3.0</a>. Un endpoint SPARQL è esposto a <a href="http://public-contracts.nexacenter.org/sparql">questo indirizzo</a>.</p>
+                <p>I dati si riferiscono al 2014. Al momento i dati visualizzati e <strong>le statistiche non includono i bandi ed i contratti aggiudicati dalle aziende in consorzi o Associazioni Temporanee di Impresa</strong>. Per eventuali dubbi, consulta le nostre <a href="https://github.com/nexacenter/public-contracts/blob/master/FAQ.md" target="_blank">FAQ</a>. Il codice mediante il quale i dati sorgente sono stati estratti e rielaborati è disponibile su GitHub ed è rilasciato secondo la <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License 3.0</a>. Un endpoint SPARQL è esposto a <a href="http://public-contracts.nexacenter.org/sparql">questo indirizzo</a>.</p>
             </div>
             <div id="footerImg"><img src="data/LogoNexa_1B_EN_Colore_Web.png" width="300px"></div>
         </div>
