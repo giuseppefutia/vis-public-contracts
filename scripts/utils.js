@@ -36,7 +36,7 @@ var closeAlert = function (c) {
 var items = "";
 var labels = function() {
     return function findMatches(q, cb) {
-        $.ajax("/searchString/"+q,{dataType: "json"}).done(function(data) {
+        $.ajax("/searchString/"+q.toUpperCase(),{dataType: "json"}).done(function(data) {
           items = data.results;
           cb(_.sortBy(_.sortBy(data.results, function(b){return b.name.length}),function(s){return -s.name.search(new RegExp('^'+q,'i'))}));
         });
