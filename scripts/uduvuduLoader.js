@@ -4,6 +4,8 @@ var cleanAll = function () {
     //registry
     $("#registry").html("")
     //table
+    $("#incomeTitle").html("")
+    $("#outcomeTitle").html("")
     $("#totAwardedBE").html("")
     $("#totPaidBE").html("")
     $("#totAwardedByPA").html("")
