@@ -54,6 +54,9 @@ body {
     width: 100%;
     margin: auto;
 }
+#listContracts .list-group-item-text{
+    color: #428bca;
+}
 #takenContracts {
     width: 50%;
     float: left;
@@ -68,6 +71,10 @@ body {
 /* Bars chart zone */
 #listBars {
     clear:both;
+}
+
+#xaxis text, #yaxis text {
+    fill: #428bca;
 }
 
 #footer {
