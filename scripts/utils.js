@@ -86,3 +86,9 @@ var reloadBubble = function(view_type) {
     $(this).toggleClass('active');
     custom_bubble_chart.toggle_view(view_type);
 }
+
+/* view API */
+if (location.search !== "") {
+    var viewID = location.search.replace('?', '');
+    loadAll(viewID);
+}

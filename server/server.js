@@ -71,6 +71,11 @@ app.get('/searchString/:str', function (request, response) {
     PC.searchString(request, response, request.params);
 });
 
+app.get('/view/:id', function(req, res) {
+    backURL=req.header('Referer') || '/?'+req.params.id;
+    res.redirect(backURL);
+});
+
 var server = app.listen(3035, function() {
     var host = server.address().address;
     var port = server.address().port;
