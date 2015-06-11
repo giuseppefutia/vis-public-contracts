@@ -1,6 +1,5 @@
 /* smooth scrolling for nav sections */
 $('.nav a').click(function(){
-console.log($(this));
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top -50
     }, 500);
