@@ -238,7 +238,7 @@ exports.totPaidByPA = function (id) { // Example: vatID = 00518460019
 // OK
 exports.procedureType = function (id) {
     return encodeURIComponent(prefixes + 
-        "CONSTRUCT{ <http://public-contracts.nexacenter.org/id/businessEntities/00518460019> <http://public-contracts.nexacenter.org/id/hasContract> ?contract . " +
+        "CONSTRUCT{ <http://public-contracts.nexacenter.org/id/businessEntities/" + id +"> <http://public-contracts.nexacenter.org/id/hasContract> ?contract . " +
         "?contract rdfs:label ?contractLabel . " +
         "?contract <http://public-contracts.nexacenter.org/id/import> ?amount . " +
         "?contract time:year ?year . " +
