@@ -43,18 +43,6 @@ var labels = function() {
     };
 };
 
-var findVatId = function (str) {
-    if (items.length === 0) {
-        return str;
-    }
-
-    for (var i = 0; i < items.length; i++) {
-        if (items[i].name == str) {
-            return items[i].vatId;
-        }
-    }
-};
-
 $('#query').typeahead({
     hint: true,
     autoselect: true,
@@ -63,7 +51,7 @@ $('#query').typeahead({
 },
 {
     name: 'labels',
-    displayKey: 'name',
+    displayKey: 'vatId',
     source: labels(),
     templates: {
       empty: [
