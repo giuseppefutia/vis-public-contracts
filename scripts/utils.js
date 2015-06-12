@@ -55,7 +55,6 @@ var findVatId = function (str) {
     }
 };
 
-
 $('#query').typeahead({
     hint: true,
     autoselect: true,
@@ -63,9 +62,19 @@ $('#query').typeahead({
     minLength: 3
 },
 {
-    name: 'lables',
+    name: 'labels',
     displayKey: 'name',
-    source: labels()
+    source: labels(),
+    templates: {
+      empty: [
+        '<div class="empty-message">',
+        'Nessun risultato per questa ricerca.',
+        '</div>'
+      ].join('\n'),
+      suggestion: function(data){
+        return '<p><strong>' + data.name + '</strong> - ' + data.vatId + '</p>';
+      }
+    }
 });
 
 /* bubbles utils */
