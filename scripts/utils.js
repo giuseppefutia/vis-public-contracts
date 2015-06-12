@@ -54,12 +54,7 @@ $('#query').typeahead({
     displayKey: 'vatId',
     source: labels(),
     templates: {
-      empty: [
-        '<div class="empty-message">',
-        'Nessun risultato per questa ricerca.',
-        '</div>'
-      ].join('\n'),
-      suggestion: function(data){
+        suggestion: function(data){
         return '<p><strong>' + data.name + '</strong> - ' + data.vatId + '</p>';
       }
     }
