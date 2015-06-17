@@ -216,7 +216,7 @@ body {
 
 /* Registry zone */
 header { border-bottom: 1px solid #000; }
-header > h1 { display: inline-block; }
+#labels > h1 { display: inline-block; }
 header span { margin-left: 100px; }
 
 /* Bubbles zone */
