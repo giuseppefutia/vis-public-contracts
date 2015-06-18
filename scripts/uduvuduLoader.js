@@ -1,4 +1,5 @@
 var cleanAll = function () {
+    $(".navbar-nav").html("")
     $("#main").html("")
     $("#alerts").html("")
     //title

@@ -1,10 +1,29 @@
 /* smooth scrolling for nav sections */
-$('.smooth').click(function(){
+$('.navbar').on('click', '.smooth', function() {
     $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top -50
+        scrollTop: $( $(this).attr('href') ).offset().top -45
     }, 500);
     return false;
 });
+
+/* navbar and title section append */
+function appendAssegnati () {
+    if($("#hIncomeTitle").length == 0) {
+        $("#incomeTitle").append('<br><h3 id="hIncomeTitle">Informazioni sui bandi di gara e contratti assegnati al soggetto</h3><br>');
+    }
+    if($("#navIncomeTitle").length == 0) {
+        $(".navbar-nav").append('<li><a class="smooth" id="navIncomeTitle" href="#incomeTitle">assegnati al soggetto</a></li>');
+    }
+}
+
+function appendPubblicati() {
+    if($("#hOutcomeTitle").length == 0) {
+        $("#outcomeTitle").append('<br><h3 id="hOutcomeTitle">Informazioni sui bandi di gara e contratti pubblicati dal soggetto</h3><br>');
+    }
+    if($("#navOutcomeTitle").length == 0) {
+        $(".navbar-nav").append('<li><a class="smooth" id="navOutcomeTitle" href="#outcomeTitle">pubblicati dal soggetto</a></li>');
+    }
+}
 
 /* info and error alerts */
 var alertInfo = function (source) {
