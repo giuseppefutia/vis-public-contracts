@@ -1,0 +1,488 @@
+<html>
+<head>
+<script>
+
+function toggleDiv(id)
+
+{
+
+itm = document.getElementById(id);
+
+if(itm.style.display == 'none'){
+
+itm.style.display = '';
+
+}else {
+
+itm.style.display = 'none';
+
+}
+
+return false;
+
+}
+
+</script>
+</head>
+<body>
+<h1>Public contracts maintenance queries</h1>
+<ul>
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT (COUNT(*) AS ?no) { ?s ?p ?o }&xhtml=true" target="_blank">
+Numero di triple</a> - <small onClick="toggleDiv('div1');" style="cursor: pointer;">query</small>
+</li>
+<div id="div1" style="display:none">
+<pre>
+SELECT (COUNT(*) AS ?no) { ?s ?p ?o }
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT ?p (COUNT(?s) AS ?count ) { ?s ?p ?o } GROUP BY ?p ORDER BY DESC (?count)&xhtml=true" target="_blank">
+Proprieta' per numero di utilizzi</a> - <small onClick="toggleDiv('div2');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2" style="display:none">
+<pre>
+SELECT ?p (COUNT(?s) AS ?count ) { ?s ?p ?o } GROUP BY ?p ORDER BY DESC (?count)
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20distinct%20%3Ft%20(count(%3Ft)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fa%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E%20%3Ft.%0A%7D%0AGROUP%20BY%20(%3Ft)%0AORDER%20BY%20DESC%20(%3Fc)&xhtml=true" target="_blank">
+Tipo di entita' per numero di utilizzi</a> - <small onClick="toggleDiv('div2a');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2a" style="display:none">
+<pre>
+SELECT distinct ?t (count(?t) as ?c)
+WHERE {
+    ?a &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?t.
+}
+GROUP BY (?t)
+ORDER BY DESC (?c)
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20(count(*)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fa%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23Contract%3E%20.%0A%7D&xhtml=true" target="_blank">
+Numero contratti</a> - <small onClick="toggleDiv('div2b');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2b" style="display:none">
+<pre>
+SELECT (count(*) as ?c)
+WHERE {
+    ?a &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://purl.org/procurement/public-contracts#Contract&gt; .
+}
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20(count(*)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG%0A%7D&xhtml=true" target="_blank">
+Numero CIG</a> - <small onClick="toggleDiv('div2c');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2c" style="display:none">
+<pre>
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT (count(*) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG
+}
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20(count(distinct%20%3Fa)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fo%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23contractingAutority%3E%20%3Fa.%0A%7D&xhtml=true" target="_blank">
+Numero proponenti</a> - <small onClick="toggleDiv('div2d');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2d" style="display:none">
+<pre>
+SELECT (count(distinct ?a) as ?c)
+WHERE {
+    ?o &lt;http://purl.org/procurement/public-contracts#contractingAutority&gt; ?a.
+}
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20(count(distinct%20%3Fbe)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Ftender%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23bidder%3E%20%3Fbe%0A%7D&xhtml=true" target="_blank">
+Numero partecipanti</a> - <small onClick="toggleDiv('div2e');" style="cursor: pointer;">query</small>
+</li>
+<div id="div2e" style="display:none">
+<pre>
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT (count(distinct ?be) as ?c)
+WHERE {
+    ?tender &lt;http://purl.org/procurement/public-contracts#bidder&gt; ?be
+}
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20%3Fbe%20(count(%3Fid)%20as%20%3Fc)%20WHERE%20%7B%3Fbe%20%3Chttp%3A%2F%2Fpurl.org%2Fgoodrelations%2Fv1%23vatID%3E%20%3Fid%20.%7D%20GROUP%20BY%20%3Fbe%20ORDER%20BY%20DESC%20(%3Fc)%20LIMIT%20100&xhtml=true" target="_blank">
+Entities con piu' di un vatID</a> - <small onClick="toggleDiv('div3');" style="cursor: pointer;">query</small>
+</li>
+<div id="div3" style="display:none">
+<pre>
+SELECT ?be (count(?id) as ?c)
+WHERE {
+    ?be &lt;http://purl.org/goodrelations/v1#vatID&gt; ?id .
+} 
+GROUP BY ?be
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20%3Fbe%20(count(%3Flabel)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fbe%20rdfs%3Alabel%20%3Flabel%20.%0A%7D%20%0AGROUP%20BY%20%3Fbe%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Entities con piu' di una label</a> - <small onClick="toggleDiv('div3a');" style="cursor: pointer;">query</small>
+</li>
+<div id="div3a" style="display:none">
+<pre>
+SELECT ?be (count(?label) as ?c)
+WHERE {
+    ?be rdfs:label ?label .
+} 
+GROUP BY ?be
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=&xhtml=true" target="_blank">
+Classifica CIG</a> - <small onClick="toggleDiv('div4z');" style="cursor: pointer;">query</small>
+</li>
+<div id="div4z" style="display:none">
+<pre>
+prefix dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?CIG (count(?CIG) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG .
+} 
+group by ?CIG
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcontract%20(count(%3FCIG)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG%20.%0A%7D%20%0Agroup%20by%20%3Fcontract%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti con piu' di un CIG</a> - <small onClick="toggleDiv('div4');" style="cursor: pointer;">query</small>
+</li>
+<div id="div4" style="display:none">
+<pre>
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?contract (count(?CIG) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG .
+} 
+group by ?contract
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20pc%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcontract%20(COUNT(%3Fauth)%20AS%20%3Fcount)%0A%7B%0ASELECT%20DISTINCT%20%3Fcontract%20%3Fauth%0AWHERE%20%7B%0A%3Fcontract%20pc%3AcontractingAutority%20%3Fauth.%0A%7D%0A%0A%7D%0AGROUP%20BY%20%3Fcontract%20HAVING%20(count(*)%3E1)%0AORDER%20BY%20DESC(%3Fcount)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti con piu' di una business entity come contracting authority</a> - <small onClick="toggleDiv('div5');" style="cursor: pointer;">query</small>
+</li>
+<div id="div5" style="display:none">
+<pre>
+PREFIX pc: &lt;http://purl.org/procurement/public-contracts#&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?contract (COUNT(?auth) AS ?count) {
+   SELECT DISTINCT ?contract ?auth
+   WHERE {
+       ?contract pc:contractingAutority ?auth.
+   }
+}
+GROUP BY ?contract HAVING (count(*)>1)
+ORDER BY DESC(?count)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcontract%20(COUNT(%3Fsource)%20AS%20%3Fcount)%0A%7B%0A%20%20%20%20SELECT%20DISTINCT%20%3Fcontract%20%3Fsource%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG.%0A%20%20%20%20%20%20%20%20%3Fcontract%20dcterms%3Asource%20%3Fsource.%0A%20%20%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fcontract%20HAVING%20(count(*)%3E1)%0AORDER%20BY%20DESC%20(%3Fcount)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti con piu' di un XML sorgente</a> - <small onClick="toggleDiv('div6');" style="cursor: pointer;">query</small>
+</li>
+<div id="div6" style="display:none">
+<pre>
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?contract (COUNT(?source) AS ?count)
+{
+    SELECT DISTINCT ?contract ?source
+    WHERE {
+        ?contract dcterms:identifier ?CIG.
+        ?contract dcterms:source ?source.
+    }
+}
+GROUP BY ?contract HAVING (count(*)>1)
+ORDER BY DESC (?count)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0A%0ASELECT%20%3Fcontract%20%3FCIG%20(count(%3Flabel)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG.%0A%20%20%20%20%3Fcontract%20rdfs%3Alabel%20%3Flabel%0A%7D%0AGROUP%20BY%20%3Fcontract%20%3FCIG%20HAVING%20(count(*)%3E1)%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti con piu' di una label</a> - <small onClick="toggleDiv('div7');" style="cursor: pointer;">query</small>
+</li>
+<div id="div7" style="display:none">
+<pre>
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?contract ?CIG (count(?label) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG.
+    ?contract rdfs:label ?label
+}
+GROUP BY ?contract ?CIG HAVING (count(*)>1)
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcontract%20%3FCIG%20(count(%3Fat)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG.%0A%20%20%20%20%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23awardedTender%3E%20%3Fat%0A%7D%20%0AGROUP%20BY%20%3Fcontract%20%3FCIG%20HAVING%20(count(*)%3E1)%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti per numero di vincitori</a> - <small onClick="toggleDiv('div8');" style="cursor: pointer;">query</small>
+</li>
+<div id="div8" style="display:none">
+<pre>
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?contract ?CIG (count(?at) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG.
+    ?contract &lt;http://purl.org/procurement/public-contracts#awardedTender&gt; ?at
+} 
+GROUP BY ?contract ?CIG HAVING (count(*)>1)
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcontract%20%3FCIG%20(count(%3Fat)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20dcterms%3Aidentifier%20%3FCIG.%0A%20%20%20%20%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23tender%3E%20%3Fat%0A%7D%20%0AGROUP%20BY%20%3Fcontract%20%3FCIG%20HAVING%20(count(*)%3E1)%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contratti per numero di partecipanti</a> - <small onClick="toggleDiv('div8a');" style="cursor: pointer;">query</small>
+</li>
+<div id="div8a" style="display:none">
+<pre>
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?contract ?CIG (count(?at) as ?c)
+WHERE {
+    ?contract dcterms:identifier ?CIG.
+    ?contract &lt;http://purl.org/procurement/public-contracts#tender&gt; ?at
+} 
+GROUP BY ?contract ?CIG HAVING (count(*)>1)
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fbe%20(count(%3Fbe)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Ftender%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23bidder%3E%20%3Fbe%0A%7D%0AGROUP%20BY%20%3Fbe%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contracting authority per numero di proposte</a> - <small onClick="toggleDiv('div8b');" style="cursor: pointer;">query</small>
+</li>
+<div id="div8b" style="display:none">
+<pre>
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?be (count(?be) as ?c)
+WHERE {
+    ?tender &lt;http://purl.org/procurement/public-contracts#bidder&gt; ?be
+}
+GROUP BY ?be
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fbe%20(count(%3Fbe)%20as%20%3Fc)%0AWHERE%20%7B%0A%20%20%20%20%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23awardedTender%3E%20%3Ftender%20.%0A%20%20%20%20%3Ftender%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23bidder%3E%20%3Fbe%20.%0A%7D%0AGROUP%20BY%20%3Fbe%0AORDER%20BY%20DESC%20(%3Fc)%0ALIMIT%20100&xhtml=true" target="_blank">
+Contracting authority per numero di contratti aggiudicati</a> - <small onClick="toggleDiv('div8c');" style="cursor: pointer;">query</small>
+</li>
+<div id="div8c" style="display:none">
+<pre>
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?be (count(?be) as ?c)
+WHERE {
+    ?contract &lt;http://purl.org/procurement/public-contracts#awardedTender&gt; ?tender .
+    ?tender &lt;http://purl.org/procurement/public-contracts#bidder&gt; ?be .
+}
+GROUP BY ?be
+ORDER BY DESC (?c)
+LIMIT 100
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=SELECT%20%3Fc%20(COUNT(%3Fc)%20AS%20%3Fcount%20)%0AWHERE%20%7B%3Fa%20%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fcountry%3E%20%3Fc%7D%0AGROUP%20BY%20%3Fc%0AORDER%20BY%20DESC%20(%3Fcount)&xhtml=true" target="_blank">
+Country per numero di utilizzi</a> - <small onClick="toggleDiv('div9');" style="cursor: pointer;">query</small>
+</li>
+<div id="div9" style="display:none">
+<pre>
+SELECT ?c (COUNT(?c) AS ?count )
+WHERE {?a &lt;http://dbpedia.org/ontology/country&gt; ?c}
+GROUP BY ?c
+ORDER BY DESC (?count)
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=PREFIX%20pc%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23%3E%0APREFIX%20time%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0A%0ASELECT%20distinct%20%3Fyear%20(count(%3Fyear)%20as%20%3Fa)%0AWHERE%20%7B%0A%20%20%20%20%3Fc%20a%20pc%3AContract%20.%0A%20%20%20%20%3Fc%20time%3Ayear%20%3Fyear%20.%0A%7D%0AGROUP%20BY%20(%3Fyear)%0AORDER%20BY%20DESC%20(%3Fa)&xhtml=true" target="_blank">
+Anni per numero di utilizzi</a> - <small onClick="toggleDiv('div10');" style="cursor: pointer;">query</small>
+</li>
+<div id="div10" style="display:none">
+<pre>
+PREFIX pc: &lt;http://purl.org/procurement/public-contracts#&gt;
+PREFIX time: &lt;http://www.w3.org/2006/time#&gt;
+
+SELECT distinct ?year (count(?year) as ?a)
+WHERE {
+    ?c a pc:Contract .
+    ?c time:year ?year .
+}
+GROUP BY (?year)
+ORDER BY DESC (?a)
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fdate%20(count(%3Fdate)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23startDate%3E%20%3Fdate%20.%7D%0Agroup%20by%20%3Fdate%0Aorder%20by%20desc%20(%3Fc)%0Alimit%20100&xhtml=true" target="_blank">
+Date piu' utilizzate</a> - <small onClick="toggleDiv('div11');" style="cursor: pointer;">query</small>
+</li>
+<div id="div11" style="display:none">
+<pre>
+select ?date (count(?date) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#startDate&gt; ?date .}
+group by ?date
+order by desc (?c)
+limit 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fdate%20(count(%3Fdate)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23startDate%3E%20%3Fdate%20.%7D%0Agroup%20by%20%3Fdate%0Aorder%20by%20(%3Fc)%0Alimit%20100&xhtml=true" target="_blank">
+Date meno utilizzate</a> - <small onClick="toggleDiv('div11a');" style="cursor: pointer;">query</small>
+</li>
+<div id="div11a" style="display:none">
+<pre>
+select ?date (count(?date) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#startDate&gt; ?date .}
+group by ?date
+order by (?c)
+limit 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fdate%20(count(%3Fdate)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23startDate%3E%20%3Fdate%20.%7D%0Agroup%20by%20%3Fdate%0Aorder%20by%20desc%20(%3Fdate)%0Alimit%20500&xhtml=true" target="_blank">
+Date piu' grandi con numero di utilizzi</a> - <small onClick="toggleDiv('div12');" style="cursor: pointer;">query</small>
+</li>
+<div id="div12" style="display:none">
+<pre>
+select ?date (count(?date) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#startDate&gt; ?date .}
+group by ?date
+order by desc (?date)
+limit 500
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fdate%20(count(%3Fdate)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23startDate%3E%20%3Fdate%20.%7D%0Agroup%20by%20%3Fdate%0Aorder%20by%20(%3Fdate)%0Alimit%20500&xhtml=true" target="_blank">
+Date piu' piccole con numero di utilizzi</a> - <small onClick="toggleDiv('div13');" style="cursor: pointer;">query</small>
+</li>
+<div id="div13" style="display:none">
+<pre>
+select ?date (count(?date) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#startDate&gt; ?date .}
+group by ?date
+order by (?date)
+limit 500
+</pre>
+</div>
+
+<br>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fprice%20(count(%3Fprice)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23agreedPrice%3E%20%3Fprice%20.%7D%0Agroup%20by%20%3Fprice%0Aorder%20by%20desc%20(%3Fc)%0Alimit%20100&xhtml=true" target="_blank">
+Assigned price piu' utilizzati</a> - <small onClick="toggleDiv('div14');" style="cursor: pointer;">query</small>
+</li>
+<div id="div14" style="display:none">
+<pre>
+select ?price (count(?price) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#agreedPrice&gt; ?price .}
+group by ?price
+order by desc (?c)
+limit 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fprice%20(count(%3Fprice)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23agreedPrice%3E%20%3Fprice%20.%7D%0Agroup%20by%20%3Fprice%0Aorder%20by%20(%3Fc)%0Alimit%20100&xhtml=true" target="_blank">
+Assigned price meno utilizzati</a> - <small onClick="toggleDiv('div14a');" style="cursor: pointer;">query</small>
+</li>
+<div id="div14a" style="display:none">
+<pre>
+select ?price (count(?price) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#agreedPrice&gt; ?price .}
+group by ?price
+order by (?c)
+limit 100
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fprice%20(count(%3Fprice)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23agreedPrice%3E%20%3Fprice%20.%7D%0Agroup%20by%20%3Fprice%0Aorder%20by%20desc%20(%3Fprice)%0Alimit%20500&xhtml=true" target="_blank">
+Assigned price piu' grandi con numero di utilizzi</a> - <small onClick="toggleDiv('div15');" style="cursor: pointer;">query</small>
+</li>
+<div id="div15" style="display:none">
+<pre>
+select ?price (count(?price) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#agreedPrice&gt; ?price .}
+group by ?price
+order by desc (?price)
+limit 500
+</pre>
+</div>
+
+<li>
+<a href="http://public-contracts.nexacenter.org/sparql?query=select%20%3Fprice%20(count(%3Fprice)%20as%20%3Fc)%0Awhere%20%7B%3Fcontract%20%3Chttp%3A%2F%2Fpurl.org%2Fprocurement%2Fpublic-contracts%23agreedPrice%3E%20%3Fprice%20.%7D%0Agroup%20by%20%3Fprice%0Aorder%20by%20(%3Fprice)%0Alimit%20500&xhtml=true" target="_blank">
+Assigned price piu' piccoli con numero di utilizzi</a> - <small onClick="toggleDiv('div16');" style="cursor: pointer;">query</small>
+</li>
+<div id="div16" style="display:none">
+<pre>
+select ?price (count(?price) as ?c)
+where {?contract &lt;http://purl.org/procurement/public-contracts#agreedPrice&gt; ?price .}
+group by ?price
+order by (?price)
+limit 500
+</pre>
+</div>
+
+</body>
+</html>
